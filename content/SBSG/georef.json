@@ -1,0 +1,76 @@
+{
+  "SG01B": {
+    "file": "/charts/SBSG/sid-sg01b-rnav-daker-2a-rwy-12.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          267.5922725,
+          0,
+          -3997121.879,
+          0,
+          -267.5922725,
+          -578674.6116
+        ],
+        "fixes": [
+          "DAKER",
+          "OPTOT",
+          "SG006",
+          "SG017",
+          "SG018"
+        ],
+        "rmsMeters": 763
+      }
+    }
+  },
+  "SG01C": {
+    "file": "/charts/SBSG/sid-sg01c-rnav-edveg-1c-sikel-1c-rwy-12.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          323.2529804,
+          0,
+          -3981369.593,
+          0,
+          -323.2529804,
+          -599108.7365
+        ],
+        "fixes": [
+          "EDVEG",
+          "SG016",
+          "SIKEL",
+          "VUMAR"
+        ],
+        "rmsMeters": 402
+      }
+    }
+  },
+  "SG00Q": {
+    "file": "/charts/SBSG/star-sg00q-rnav-safuc-1b-safuc-1c-tosad-1b-rwy-12.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          212.0661915,
+          0,
+          -3994468.131,
+          0,
+          -212.0661915,
+          -605067.9487
+        ],
+        "fixes": [
+          "GEDOR",
+          "IVSIK",
+          "NEBUG",
+          "SG004",
+          "SG123"
+        ],
+        "rmsMeters": 934
+      }
+    }
+  }
+}

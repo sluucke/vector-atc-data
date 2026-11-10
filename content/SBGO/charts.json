@@ -1,0 +1,160 @@
+{
+  "icao": "SBGO",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBGO",
+  "charts": [
+    {
+      "key": "sbgo-adc",
+      "type": "ADC",
+      "name": "SBGO ADC",
+      "code": "",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBGO/adc-sbgo-adc-sbgo-adc.pdf"
+    },
+    {
+      "key": "arc-sbxn",
+      "type": "ARC",
+      "name": "ARC ANÁPOLIS",
+      "code": "SBXN",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBGO/arc-sbxn-arc-anapolis.pdf"
+    },
+    {
+      "key": "atcsmac-sbxn",
+      "type": "ATCSMAC",
+      "name": "TMA ANÁPOLIS",
+      "code": "SBXN",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/atcsmac-sbxn-tma-anapolis.pdf"
+    },
+    {
+      "key": "GO00J",
+      "type": "IAC",
+      "name": "RNP W RWY 14",
+      "code": "GO00J",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/iac-go00j-rnp-w-rwy-14.pdf"
+    },
+    {
+      "key": "GO00P",
+      "type": "IAC",
+      "name": "RNP X RWY 14",
+      "code": "GO00P",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/iac-go00p-rnp-x-rwy-14.pdf"
+    },
+    {
+      "key": "GO00K",
+      "type": "IAC",
+      "name": "RNP Z RWY 32",
+      "code": "GO00K",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/iac-go00k-rnp-z-rwy-32.pdf"
+    },
+    {
+      "key": "GO00H",
+      "type": "IAC",
+      "name": "VOR RWY 14",
+      "code": "GO00H",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/iac-go00h-vor-rwy-14.pdf"
+    },
+    {
+      "key": "GO00I",
+      "type": "IAC",
+      "name": "VOR RWY 32",
+      "code": "GO00I",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/iac-go00i-vor-rwy-32.pdf"
+    },
+    {
+      "key": "rea-xn",
+      "type": "REA",
+      "name": "XN-Anápolis",
+      "code": "SBXN",
+      "amdt": "2611A0",
+      "date": "2026-10-29",
+      "file": "/charts/SBGO/rea-xn-xn-anapolis.pdf"
+    },
+    {
+      "key": "omni-rwy-14-32",
+      "type": "SID",
+      "name": "OMNI RWY 14/32",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/sid-omni-rwy-14-32-omni-rwy-14-32.pdf"
+    },
+    {
+      "key": "GO00B",
+      "type": "SID",
+      "name": "RNAV DALOG 3A - DALSA 1A - DIGEP 1A RWY 14",
+      "code": "GO00B",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/sid-go00b-rnav-dalog-3a-dalsa-1a-digep-1a-rwy-14.pdf"
+    },
+    {
+      "key": "GO00C",
+      "type": "SID",
+      "name": "RNAV DETIN 2A - LODUV 1A - OPVEL 1A RWY 32",
+      "code": "GO00C",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/sid-go00c-rnav-detin-2a-loduv-1a-opvel-1a-rwy-32.pdf"
+    },
+    {
+      "key": "GO00R",
+      "type": "STAR",
+      "name": "RNAV EDNAR 2A - SIREM 2A RWY 14",
+      "code": "GO00R",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/star-go00r-rnav-ednar-2a-sirem-2a-rwy-14.pdf"
+    },
+    {
+      "key": "GO00S",
+      "type": "STAR",
+      "name": "RNAV EDNAR 2B - SIREM 2B RWY 32",
+      "code": "GO00S",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/star-go00s-rnav-ednar-2b-sirem-2b-rwy-32.pdf"
+    },
+    {
+      "key": "GO00T",
+      "type": "STAR",
+      "name": "RNAV OPVUD 1A - SIRUL 1A RWY 14",
+      "code": "GO00T",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/star-go00t-rnav-opvud-1a-sirul-1a-rwy-14.pdf"
+    },
+    {
+      "key": "GO00U",
+      "type": "STAR",
+      "name": "RNAV OPVUD 1B - SIRUL 1B RWY 32",
+      "code": "GO00U",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBGO/star-go00u-rnav-opvud-1b-sirul-1b-rwy-32.pdf"
+    },
+    {
+      "key": "rwy-14-32",
+      "type": "VAC",
+      "name": "RWY 14/32",
+      "code": "",
+      "amdt": "2405A1",
+      "date": "2024-05-16",
+      "file": "/charts/SBGO/vac-rwy-14-32-rwy-14-32.pdf"
+    }
+  ]
+}

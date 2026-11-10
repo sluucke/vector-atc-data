@@ -1,0 +1,78 @@
+{
+  "CF01F": {
+    "file": "/charts/SBCF/iac-cf01f-rnp-rwy-16.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          149.1901368,
+          0,
+          -4925782.787,
+          0,
+          -149.1901368,
+          -2181093.987
+        ],
+        "fixes": [
+          "CF039",
+          "OSOMI",
+          "TISLO",
+          "UGTES"
+        ],
+        "rmsMeters": 375
+      }
+    }
+  },
+  "CF03T": {
+    "file": "/charts/SBCF/iac-cf03t-rnp-y-rwy-34.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          107.4684478,
+          0,
+          -4906493.498,
+          0,
+          -107.4684478,
+          -2207068.96
+        ],
+        "fixes": [
+          "CF194",
+          "CF196",
+          "CF197",
+          "CF198",
+          "CF199"
+        ],
+        "rmsMeters": 254
+      }
+    }
+  },
+  "CF01P": {
+    "file": "/charts/SBCF/star-cf01p-rnav-sinix-1b-rwy-34.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          376.5753772,
+          0,
+          -4996167.535,
+          0,
+          -376.5753772,
+          -2175085.854
+        ],
+        "fixes": [
+          "CF039",
+          "CF048",
+          "CF051",
+          "CF072",
+          "EVSEL",
+          "KIBAP",
+          "SINIX"
+        ],
+        "rmsMeters": 920
+      }
+    }
+  }
+}

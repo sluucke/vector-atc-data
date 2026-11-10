@@ -1,0 +1,196 @@
+{
+  "icao": "SBSG",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBSG",
+  "charts": [
+    {
+      "key": "sbsg-adc",
+      "type": "ADC",
+      "name": "SBSG ADC",
+      "code": "",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBSG/adc-sbsg-adc-sbsg-adc.pdf"
+    },
+    {
+      "key": "arc-sbxt",
+      "type": "ARC",
+      "name": "ARC NATAL",
+      "code": "SBXT",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBSG/arc-sbxt-arc-natal.pdf"
+    },
+    {
+      "key": "atcsmac-sbxt",
+      "type": "ATCSMAC",
+      "name": "TMA NATAL",
+      "code": "SBXT",
+      "amdt": "2501A1",
+      "date": "2025-01-23",
+      "file": "/charts/SBSG/atcsmac-sbxt-tma-natal.pdf"
+    },
+    {
+      "key": "SG00J",
+      "type": "IAC",
+      "name": "ILS Y RWY 12",
+      "code": "SG00J",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBSG/iac-sg00j-ils-y-rwy-12.pdf"
+    },
+    {
+      "key": "SG00I",
+      "type": "IAC",
+      "name": "ILS Z OR LOC Z RWY 12",
+      "code": "SG00I",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBSG/iac-sg00i-ils-z-or-loc-z-rwy-12.pdf"
+    },
+    {
+      "key": "SG00E",
+      "type": "IAC",
+      "name": "RNP RWY 30",
+      "code": "SG00E",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBSG/iac-sg00e-rnp-rwy-30.pdf"
+    },
+    {
+      "key": "SG00D",
+      "type": "IAC",
+      "name": "RNP Y RWY 12",
+      "code": "SG00D",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBSG/iac-sg00d-rnp-y-rwy-12.pdf"
+    },
+    {
+      "key": "SG00X",
+      "type": "IAC",
+      "name": "RNP Z RWY 12",
+      "code": "SG00X",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBSG/iac-sg00x-rnp-z-rwy-12.pdf"
+    },
+    {
+      "key": "SG01F",
+      "type": "IAC",
+      "name": "VOR A RWY 12",
+      "code": "SG01F",
+      "amdt": "2512A1",
+      "date": "2025-11-27",
+      "file": "/charts/SBSG/iac-sg01f-vor-a-rwy-12.pdf"
+    },
+    {
+      "key": "SG00C",
+      "type": "IAC",
+      "name": "VOR RWY 30",
+      "code": "SG00C",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBSG/iac-sg00c-vor-rwy-30.pdf"
+    },
+    {
+      "key": "sbsg-pdc-1",
+      "type": "PDC",
+      "name": "SBSG PDC 1",
+      "code": "",
+      "amdt": "2510A1",
+      "date": "2025-10-02",
+      "file": "/charts/SBSG/pdc-sbsg-pdc-1-sbsg-pdc-1.pdf"
+    },
+    {
+      "key": "sbsg-pdc-2",
+      "type": "PDC",
+      "name": "SBSG PDC 2",
+      "code": "",
+      "amdt": "2510A1",
+      "date": "2025-10-02",
+      "file": "/charts/SBSG/pdc-sbsg-pdc-2-sbsg-pdc-2.pdf"
+    },
+    {
+      "key": "rea-xt",
+      "type": "REA",
+      "name": "XT-Natal",
+      "code": "SBXT",
+      "amdt": "2503A1",
+      "date": "2025-03-20",
+      "file": "/charts/SBSG/rea-xt-xt-natal.pdf"
+    },
+    {
+      "key": "omni-rwy-12-30",
+      "type": "SID",
+      "name": "OMNI RWY 12/30",
+      "code": "",
+      "amdt": "2312A1",
+      "date": "2023-11-30",
+      "file": "/charts/SBSG/sid-omni-rwy-12-30-omni-rwy-12-30.pdf"
+    },
+    {
+      "key": "SG01B",
+      "type": "SID",
+      "name": "RNAV DAKER 2A RWY 12",
+      "code": "SG01B",
+      "amdt": "2413A1",
+      "date": "2024-12-26",
+      "file": "/charts/SBSG/sid-sg01b-rnav-daker-2a-rwy-12.pdf"
+    },
+    {
+      "key": "SG01C",
+      "type": "SID",
+      "name": "RNAV EDVEG 1C - SIKEL 1C RWY 12",
+      "code": "SG01C",
+      "amdt": "2503A1",
+      "date": "2025-03-20",
+      "file": "/charts/SBSG/sid-sg01c-rnav-edveg-1c-sikel-1c-rwy-12.pdf"
+    },
+    {
+      "key": "SG00Y",
+      "type": "SID",
+      "name": "RNAV ILMIG 1A - OPVAR 1A - SINUD 1A RWY 12",
+      "code": "SG00Y",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBSG/sid-sg00y-rnav-ilmig-1a-opvar-1a-sinud-1a-rwy-12.pdf"
+    },
+    {
+      "key": "SG00S",
+      "type": "STAR",
+      "name": "RNAV KUBTO 1A - TOSAD 1A RWY 12",
+      "code": "SG00S",
+      "amdt": "2401A1",
+      "date": "2024-01-25",
+      "file": "/charts/SBSG/star-sg00s-rnav-kubto-1a-tosad-1a-rwy-12.pdf"
+    },
+    {
+      "key": "SG00Q",
+      "type": "STAR",
+      "name": "RNAV SAFUC 1B - SAFUC 1C - TOSAD 1B RWY 12",
+      "code": "SG00Q",
+      "amdt": "2407A1",
+      "date": "2024-07-11",
+      "file": "/charts/SBSG/star-sg00q-rnav-safuc-1b-safuc-1c-tosad-1b-rwy-12.pdf"
+    },
+    {
+      "key": "rwy-12-30",
+      "type": "VAC",
+      "name": "RWY 12/30",
+      "code": "",
+      "amdt": "2212A1",
+      "date": "2022-12-01",
+      "file": "/charts/SBSG/vac-rwy-12-30-rwy-12-30.pdf"
+    },
+    {
+      "key": "rwy-12-30-bird-concentration",
+      "type": "VAC",
+      "name": "RWY 12/30 - BIRD CONCENTRATION",
+      "code": "",
+      "amdt": "2209A1",
+      "date": "2022-09-08",
+      "file": "/charts/SBSG/vac-rwy-12-30-bird-concentration-rwy-12-30-bird-concentration.pdf"
+    }
+  ]
+}

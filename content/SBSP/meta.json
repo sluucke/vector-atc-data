@@ -1,0 +1,59 @@
+{
+  "icao": "SBSP",
+  "name": "São Paulo / Congonhas — Dep. Freitas Nobre",
+  "elevation": "2634'",
+  "ta": "8000'",
+  "msa": "5000' (25NM ARP)",
+  "fir": "Brasília (SBBS)",
+  "operational": {
+    "transitionAltitude": 8000,
+    "transitionAltitudeSource": "Carta DECEA 2609A1 — confirmar com o MOPS da TMA",
+    "ivaoWikiUrl": "https://wiki.br.ivao.aero/atcops/mops/sbse/sbxp",
+    "magneticVariation": -22,
+    "magneticVariationSource": "Carta DECEA — VAR 22°W"
+  },
+  "airac": {
+    "cycle": "2609A1",
+    "effective": "2026-09-03",
+    "checkedAt": "2026-09-09",
+    "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBSP"
+  },
+  "frequencies": {
+    "dAtis": [
+      "127.650"
+    ],
+    "twr": [
+      "118.050",
+      "127.150"
+    ],
+    "app": [
+      "129.750"
+    ],
+    "acc": [
+      "123.000"
+    ],
+    "accExtended": [
+      "135.150",
+      "135.900",
+      "135.550",
+      "134.000",
+      "133.750",
+      "135.000"
+    ],
+    "network": {
+      "source": "Frequências das posições da divisão IVAO Brasil",
+      "app": "SBXP_APP",
+      "acc": "SBBS_CTR"
+    }
+  },
+  "runways": [
+    "17L",
+    "35R",
+    "17R",
+    "35L"
+  ],
+  "runwaysNote": "",
+  "observations": [
+    "Pistas paralelas 17L/17R e 35L/35R. Atenção à pista correta ao autorizar procedimento."
+  ]
+}

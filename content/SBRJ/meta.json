@@ -1,0 +1,65 @@
+{
+  "icao": "SBRJ",
+  "name": "Rio de Janeiro / Santos Dumont",
+  "elevation": "10'",
+  "ta": "7000'",
+  "msa": "6300' (25NM ARP)",
+  "fir": "Curitiba (SBCW)",
+  "operational": {
+    "transitionAltitude": 7000,
+    "transitionAltitudeSource": "Carta DECEA 2605A1 — confirmar com o MOPS da TMA",
+    "ivaoWikiUrl": "https://wiki.br.ivao.aero/atcops/mops/sbse/sbwj",
+    "magneticVariation": -23,
+    "magneticVariationSource": "Carta DECEA — VAR 23°W"
+  },
+  "airac": {
+    "cycle": "2605A1",
+    "effective": "2026-05-14",
+    "checkedAt": "2026-09-09",
+    "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBRJ"
+  },
+  "frequencies": {
+    "dAtis": [
+      "132.650"
+    ],
+    "twr": [
+      "118.700"
+    ],
+    "app": [
+      "119.000",
+      "135.600",
+      "120.550",
+      "126.200",
+      "129.200",
+      "119.350",
+      "132.500"
+    ],
+    "acc": [
+      "124.000"
+    ],
+    "accExtended": [
+      "126.950",
+      "128.150",
+      "125.350",
+      "126.100",
+      "133.800",
+      "124.900",
+      "135.850"
+    ],
+    "network": {
+      "source": "Frequências das posições da divisão IVAO Brasil",
+      "app": "SBWJ_APP",
+      "acc": "SBCW_CTR"
+    }
+  },
+  "runways": [
+    "02L",
+    "20R",
+    "02R",
+    "20L"
+  ],
+  "runwaysNote": "",
+  "observations": [
+    "Pistas 02L/20R e 02R/20L. Proximidade com SBGL exige coordenação — verificar o MOPS da TMA Rio de Janeiro."
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "BH01Z": {
+    "file": "/charts/SBBH/iac-bh01z-rnp-a-rwy-31.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          180.6687812,
+          0,
+          -4925654.254,
+          0,
+          -180.6687812,
+          -2214681.307
+        ],
+        "fixes": [
+          "BH012",
+          "BH029",
+          "BH031",
+          "BH037",
+          "OGRET"
+        ],
+        "rmsMeters": 440
+      }
+    }
+  },
+  "BH01C": {
+    "file": "/charts/SBBH/star-bh01c-rnav-obleb-1b-rwy-31.pdf",
+    "pages": {
+      "1": {
+        "width": 374.17,
+        "height": 583.94,
+        "affine": [
+          480.0336187,
+          0,
+          -4917150.581,
+          0,
+          -480.0336187,
+          -2160751.021
+        ],
+        "fixes": [
+          "BH073",
+          "BH076",
+          "BH077",
+          "NIPDA",
+          "OBLEB",
+          "OGRET"
+        ],
+        "rmsMeters": 998
+      }
+    }
+  },
+  "BH00Z": {
+    "file": "/charts/SBBH/star-bh00z-rnav-utnul-1a-rwy-13.pdf",
+    "pages": {
+      "1": {
+        "width": 374.17,
+        "height": 583.94,
+        "affine": [
+          318.6793487,
+          0,
+          -4973259.5,
+          0,
+          -318.6793487,
+          -2214341.709
+        ],
+        "fixes": [
+          "BH051",
+          "BH052",
+          "BH053",
+          "UTNUL"
+        ],
+        "rmsMeters": 575
+      }
+    }
+  }
+}

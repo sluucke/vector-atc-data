@@ -1,0 +1,66 @@
+{
+  "icao": "SBNT",
+  "name": "Natal / Campo Augusto Severo, MIL",
+  "elevation": "169'",
+  "ta": "4000'",
+  "msa": "3000' (25NM VOR/DME NTL)",
+  "fir": "Recife (SBRE)",
+  "operational": {
+    "transitionAltitude": 4000,
+    "transitionAltitudeSource": "Carta DECEA AIRAC 2512A1 — confirmar com o MOPS da TMA Natal",
+    "ivaoWikiUrl": "https://wiki.br.ivao.aero/atcops/mops/sbre",
+    "magneticVariation": -21,
+    "magneticVariationSource": "Carta DECEA — VAR 21°W"
+  },
+  "airac": {
+    "cycle": "2512A1",
+    "effective": "2025-11-27",
+    "checkedAt": "2026-09-10",
+    "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBNT"
+  },
+  "frequencies": {
+    "dAtis": [
+      "132.650"
+    ],
+    "twr": [
+      "118.700",
+      "122.800"
+    ],
+    "app": [
+      "119.300",
+      "119.650",
+      "120.650",
+      "129.800"
+    ],
+    "acc": [
+      "126.000"
+    ],
+    "accExtended": [
+      "135.800",
+      "135.250",
+      "126.700",
+      "135.300",
+      "134.800",
+      "126.850"
+    ],
+    "network": {
+      "source": "Centro conforme as posições da divisão IVAO Brasil; APP conforme a carta DECEA",
+      "app": "SBXT_APP",
+      "acc": "SBRE_CTR"
+    }
+  },
+  "runways": [
+    "12",
+    "30",
+    "16L",
+    "34R",
+    "16R",
+    "34L"
+  ],
+  "runwaysNote": "Três pistas: 12/30 e as paralelas 16L/34R e 16R/34L.",
+  "observations": [
+    "Aeródromo militar — Base Aérea de Natal. Divide a TMA Natal com SBSG; a aproximação das duas é a SBXT_APP.",
+    "A pista em uso das paralelas 16/34 precisa ser escolhida à mão: as coding tables publicam o curso verdadeiro apenas da 12/30, então a detecção pelo vento não alcança esse par.",
+    "ROTAER: aeronaves militares com destino a Natal chamam na frequência 122.50."
+  ]
+}

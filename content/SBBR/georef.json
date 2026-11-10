@@ -1,0 +1,268 @@
+{
+  "BR01P": {
+    "file": "/charts/SBBR/iac-br01p-ils-w-or-loc-w-rwy-11l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          148.7477691,
+          0,
+          -5378213.195,
+          0,
+          -148.7477691,
+          -1729380.142
+        ],
+        "fixes": [
+          "DIBUB",
+          "MOVDO",
+          "TODIT",
+          "VJK"
+        ],
+        "rmsMeters": 405
+      }
+    }
+  },
+  "BR00B": {
+    "file": "/charts/SBBR/iac-br00b-rnp-v-rwy-11r.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          129.7700521,
+          0,
+          -5373349.886,
+          0,
+          -129.7700521,
+          -1758404.081
+        ],
+        "fixes": [
+          "BR077",
+          "NIMTO",
+          "SIPIG",
+          "TOSEG"
+        ],
+        "rmsMeters": 361
+      }
+    }
+  },
+  "BR04D": {
+    "file": "/charts/SBBR/iac-br04d-rnp-v-rwy-29l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          140.8276996,
+          0,
+          -5352310.264,
+          0,
+          -140.8276996,
+          -1730262.491
+        ],
+        "fixes": [
+          "ARVER",
+          "BR002",
+          "RW29L",
+          "TOGIG"
+        ],
+        "rmsMeters": 364
+      }
+    }
+  },
+  "BR00A": {
+    "file": "/charts/SBBR/iac-br00a-rnp-w-rwy-11l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          192.3496641,
+          0,
+          -5377717.175,
+          0,
+          -192.3496641,
+          -1737132.516
+        ],
+        "fixes": [
+          "DIBUB",
+          "EDVIV",
+          "KOGNO",
+          "MOVDO",
+          "TODIT"
+        ],
+        "rmsMeters": 335
+      }
+    }
+  },
+  "BR03R": {
+    "file": "/charts/SBBR/iac-br03r-rnp-x-rwy-29l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          175.9257956,
+          0,
+          -5360757.18,
+          0,
+          -175.9257956,
+          -1739450.112
+        ],
+        "fixes": [
+          "ARVER",
+          "BR002",
+          "MOPDA",
+          "RW29L"
+        ],
+        "rmsMeters": 163
+      }
+    }
+  },
+  "BR03Y": {
+    "file": "/charts/SBBR/iac-br03y-rnp-y-rwy-11r-ar.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          148.9617081,
+          0,
+          -5375986.804,
+          0,
+          -148.9617081,
+          -1751091.629
+        ],
+        "fixes": [
+          "BR083",
+          "KOGNO",
+          "NIMTO",
+          "RW11R"
+        ],
+        "rmsMeters": 336
+      }
+    }
+  },
+  "BR00D": {
+    "file": "/charts/SBBR/iac-br00d-rnp-y-rwy-29r.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          218.3338156,
+          0,
+          -5378284,
+          0,
+          -218.3338156,
+          -1730173.545
+        ],
+        "fixes": [
+          "BR079",
+          "EDVIV",
+          "KOGNO",
+          "KOTVU"
+        ],
+        "rmsMeters": 176
+      }
+    }
+  },
+  "BR04A": {
+    "file": "/charts/SBBR/iac-br04a-rnp-z-rwy-29r-ar.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          186.1877272,
+          0,
+          -5369952.908,
+          0,
+          -186.1877272,
+          -1738059.263
+        ],
+        "fixes": [
+          "BR079",
+          "DIBUB",
+          "EDVIV",
+          "KOTVU"
+        ],
+        "rmsMeters": 384
+      }
+    }
+  },
+  "BR00T": {
+    "file": "/charts/SBBR/sid-br00t-rnav-opvix-1a-rwy-29l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          371.6831582,
+          0,
+          -5470702.843,
+          0,
+          -371.6831582,
+          -1657530.702
+        ],
+        "fixes": [
+          "KOGDI",
+          "OPVIX",
+          "PABUM",
+          "TIPTU"
+        ],
+        "rmsMeters": 927
+      }
+    }
+  },
+  "BR00U": {
+    "file": "/charts/SBBR/sid-br00u-rnav-umdeb-1a-rwy-29l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          362.4250399,
+          0,
+          -5462843.249,
+          0,
+          -362.4250399,
+          -1718369.342
+        ],
+        "fixes": [
+          "GAXON",
+          "KUKOL",
+          "SIREM",
+          "UMDEB"
+        ],
+        "rmsMeters": 492
+      }
+    }
+  },
+  "BR02V": {
+    "file": "/charts/SBBR/sid-br02v-rnav-utmum-1a-rwy-29r.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          346.8259796,
+          0,
+          -5456542.784,
+          0,
+          -346.8259796,
+          -1722820.75
+        ],
+        "fixes": [
+          "GAXON",
+          "KUKOL",
+          "SIREM",
+          "UMDEB",
+          "UTMUM"
+        ],
+        "rmsMeters": 686
+      }
+    }
+  }
+}

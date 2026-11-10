@@ -1,0 +1,422 @@
+[
+  {
+    "id": "sid-butob1a",
+    "type": "SID",
+    "runway": "18",
+    "name": "BUTOB 1A",
+    "category": "RNAV",
+    "chartKey": "RF01W",
+    "geometryKey": "SID|BUTOB1A|18",
+    "notes": "",
+    "fixes": [
+      "BUTOB",
+      "KUKES",
+      "RF129",
+      "RF131",
+      "RF132",
+      "IROSI",
+      "UDOSA",
+      "GAVAK"
+    ],
+    "commonRoute": "BUTOB",
+    "transitions": [
+      {
+        "fix": "KUKES",
+        "desc": "132.61 NM"
+      },
+      {
+        "fix": "IROSI",
+        "desc": "16.88 NM · via RF129 → RF131 → RF132"
+      },
+      {
+        "fix": "GAVAK",
+        "desc": "78.24 NM · via UDOSA"
+      },
+      {
+        "fix": "UDOSA",
+        "desc": "73.96 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-munug1a",
+    "type": "SID",
+    "runway": "18",
+    "name": "MUNUG 1A",
+    "category": "RNAV",
+    "chartKey": "RF00H",
+    "geometryKey": "SID|MUNUG1A|18",
+    "notes": "",
+    "fixes": [
+      "RF122",
+      "MUNUG",
+      "GELUD",
+      "DOMDO",
+      "FNR",
+      "RF123",
+      "RF124",
+      "RF071",
+      "IROSI"
+    ],
+    "commonRoute": "RF122 → MUNUG",
+    "transitions": [
+      {
+        "fix": "DOMDO",
+        "desc": "39.39 NM · via GELUD"
+      },
+      {
+        "fix": "FNR",
+        "desc": "273.5 NM · via GELUD"
+      },
+      {
+        "fix": "IROSI",
+        "desc": "17.4 NM · via RF123 → RF124 → RF071"
+      }
+    ]
+  },
+  {
+    "id": "sid-safuc1a",
+    "type": "SID",
+    "runway": "18",
+    "name": "SAFUC 1A",
+    "category": "RNAV",
+    "chartKey": "RF01N",
+    "geometryKey": "SID|SAFUC1A|18",
+    "notes": "",
+    "fixes": [
+      "KUGOV",
+      "RF123",
+      "RF124",
+      "RF028",
+      "SAFUC"
+    ],
+    "commonRoute": "KUGOV",
+    "transitions": [
+      {
+        "fix": "SAFUC",
+        "desc": "31.09 NM · via RF123 → RF124 → RF028"
+      }
+    ]
+  },
+  {
+    "id": "sid-varab1a",
+    "type": "SID",
+    "runway": "18",
+    "name": "VARAB 1A",
+    "category": "RNAV",
+    "chartKey": "RF00J",
+    "geometryKey": "SID|VARAB1A|18",
+    "notes": "",
+    "fixes": [
+      "VARAB",
+      "MEXAR",
+      "MUDSI"
+    ],
+    "commonRoute": "VARAB",
+    "transitions": [
+      {
+        "fix": "MEXAR",
+        "desc": "32.73 NM"
+      },
+      {
+        "fix": "MUDSI",
+        "desc": "36.85 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-egiru2a",
+    "type": "SID",
+    "runway": "36",
+    "name": "EGIRU 2A",
+    "category": "RNAV",
+    "chartKey": "RF00K",
+    "geometryKey": "SID|EGIRU2A|36",
+    "notes": "",
+    "fixes": [
+      "EGIRU",
+      "UDOSA",
+      "RF081",
+      "RF093",
+      "MEXAR",
+      "MUDSI",
+      "GAVAK",
+      "KUKES"
+    ],
+    "commonRoute": "EGIRU",
+    "transitions": [
+      {
+        "fix": "UDOSA",
+        "desc": "81.8 NM"
+      },
+      {
+        "fix": "MEXAR",
+        "desc": "17.74 NM · via RF081 → RF093"
+      },
+      {
+        "fix": "MUDSI",
+        "desc": "23.22 NM · via RF081 → RF093"
+      },
+      {
+        "fix": "GAVAK",
+        "desc": "78.24 NM · via UDOSA"
+      },
+      {
+        "fix": "KUKES",
+        "desc": "137.94 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-gelud2a",
+    "type": "SID",
+    "runway": "36",
+    "name": "GELUD 2A",
+    "category": "RNAV",
+    "chartKey": "RF00I",
+    "geometryKey": "SID|GELUD2A|36",
+    "notes": "",
+    "fixes": [
+      "RF123",
+      "GELUD",
+      "DOMDO",
+      "FNR"
+    ],
+    "commonRoute": "RF123 → GELUD",
+    "transitions": [
+      {
+        "fix": "DOMDO",
+        "desc": "39.39 NM"
+      },
+      {
+        "fix": "FNR",
+        "desc": "273.5 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-pumpu1a",
+    "type": "SID",
+    "runway": "36",
+    "name": "PUMPU 1A",
+    "category": "RNAV",
+    "chartKey": "RF00I",
+    "geometryKey": "SID|PUMPU1A|36",
+    "notes": "",
+    "fixes": [
+      "PUMPU",
+      "ANDOX",
+      "IROSI",
+      "SAFUC"
+    ],
+    "commonRoute": "PUMPU → ANDOX",
+    "transitions": [
+      {
+        "fix": "IROSI",
+        "desc": "40.24 NM"
+      },
+      {
+        "fix": "SAFUC",
+        "desc": "57.38 NM"
+      }
+    ]
+  },
+  {
+    "id": "star-anbex2a",
+    "type": "STAR",
+    "runway": "18",
+    "name": "ANBEX 2A",
+    "category": "RNAV",
+    "chartKey": "RF00L",
+    "geometryKey": "STAR|ANBEX2A|18",
+    "notes": "",
+    "fixes": [
+      "ANBEX",
+      "RF027",
+      "RF026",
+      "RF018",
+      "RF087",
+      "RF011"
+    ],
+    "entryFixes": [
+      "ANBEX"
+    ],
+    "route": null,
+    "iaf": "RF011"
+  },
+  {
+    "id": "star-entiv1a",
+    "type": "STAR",
+    "runway": "18",
+    "name": "ENTIV 1A",
+    "category": "RNAV",
+    "chartKey": "RF01O",
+    "geometryKey": "STAR|ENTIV1A|18",
+    "notes": "",
+    "fixes": [
+      "ENTIV",
+      "RF098",
+      "RF066",
+      "RF067",
+      "RF068",
+      "RF009"
+    ],
+    "entryFixes": [
+      "ENTIV"
+    ],
+    "route": null,
+    "iaf": "RF009"
+  },
+  {
+    "id": "star-espet1a",
+    "type": "STAR",
+    "runway": "18",
+    "name": "ESPET 1A",
+    "category": "RNAV",
+    "chartKey": "RF01P",
+    "geometryKey": "STAR|ESPET1A|18",
+    "notes": "",
+    "fixes": [
+      "ESPET",
+      "RF062",
+      "RF063",
+      "RF064",
+      "ANDOX"
+    ],
+    "entryFixes": [
+      "ESPET"
+    ],
+    "route": null,
+    "iaf": "ANDOX"
+  },
+  {
+    "id": "star-ibdem1a",
+    "type": "STAR",
+    "runway": "18",
+    "name": "IBDEM 1A",
+    "category": "RNAV",
+    "chartKey": "RF00P",
+    "geometryKey": "STAR|IBDEM1A|18",
+    "notes": "",
+    "fixes": [
+      "UBRUT",
+      "RF059",
+      "IBDEM",
+      "EDVEG",
+      "MALEV",
+      "RF016",
+      "RF058",
+      "ANDOX"
+    ],
+    "entryFixes": [
+      "UBRUT",
+      "EDVEG",
+      "MALEV"
+    ],
+    "route": null,
+    "iaf": "ANDOX"
+  },
+  {
+    "id": "star-nekiv1a",
+    "type": "STAR",
+    "runway": "18",
+    "name": "NEKIV 1A",
+    "category": "RNAV",
+    "chartKey": "RF01J",
+    "geometryKey": "STAR|NEKIV1A|18",
+    "notes": "",
+    "fixes": [
+      "MUDAR",
+      "NEKIV",
+      "KIMOK",
+      "UGTUN",
+      "RF061",
+      "RF058",
+      "ANDOX"
+    ],
+    "entryFixes": [
+      "MUDAR",
+      "KIMOK",
+      "UGTUN"
+    ],
+    "route": null,
+    "iaf": "ANDOX"
+  },
+  {
+    "id": "star-anbex1b",
+    "type": "STAR",
+    "runway": "36",
+    "name": "ANBEX 1B",
+    "category": "RNAV",
+    "chartKey": "RF00M",
+    "geometryKey": "STAR|ANBEX1B|36",
+    "notes": "",
+    "fixes": [
+      "ANBEX",
+      "RF076",
+      "RF077",
+      "RF004"
+    ],
+    "entryFixes": [
+      "ANBEX"
+    ],
+    "route": null,
+    "iaf": "RF004"
+  },
+  {
+    "id": "star-ensap2c",
+    "type": "STAR",
+    "runway": "36",
+    "name": "ENSAP 2C",
+    "category": "RNAV",
+    "chartKey": "RF00O",
+    "geometryKey": "STAR|ENSAP2C|36",
+    "notes": "",
+    "fixes": [
+      "EDVEG",
+      "RF048",
+      "MALEV",
+      "UBRUT",
+      "ENSAP",
+      "RF091",
+      "RF009",
+      "RF078",
+      "LOLUK"
+    ],
+    "entryFixes": [
+      "EDVEG",
+      "MALEV",
+      "UBRUT"
+    ],
+    "route": null,
+    "iaf": "LOLUK"
+  },
+  {
+    "id": "star-nekiv1b",
+    "type": "STAR",
+    "runway": "36",
+    "name": "NEKIV 1B",
+    "category": "RNAV",
+    "chartKey": "RF00M",
+    "geometryKey": "STAR|NEKIV1B|36",
+    "notes": "",
+    "fixes": [
+      "UGTUN",
+      "NEKIV",
+      "KIMOK",
+      "MUDAR",
+      "RF099",
+      "RF011",
+      "RF009",
+      "RF078",
+      "LOLUK"
+    ],
+    "entryFixes": [
+      "UGTUN",
+      "KIMOK",
+      "MUDAR"
+    ],
+    "route": null,
+    "iaf": "LOLUK"
+  }
+]

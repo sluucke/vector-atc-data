@@ -1,0 +1,295 @@
+{
+  "icao": "SBSP",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBSP",
+  "charts": [
+    {
+      "key": "sbsp-adc",
+      "type": "ADC",
+      "name": "SBSP ADC",
+      "code": "",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBSP/adc-sbsp-adc-sbsp-adc.pdf"
+    },
+    {
+      "key": "arc-sbxp",
+      "type": "ARC",
+      "name": "ARC SÃO PAULO",
+      "code": "SBXP",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBSP/arc-sbxp-arc-sao-paulo.pdf"
+    },
+    {
+      "key": "atcsmac-sbxp",
+      "type": "ATCSMAC",
+      "name": "TMA SÃO PAULO",
+      "code": "SBXP",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBSP/atcsmac-sbxp-tma-sao-paulo.pdf"
+    },
+    {
+      "key": "SP02S",
+      "type": "IAC",
+      "name": "ILS R OR LOC R RWY 35L",
+      "code": "SP02S",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSP/iac-sp02s-ils-r-or-loc-r-rwy-35l.pdf"
+    },
+    {
+      "key": "SP00Q",
+      "type": "IAC",
+      "name": "ILS V RWY 35L",
+      "code": "SP00Q",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSP/iac-sp00q-ils-v-rwy-35l.pdf"
+    },
+    {
+      "key": "SP00P",
+      "type": "IAC",
+      "name": "ILS X RWY 17R",
+      "code": "SP00P",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSP/iac-sp00p-ils-x-rwy-17r.pdf"
+    },
+    {
+      "key": "SP00R",
+      "type": "IAC",
+      "name": "ILS Y OR LOC Y RWY 17R",
+      "code": "SP00R",
+      "amdt": "2404A1",
+      "date": "2024-04-18",
+      "file": "/charts/SBSP/iac-sp00r-ils-y-or-loc-y-rwy-17r.pdf"
+    },
+    {
+      "key": "SP02D",
+      "type": "IAC",
+      "name": "RNP S RWY 35R",
+      "code": "SP02D",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSP/iac-sp02d-rnp-s-rwy-35r.pdf"
+    },
+    {
+      "key": "SP02C",
+      "type": "IAC",
+      "name": "RNP T RWY 17L",
+      "code": "SP02C",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSP/iac-sp02c-rnp-t-rwy-17l.pdf"
+    },
+    {
+      "key": "SP02Q",
+      "type": "IAC",
+      "name": "RNP X RWY 17R (AR)",
+      "code": "SP02Q",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSP/iac-sp02q-rnp-x-rwy-17r-ar.pdf"
+    },
+    {
+      "key": "SP02R",
+      "type": "IAC",
+      "name": "RNP X RWY 35L (AR)",
+      "code": "SP02R",
+      "amdt": "2508A1",
+      "date": "2025-08-07",
+      "file": "/charts/SBSP/iac-sp02r-rnp-x-rwy-35l-ar.pdf"
+    },
+    {
+      "key": "SP02O",
+      "type": "IAC",
+      "name": "RNP Y RWY 17R",
+      "code": "SP02O",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSP/iac-sp02o-rnp-y-rwy-17r.pdf"
+    },
+    {
+      "key": "SP02P",
+      "type": "IAC",
+      "name": "RNP Z RWY 35L",
+      "code": "SP02P",
+      "amdt": "2508A1",
+      "date": "2025-08-07",
+      "file": "/charts/SBSP/iac-sp02p-rnp-z-rwy-35l.pdf"
+    },
+    {
+      "key": "SP00U",
+      "type": "IAC",
+      "name": "VOR Y RWY 35L/35R",
+      "code": "SP00U",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSP/iac-sp00u-vor-y-rwy-35l-35r.pdf"
+    },
+    {
+      "key": "SP00O",
+      "type": "IAC",
+      "name": "VOR Z RWY 17L/17R",
+      "code": "SP00O",
+      "amdt": "2404A1",
+      "date": "2024-04-18",
+      "file": "/charts/SBSP/iac-sp00o-vor-z-rwy-17l-17r.pdf"
+    },
+    {
+      "key": "sbsp-pdc",
+      "type": "PDC",
+      "name": "SBSP PDC",
+      "code": "",
+      "amdt": "2601A1",
+      "date": "2026-01-22",
+      "file": "/charts/SBSP/pdc-sbsp-pdc-sbsp-pdc.pdf"
+    },
+    {
+      "key": "rea-xp1",
+      "type": "REA",
+      "name": "XP1-SÃO PAULO",
+      "code": "SBXP",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBSP/rea-xp1-xp1-sao-paulo.pdf"
+    },
+    {
+      "key": "rea-xp2",
+      "type": "REA",
+      "name": "XP2-SÃO PAULO",
+      "code": "SBXP",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBSP/rea-xp2-xp2-sao-paulo.pdf"
+    },
+    {
+      "key": "omni-rwy-17l-17r-35l-35r",
+      "type": "SID",
+      "name": "OMNI RWY 17L / 17R 35L / 35R",
+      "code": "",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSP/sid-omni-rwy-17l-17r-35l-35r-omni-rwy-17l-17r-35l-35r.pdf"
+    },
+    {
+      "key": "SP02K",
+      "type": "SID",
+      "name": "RNAV BAIAN 3A RWY 17R/17L",
+      "code": "SP02K",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBSP/sid-sp02k-rnav-baian-3a-rwy-17r-17l.pdf"
+    },
+    {
+      "key": "SP02I",
+      "type": "SID",
+      "name": "RNAV BAIAN 3B RWY 35R/35L",
+      "code": "SP02I",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBSP/sid-sp02i-rnav-baian-3b-rwy-35r-35l.pdf"
+    },
+    {
+      "key": "SP02J",
+      "type": "SID",
+      "name": "RNAV SEDLO 1A RWY 35R/35L",
+      "code": "SP02J",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBSP/sid-sp02j-rnav-sedlo-1a-rwy-35r-35l.pdf"
+    },
+    {
+      "key": "SP02A",
+      "type": "SID",
+      "name": "RNAV UBRAM 1A RWY 17R/17L",
+      "code": "SP02A",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBSP/sid-sp02a-rnav-ubram-1a-rwy-17r-17l.pdf"
+    },
+    {
+      "key": "SP02B",
+      "type": "SID",
+      "name": "RNAV UBRAM 1B RWY 35R/35L",
+      "code": "SP02B",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBSP/sid-sp02b-rnav-ubram-1b-rwy-35r-35l.pdf"
+    },
+    {
+      "key": "SP02F",
+      "type": "SID",
+      "name": "RNAV UGTIX 1B RWY 35R / 35L",
+      "code": "SP02F",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBSP/sid-sp02f-rnav-ugtix-1b-rwy-35r-35l.pdf"
+    },
+    {
+      "key": "SP02E",
+      "type": "SID",
+      "name": "RNAV UGTIX 2A RWY 17R/17L",
+      "code": "SP02E",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBSP/sid-sp02e-rnav-ugtix-2a-rwy-17r-17l.pdf"
+    },
+    {
+      "key": "SP02L",
+      "type": "SID",
+      "name": "RNAV UTKOM 1A RWY 17R/17L",
+      "code": "SP02L",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBSP/sid-sp02l-rnav-utkom-1a-rwy-17r-17l.pdf"
+    },
+    {
+      "key": "SP02N",
+      "type": "STAR",
+      "name": "RNAV ANISE 1A - IBDAL 2A RWY 35R/35L",
+      "code": "SP02N",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBSP/star-sp02n-rnav-anise-1a-ibdal-2a-rwy-35r-35l.pdf"
+    },
+    {
+      "key": "SP02M",
+      "type": "STAR",
+      "name": "RNAV OGTAL 2A RWY 17R/17L",
+      "code": "SP02M",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBSP/star-sp02m-rnav-ogtal-2a-rwy-17r-17l.pdf"
+    },
+    {
+      "key": "SP01Y",
+      "type": "STAR",
+      "name": "RNAV ORESU 1A RWY 17R/17L",
+      "code": "SP01Y",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBSP/star-sp01y-rnav-oresu-1a-rwy-17r-17l.pdf"
+    },
+    {
+      "key": "SP01Z",
+      "type": "STAR",
+      "name": "RNAV ORESU 1B RWY 35R/35L",
+      "code": "SP01Z",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBSP/star-sp01z-rnav-oresu-1b-rwy-35r-35l.pdf"
+    },
+    {
+      "key": "rwy-17l-17r-35l-35r",
+      "type": "VAC",
+      "name": "RWY 17L/17R/35L/35R",
+      "code": "",
+      "amdt": "2604A1",
+      "date": "2026-04-16",
+      "file": "/charts/SBSP/vac-rwy-17l-17r-35l-35r-rwy-17l-17r-35l-35r.pdf"
+    }
+  ]
+}

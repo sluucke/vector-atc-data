@@ -1,0 +1,1465 @@
+[
+  {
+    "id": "sid-esbux6a",
+    "type": "SID",
+    "runway": "11L",
+    "name": "ESBUX 6A",
+    "category": "RNAV",
+    "chartKey": "BR00O",
+    "geometryKey": "SID|ESBUX6A|11L",
+    "notes": "",
+    "fixes": [
+      "KOTVU",
+      "ESBUX",
+      "BR151",
+      "DARCI",
+      "PABUM",
+      "KOGDI",
+      "EPDEP",
+      "UGUGA",
+      "ILKUS",
+      "PULUV"
+    ],
+    "commonRoute": "KOTVU → ESBUX",
+    "transitions": [
+      {
+        "fix": "PABUM",
+        "desc": "47.08 NM · via BR151 → DARCI"
+      },
+      {
+        "fix": "KOGDI",
+        "desc": "31.18 NM · via BR151 → DARCI"
+      },
+      {
+        "fix": "EPDEP",
+        "desc": "71.02 NM"
+      },
+      {
+        "fix": "UGUGA",
+        "desc": "118.63 NM · via BR151 → DARCI"
+      },
+      {
+        "fix": "ILKUS",
+        "desc": "50.35 NM"
+      },
+      {
+        "fix": "PULUV",
+        "desc": "61.94 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-fsa3a",
+    "type": "SID",
+    "runway": "11L",
+    "name": "FSA 3A",
+    "category": "CONV",
+    "chartKey": "BR00G",
+    "geometryKey": "SID|FSA3A|11L",
+    "notes": "",
+    "fixes": [
+      "KOTVU",
+      "FSA",
+      "ARPON",
+      "KOLDA"
+    ],
+    "commonRoute": "KOTVU → FSA",
+    "transitions": [
+      {
+        "fix": "ARPON",
+        "desc": "48.68 NM"
+      },
+      {
+        "fix": "KOLDA",
+        "desc": "13.93 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-iritu1a",
+    "type": "SID",
+    "runway": "11L",
+    "name": "IRITU 1A",
+    "category": "CONV",
+    "chartKey": "BR00H",
+    "geometryKey": "SID|IRITU1A|11L",
+    "notes": "",
+    "fixes": [
+      "IRITU",
+      "LUZ",
+      "NELEG",
+      "GUTIL"
+    ],
+    "commonRoute": "IRITU → LUZ",
+    "transitions": [
+      {
+        "fix": "NELEG",
+        "desc": "34.33 NM"
+      },
+      {
+        "fix": "GUTIL",
+        "desc": "34.42 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-kotvu1b",
+    "type": "SID",
+    "runway": "11L",
+    "name": "KOTVU 1B",
+    "category": "RNAV",
+    "chartKey": "BR00X",
+    "geometryKey": "SID|KOTVU1B|11L",
+    "notes": "",
+    "fixes": [
+      "KOTVU",
+      "VUTMI",
+      "SIMUV",
+      "UGTAK",
+      "BR039",
+      "BR107",
+      "SAVPU",
+      "NELEG"
+    ],
+    "commonRoute": "KOTVU",
+    "transitions": [
+      {
+        "fix": "UGTAK",
+        "desc": "75.99 NM · via VUTMI → SIMUV"
+      },
+      {
+        "fix": "SAVPU",
+        "desc": "18.01 NM · via VUTMI → BR039 → BR107"
+      },
+      {
+        "fix": "NELEG",
+        "desc": "39.04 NM · via VUTMI → BR039"
+      }
+    ]
+  },
+  {
+    "id": "sid-nirdi1a",
+    "type": "SID",
+    "runway": "11L",
+    "name": "NIRDI 1A",
+    "category": "CONV",
+    "chartKey": "BR03A",
+    "geometryKey": "SID|NIRDI1A|11L",
+    "notes": "",
+    "fixes": [
+      "NIRDI",
+      "TONUN",
+      "LIXEM",
+      "KOGLI",
+      "UTMAN"
+    ],
+    "commonRoute": "NIRDI",
+    "transitions": [
+      {
+        "fix": "COMMON",
+        "desc": "≤10000 ft"
+      },
+      {
+        "fix": "KOGLI",
+        "desc": "via LIXEM"
+      },
+      {
+        "fix": "UTMAN",
+        "desc": "conforme coding table"
+      }
+    ]
+  },
+  {
+    "id": "sid-otafo1a",
+    "type": "SID",
+    "runway": "11L",
+    "name": "OTAFO 1A",
+    "category": "CONV",
+    "chartKey": "BR00G",
+    "geometryKey": "SID|OTAFO1A|11L",
+    "notes": "",
+    "fixes": [
+      "KOTVU",
+      "OTAFO"
+    ],
+    "commonRoute": "KOTVU",
+    "transitions": [
+      {
+        "fix": "OTAFO",
+        "desc": "20.18 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-papid2a",
+    "type": "SID",
+    "runway": "11L",
+    "name": "PAPID 2A",
+    "category": "RNAV",
+    "chartKey": "BR00M",
+    "geometryKey": "SID|PAPID2A|11L",
+    "notes": "",
+    "fixes": [
+      "LIVEV",
+      "PAPID",
+      "BR148",
+      "UMSUB",
+      "SIREM",
+      "GNV",
+      "KUKOL",
+      "BR051",
+      "MOXOB",
+      "TIPTU"
+    ],
+    "commonRoute": "LIVEV → PAPID",
+    "transitions": [
+      {
+        "fix": "SIREM",
+        "desc": "27.46 NM · via BR148 → UMSUB"
+      },
+      {
+        "fix": "GNV",
+        "desc": "33 NM · via BR148 → UMSUB → SIREM"
+      },
+      {
+        "fix": "KUKOL",
+        "desc": "28.21 NM · via BR148 → UMSUB"
+      },
+      {
+        "fix": "TIPTU",
+        "desc": "28.29 NM · via BR051 → MOXOB"
+      }
+    ]
+  },
+  {
+    "id": "sid-semdu2a",
+    "type": "SID",
+    "runway": "11L",
+    "name": "SEMDU 2A",
+    "category": "RNAV",
+    "chartKey": "BR00V",
+    "geometryKey": "SID|SEMDU2A|11L",
+    "notes": "",
+    "fixes": [
+      "LIVEV",
+      "SEMDU",
+      "GEBEP",
+      "ENRUR",
+      "GEPMO"
+    ],
+    "commonRoute": "LIVEV → SEMDU",
+    "transitions": [
+      {
+        "fix": "GEBEP",
+        "desc": "83.62 NM"
+      },
+      {
+        "fix": "ENRUR",
+        "desc": "89.9 NM"
+      },
+      {
+        "fix": "GEPMO",
+        "desc": "58.71 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-kotvu1a",
+    "type": "SID",
+    "runway": "11R",
+    "name": "KOTVU 1A",
+    "category": "CONV",
+    "chartKey": "BR02P",
+    "geometryKey": "SID|KOTVU1A|11R",
+    "notes": "",
+    "fixes": [
+      "KOTVU",
+      "FSA",
+      "KOLDA",
+      "ARPON",
+      "OTAFO"
+    ],
+    "commonRoute": "KOTVU",
+    "transitions": [
+      {
+        "fix": "FSA",
+        "desc": "28.11 NM"
+      },
+      {
+        "fix": "KOLDA",
+        "desc": "13.93 NM · via FSA"
+      },
+      {
+        "fix": "ARPON",
+        "desc": "48.68 NM · via FSA"
+      },
+      {
+        "fix": "OTAFO",
+        "desc": "20.18 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-livev2b",
+    "type": "SID",
+    "runway": "11R",
+    "name": "LIVEV 2B",
+    "category": "RNAV",
+    "chartKey": "BR02T",
+    "geometryKey": "SID|LIVEV2B|11R",
+    "notes": "",
+    "fixes": [
+      "LIVEV",
+      "GEBEP",
+      "ENRUR",
+      "GEPMO"
+    ],
+    "commonRoute": "LIVEV",
+    "transitions": [
+      {
+        "fix": "GEBEP",
+        "desc": "88.39 NM"
+      },
+      {
+        "fix": "ENRUR",
+        "desc": "94.41 NM"
+      },
+      {
+        "fix": "GEPMO",
+        "desc": "62.33 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-luz2d",
+    "type": "SID",
+    "runway": "11R",
+    "name": "LUZ 2D",
+    "category": "CONV",
+    "chartKey": "BR02Q",
+    "geometryKey": "SID|LUZ2D|11R",
+    "notes": "",
+    "fixes": [
+      "IRITU",
+      "LUZ",
+      "GUTIL",
+      "NELEG"
+    ],
+    "commonRoute": "IRITU → LUZ",
+    "transitions": [
+      {
+        "fix": "GUTIL",
+        "desc": "34.42 NM"
+      },
+      {
+        "fix": "NELEG",
+        "desc": "34.33 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-mibis1a",
+    "type": "SID",
+    "runway": "11R",
+    "name": "MIBIS 1A",
+    "category": "CONV",
+    "chartKey": "BR00K",
+    "geometryKey": "SID|MIBIS1A|11R",
+    "notes": "",
+    "fixes": [
+      "MIBIS",
+      "TONUN",
+      "LIXEM",
+      "KOGLI",
+      "UTMAN"
+    ],
+    "commonRoute": "MIBIS",
+    "transitions": [
+      {
+        "fix": "COMMON",
+        "desc": "≤10000 ft"
+      },
+      {
+        "fix": "KOGLI",
+        "desc": "via LIXEM"
+      },
+      {
+        "fix": "UTMAN",
+        "desc": "conforme coding table"
+      }
+    ]
+  },
+  {
+    "id": "sid-tiptu1a",
+    "type": "SID",
+    "runway": "11R",
+    "name": "TIPTU 1A",
+    "category": "RNAV",
+    "chartKey": "BR02U",
+    "geometryKey": "SID|TIPTU1A|11R",
+    "notes": "",
+    "fixes": [
+      "LIVEV",
+      "PAPID",
+      "BR051",
+      "MOXOB",
+      "TIPTU"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "TIPTU",
+        "desc": "28.29 NM · via PAPID → BR051 → MOXOB"
+      }
+    ]
+  },
+  {
+    "id": "sid-umsub1a",
+    "type": "SID",
+    "runway": "11R",
+    "name": "UMSUB 1A",
+    "category": "RNAV",
+    "chartKey": "BR02U",
+    "geometryKey": "SID|UMSUB1A|11R",
+    "notes": "",
+    "fixes": [
+      "LIVEV",
+      "PAPID",
+      "BR148",
+      "UMSUB",
+      "SIREM",
+      "GNV",
+      "KUKOL"
+    ],
+    "commonRoute": "LIVEV → PAPID → BR148 → UMSUB",
+    "transitions": [
+      {
+        "fix": "SIREM",
+        "desc": "27.46 NM"
+      },
+      {
+        "fix": "GNV",
+        "desc": "33 NM · via SIREM"
+      },
+      {
+        "fix": "KUKOL",
+        "desc": "28.21 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-utgog1b",
+    "type": "SID",
+    "runway": "11R",
+    "name": "UTGOG 1B",
+    "category": "RNAV",
+    "chartKey": "BR02S",
+    "geometryKey": "SID|UTGOG1B|11R",
+    "notes": "",
+    "fixes": [
+      "UTGOG",
+      "ESBUX",
+      "BR151",
+      "DARCI",
+      "KOGDI",
+      "PABUM",
+      "EPDEP",
+      "UGUGA",
+      "ILKUS",
+      "PULUV"
+    ],
+    "commonRoute": "UTGOG",
+    "transitions": [
+      {
+        "fix": "KOGDI",
+        "desc": "31.18 NM · via ESBUX → BR151 → DARCI"
+      },
+      {
+        "fix": "PABUM",
+        "desc": "47.08 NM · via ESBUX → BR151 → DARCI"
+      },
+      {
+        "fix": "EPDEP",
+        "desc": "71.02 NM · via ESBUX"
+      },
+      {
+        "fix": "UGUGA",
+        "desc": "118.63 NM · via ESBUX → BR151 → DARCI"
+      },
+      {
+        "fix": "ILKUS",
+        "desc": "50.35 NM · via ESBUX"
+      },
+      {
+        "fix": "PULUV",
+        "desc": "61.94 NM · via ESBUX"
+      }
+    ]
+  },
+  {
+    "id": "sid-vutmi1b",
+    "type": "SID",
+    "runway": "11R",
+    "name": "VUTMI 1B",
+    "category": "RNAV",
+    "chartKey": "BR03S",
+    "geometryKey": "SID|VUTMI1B|11R",
+    "notes": "",
+    "fixes": [
+      "UTGOG",
+      "VUTMI",
+      "SIMUV",
+      "UGTAK",
+      "BR039",
+      "BR107",
+      "SAVPU"
+    ],
+    "commonRoute": "UTGOG → VUTMI",
+    "transitions": [
+      {
+        "fix": "UGTAK",
+        "desc": "75.99 NM · via SIMUV"
+      },
+      {
+        "fix": "SAVPU",
+        "desc": "18.01 NM · via BR039 → BR107"
+      }
+    ]
+  },
+  {
+    "id": "sid-anpax2a",
+    "type": "SID",
+    "runway": "29L",
+    "name": "ANPAX 2A",
+    "category": "CONV",
+    "chartKey": "BR00I",
+    "geometryKey": "SID|ANPAX2A|29L",
+    "notes": "",
+    "fixes": [
+      "SAVGO",
+      "VJK07*",
+      "VJK06*",
+      "UKENA",
+      "ANPAX",
+      "UTMAN",
+      "FSA",
+      "ARPON",
+      "KOLDA"
+    ],
+    "commonRoute": "SAVGO → VJK07*",
+    "transitions": [
+      {
+        "fix": "UTMAN",
+        "desc": "29.72 NM · via VJK06* → UKENA → ANPAX"
+      },
+      {
+        "fix": "ARPON",
+        "desc": "48.68 NM · via VJK06* → UKENA → ANPAX → FSA"
+      },
+      {
+        "fix": "KOLDA",
+        "desc": "13.93 NM · via VJK06* → UKENA → ANPAX → FSA"
+      },
+      {
+        "fix": "FSA",
+        "desc": "21.58 NM · via VJK06* → UKENA → ANPAX"
+      }
+    ]
+  },
+  {
+    "id": "sid-gaxon2a",
+    "type": "SID",
+    "runway": "29L",
+    "name": "GAXON 2A",
+    "category": "RNAV",
+    "chartKey": "BR00W",
+    "geometryKey": "SID|GAXON2A|29L",
+    "notes": "",
+    "fixes": [
+      "GAXON",
+      "BR052",
+      "NEDES",
+      "BR106",
+      "SAVPU",
+      "GEPMO",
+      "GEBEP",
+      "ENRUR"
+    ],
+    "commonRoute": "GAXON",
+    "transitions": [
+      {
+        "fix": "SAVPU",
+        "desc": "33.45 NM · via BR052 → NEDES → BR106"
+      },
+      {
+        "fix": "GEPMO",
+        "desc": "66.83 NM"
+      },
+      {
+        "fix": "GEBEP",
+        "desc": "90.16 NM"
+      },
+      {
+        "fix": "ENRUR",
+        "desc": "97.09 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-lixem1a",
+    "type": "SID",
+    "runway": "29L",
+    "name": "LIXEM 1A",
+    "category": "CONV",
+    "chartKey": "BR00I",
+    "geometryKey": "SID|LIXEM1A|29L",
+    "notes": "",
+    "fixes": [
+      "SAVGO",
+      "VJK07*",
+      "LIXEM",
+      "KOGLI"
+    ],
+    "commonRoute": "SAVGO → VJK07*",
+    "transitions": [
+      {
+        "fix": "KOGLI",
+        "desc": "43.18 NM · via LIXEM"
+      }
+    ]
+  },
+  {
+    "id": "sid-luz1a",
+    "type": "SID",
+    "runway": "29L",
+    "name": "LUZ 1A",
+    "category": "CONV",
+    "chartKey": "BR02M",
+    "geometryKey": "SID|LUZ1A|29L",
+    "notes": "",
+    "fixes": [
+      "LUZ",
+      "UTGEN",
+      "GUTIL",
+      "NELEG"
+    ],
+    "commonRoute": "LUZ → UTGEN → LUZ",
+    "transitions": [
+      {
+        "fix": "GUTIL",
+        "desc": "34.4 NM"
+      },
+      {
+        "fix": "NELEG",
+        "desc": "34.3 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-opvix1a",
+    "type": "SID",
+    "runway": "29L",
+    "name": "OPVIX 1A",
+    "category": "RNAV",
+    "chartKey": "BR00T",
+    "geometryKey": "SID|OPVIX1A|29L",
+    "notes": "",
+    "fixes": [
+      "OPVIX",
+      "PABUM",
+      "UGUGA",
+      "TIPTU",
+      "KOGDI"
+    ],
+    "commonRoute": "OPVIX",
+    "transitions": [
+      {
+        "fix": "PABUM",
+        "desc": "62.95 NM"
+      },
+      {
+        "fix": "UGUGA",
+        "desc": "134.62 NM"
+      },
+      {
+        "fix": "TIPTU",
+        "desc": "26.85 NM"
+      },
+      {
+        "fix": "KOGDI",
+        "desc": "42.03 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-tinsi5a",
+    "type": "SID",
+    "runway": "29L",
+    "name": "TINSI 5A",
+    "category": "RNAV",
+    "chartKey": "BR00P",
+    "geometryKey": "SID|TINSI5A|29L",
+    "notes": "",
+    "fixes": [
+      "UTPAS",
+      "TINSI",
+      "EPDEP",
+      "ILKUS",
+      "PULUV"
+    ],
+    "commonRoute": "UTPAS → TINSI",
+    "transitions": [
+      {
+        "fix": "EPDEP",
+        "desc": "75.03 NM"
+      },
+      {
+        "fix": "ILKUS",
+        "desc": "41.51 NM"
+      },
+      {
+        "fix": "PULUV",
+        "desc": "59.4 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-ugtak1a",
+    "type": "SID",
+    "runway": "29L",
+    "name": "UGTAK 1A",
+    "category": "RNAV",
+    "chartKey": "BR00P",
+    "geometryKey": "SID|UGTAK1A|29L",
+    "notes": "",
+    "fixes": [
+      "UTPAS",
+      "BR102",
+      "SIMUV",
+      "UGTAK"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "UGTAK",
+        "desc": "75.99 NM · via BR102 → SIMUV"
+      }
+    ]
+  },
+  {
+    "id": "sid-umdeb1a",
+    "type": "SID",
+    "runway": "29L",
+    "name": "UMDEB 1A",
+    "category": "RNAV",
+    "chartKey": "BR00U",
+    "geometryKey": "SID|UMDEB1A|29L",
+    "notes": "",
+    "fixes": [
+      "GAXON",
+      "UMDEB",
+      "SIREM",
+      "GNV",
+      "KUKOL"
+    ],
+    "commonRoute": "GAXON → UMDEB",
+    "transitions": [
+      {
+        "fix": "GNV",
+        "desc": "33 NM · via SIREM"
+      },
+      {
+        "fix": "KUKOL",
+        "desc": "20.55 NM"
+      },
+      {
+        "fix": "SIREM",
+        "desc": "23.12 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-arsop1b",
+    "type": "SID",
+    "runway": "29R",
+    "name": "ARSOP 1B",
+    "category": "RNAV",
+    "chartKey": "BR04l",
+    "geometryKey": "SID|ARSOP1B|29R",
+    "notes": "",
+    "fixes": [
+      "ARSOP",
+      "OPVIX",
+      "PABUM",
+      "UGUGA",
+      "TIPTU",
+      "KOGDI",
+      "SIREM"
+    ],
+    "commonRoute": "ARSOP → OPVIX",
+    "transitions": [
+      {
+        "fix": "PABUM",
+        "desc": "62.95 NM"
+      },
+      {
+        "fix": "UGUGA",
+        "desc": "134.62 NM"
+      },
+      {
+        "fix": "TIPTU",
+        "desc": "26.85 NM"
+      },
+      {
+        "fix": "KOGDI",
+        "desc": "42.03 NM"
+      },
+      {
+        "fix": "SIREM",
+        "desc": "44.74 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-bobem2a",
+    "type": "SID",
+    "runway": "29R",
+    "name": "BOBEM 2A",
+    "category": "RNAV",
+    "chartKey": "BR02Z",
+    "geometryKey": "SID|BOBEM2A|29R",
+    "notes": "",
+    "fixes": [
+      "GAXON",
+      "BOBEM",
+      "GEPMO",
+      "GEBEP",
+      "ENRUR"
+    ],
+    "commonRoute": "GAXON → BOBEM",
+    "transitions": [
+      {
+        "fix": "GEPMO",
+        "desc": "62.91 NM"
+      },
+      {
+        "fix": "GEBEP",
+        "desc": "85.26 NM"
+      },
+      {
+        "fix": "ENRUR",
+        "desc": "92.37 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-kogli1b",
+    "type": "SID",
+    "runway": "29R",
+    "name": "KOGLI 1B",
+    "category": "CONV",
+    "chartKey": "BR03T",
+    "geometryKey": "SID|KOGLI1B|29R",
+    "notes": "",
+    "fixes": [
+      "URERA",
+      "VJK09*",
+      "LIXEM",
+      "KOGLI"
+    ],
+    "commonRoute": "URERA → VJK09*",
+    "transitions": [
+      {
+        "fix": "KOGLI",
+        "desc": "43.18 NM · via LIXEM"
+      }
+    ]
+  },
+  {
+    "id": "sid-movdo1b",
+    "type": "SID",
+    "runway": "29R",
+    "name": "MOVDO 1B",
+    "category": "RNAV",
+    "chartKey": "BR02X",
+    "geometryKey": "SID|MOVDO1B|29R",
+    "notes": "",
+    "fixes": [
+      "MOVDO",
+      "OPVIX",
+      "PABUM",
+      "UGUGA",
+      "TIPTU",
+      "KOGDI",
+      "SIREM"
+    ],
+    "commonRoute": "MOVDO",
+    "transitions": [
+      {
+        "fix": "PABUM",
+        "desc": "62.95 NM · via OPVIX"
+      },
+      {
+        "fix": "UGUGA",
+        "desc": "134.62 NM · via OPVIX"
+      },
+      {
+        "fix": "TIPTU",
+        "desc": "26.85 NM · via OPVIX"
+      },
+      {
+        "fix": "KOGDI",
+        "desc": "42.03 NM · via OPVIX"
+      },
+      {
+        "fix": "SIREM",
+        "desc": "44.74 NM · via OPVIX"
+      }
+    ]
+  },
+  {
+    "id": "sid-savpu1a",
+    "type": "SID",
+    "runway": "29R",
+    "name": "SAVPU 1A",
+    "category": "RNAV",
+    "chartKey": "BR02Z",
+    "geometryKey": "SID|SAVPU1A|29R",
+    "notes": "",
+    "fixes": [
+      "GAXON",
+      "KIACA",
+      "BR052",
+      "NEDES",
+      "BR106",
+      "SAVPU"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "SAVPU",
+        "desc": "33.45 NM · via KIACA → BR052 → NEDES → BR106"
+      }
+    ]
+  },
+  {
+    "id": "sid-ukena2a",
+    "type": "SID",
+    "runway": "29R",
+    "name": "UKENA 2A",
+    "category": "CONV",
+    "chartKey": "BR03T",
+    "geometryKey": "SID|UKENA2A|29R",
+    "notes": "",
+    "fixes": [
+      "URERA",
+      "VJK09*",
+      "VJK08*",
+      "UKENA",
+      "ANPAX",
+      "UTMAN",
+      "FSA",
+      "ARPON",
+      "KOLDA"
+    ],
+    "commonRoute": "URERA → VJK09*",
+    "transitions": [
+      {
+        "fix": "UTMAN",
+        "desc": "29.72 NM · via VJK08* → UKENA → ANPAX"
+      },
+      {
+        "fix": "ARPON",
+        "desc": "48.68 NM · via VJK08* → UKENA → ANPAX → FSA"
+      },
+      {
+        "fix": "KOLDA",
+        "desc": "13.93 NM · via VJK08* → UKENA → ANPAX → FSA"
+      },
+      {
+        "fix": "FSA",
+        "desc": "21.58 NM · via VJK08* → UKENA → ANPAX"
+      }
+    ]
+  },
+  {
+    "id": "sid-utgen1a",
+    "type": "SID",
+    "runway": "29R",
+    "name": "UTGEN 1A",
+    "category": "CONV",
+    "chartKey": "BR02R",
+    "geometryKey": "SID|UTGEN1A|29R",
+    "notes": "",
+    "fixes": [
+      "UTGEN",
+      "LUZ",
+      "GUTIL",
+      "NELEG"
+    ],
+    "commonRoute": "UTGEN → LUZ",
+    "transitions": [
+      {
+        "fix": "GUTIL",
+        "desc": "34.42 NM"
+      },
+      {
+        "fix": "NELEG",
+        "desc": "34.33 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-utmum1a",
+    "type": "SID",
+    "runway": "29R",
+    "name": "UTMUM 1A",
+    "category": "RNAV",
+    "chartKey": "BR02V",
+    "geometryKey": "SID|UTMUM1A|29R",
+    "notes": "",
+    "fixes": [
+      "GAXON",
+      "UTMUM",
+      "UMDEB",
+      "SIREM",
+      "GNV",
+      "KUKOL"
+    ],
+    "commonRoute": "GAXON → UTMUM",
+    "transitions": [
+      {
+        "fix": "SIREM",
+        "desc": "23.12 NM · via UMDEB"
+      },
+      {
+        "fix": "GNV",
+        "desc": "33 NM · via UMDEB → SIREM"
+      },
+      {
+        "fix": "KUKOL",
+        "desc": "20.55 NM · via UMDEB"
+      }
+    ]
+  },
+  {
+    "id": "sid-utpas2c",
+    "type": "SID",
+    "runway": "29R",
+    "name": "UTPAS 2C",
+    "category": "RNAV",
+    "chartKey": "BR04L",
+    "geometryKey": "SID|UTPAS2C|29R",
+    "notes": "",
+    "fixes": [
+      "ARSOP",
+      "UTPAS",
+      "EPDEP",
+      "ILKUS",
+      "PULUV",
+      "BR102",
+      "SIMUV",
+      "UGTAK"
+    ],
+    "commonRoute": "ARSOP → UTPAS",
+    "transitions": [
+      {
+        "fix": "EPDEP",
+        "desc": "78.24 NM"
+      },
+      {
+        "fix": "ILKUS",
+        "desc": "46.36 NM"
+      },
+      {
+        "fix": "PULUV",
+        "desc": "64.1 NM"
+      },
+      {
+        "fix": "UGTAK",
+        "desc": "75.99 NM · via BR102 → SIMUV"
+      }
+    ]
+  },
+  {
+    "id": "sid-utpas6b",
+    "type": "SID",
+    "runway": "29R",
+    "name": "UTPAS 6B",
+    "category": "RNAV",
+    "chartKey": "BR02Y",
+    "geometryKey": "SID|UTPAS6B|29R",
+    "notes": "",
+    "fixes": [
+      "DIBUB",
+      "UTPAS",
+      "EPDEP",
+      "ILKUS",
+      "PULUV",
+      "BR102",
+      "SIMUV",
+      "UGTAK"
+    ],
+    "commonRoute": "DIBUB → UTPAS",
+    "transitions": [
+      {
+        "fix": "EPDEP",
+        "desc": "78.24 NM"
+      },
+      {
+        "fix": "ILKUS",
+        "desc": "46.36 NM"
+      },
+      {
+        "fix": "PULUV",
+        "desc": "64.1 NM"
+      },
+      {
+        "fix": "UGTAK",
+        "desc": "75.99 NM · via BR102 → SIMUV"
+      }
+    ]
+  },
+  {
+    "id": "star-eropo1a",
+    "type": "STAR",
+    "runway": "11L/11R",
+    "name": "EROPO 1A",
+    "category": "RNAV",
+    "chartKey": "BR01D",
+    "geometryKey": "STAR|EROPO1A|11L/11R",
+    "notes": "",
+    "fixes": [
+      "OPNAX",
+      "EROPO",
+      "ELISA",
+      "DOSVI",
+      "PADIL",
+      "TOLAT",
+      "BR156",
+      "KOGNO"
+    ],
+    "entryFixes": [
+      "OPNAX",
+      "ELISA",
+      "PADIL",
+      "TOLAT"
+    ],
+    "route": null,
+    "iaf": "EROPO"
+  },
+  {
+    "id": "star-evpuk1a",
+    "type": "STAR",
+    "runway": "11L/11R",
+    "name": "EVPUK 1A",
+    "category": "RNAV",
+    "chartKey": "BR01L",
+    "geometryKey": "STAR|EVPUK1A|11L/11R",
+    "notes": "",
+    "fixes": [
+      "ISORA",
+      "EVPUK",
+      "UTNUX",
+      "VADOP",
+      "VUNUL",
+      "BR118",
+      "EDVIV",
+      "BR056",
+      "KOGNO"
+    ],
+    "entryFixes": [
+      "ISORA",
+      "UTNUX",
+      "VADOP",
+      "VUNUL"
+    ],
+    "route": null,
+    "iaf": "KOGNO"
+  },
+  {
+    "id": "star-irula1a",
+    "type": "STAR",
+    "runway": "11L/11R",
+    "name": "IRULA 1A",
+    "category": "RNAV",
+    "chartKey": "BR01I",
+    "geometryKey": "STAR|IRULA1A|11L/11R",
+    "notes": "",
+    "fixes": [
+      "VUDOT",
+      "IRULA",
+      "PABIN",
+      "ILPAV",
+      "AZOIC",
+      "BR153",
+      "BR033",
+      "SIPIG"
+    ],
+    "entryFixes": [
+      "VUDOT",
+      "PABIN",
+      "ILPAV",
+      "AZOIC"
+    ],
+    "route": null,
+    "iaf": "SIPIG"
+  },
+  {
+    "id": "star-kogno2a",
+    "type": "STAR",
+    "runway": "11L/11R",
+    "name": "KOGNO 2A",
+    "category": "RNAV",
+    "chartKey": "BR01F",
+    "geometryKey": "STAR|KOGNO2A|11L/11R",
+    "notes": "",
+    "fixes": [
+      "DALMU",
+      "BR124",
+      "MOLTI",
+      "OPGOL",
+      "ISIPI",
+      "NEDES",
+      "MOPDA",
+      "BR056",
+      "KOGNO"
+    ],
+    "entryFixes": [
+      "DALMU",
+      "OPGOL",
+      "ISIPI",
+      "COMMON"
+    ],
+    "route": null,
+    "iaf": "MOLTI"
+  },
+  {
+    "id": "star-pajem4a",
+    "type": "STAR",
+    "runway": "11L/11R",
+    "name": "PAJEM 4A",
+    "category": "RNAV",
+    "chartKey": "BR00Y",
+    "geometryKey": "STAR|PAJEM4A|11L/11R",
+    "notes": "",
+    "fixes": [
+      "UBSUS",
+      "GNV",
+      "PAJEM",
+      "APO",
+      "EGONI",
+      "BR154",
+      "BR033",
+      "SIPIG"
+    ],
+    "entryFixes": [
+      "UBSUS",
+      "APO",
+      "EGONI"
+    ],
+    "route": null,
+    "iaf": "SIPIG"
+  },
+  {
+    "id": "star-sipig2a",
+    "type": "STAR",
+    "runway": "11L/11R",
+    "name": "SIPIG 2A",
+    "category": "RNAV",
+    "chartKey": "BR01F",
+    "geometryKey": "STAR|SIPIG2A|11L/11R",
+    "notes": "",
+    "fixes": [
+      "DALMU",
+      "BR124",
+      "MOLTI",
+      "OPGOL",
+      "ISIPI",
+      "NEDES",
+      "MOPDA",
+      "BR046",
+      "SIPIG"
+    ],
+    "entryFixes": [
+      "DALMU",
+      "OPGOL",
+      "ISIPI",
+      "COMMON"
+    ],
+    "route": null,
+    "iaf": "MOLTI"
+  },
+  {
+    "id": "star-edviv2b",
+    "type": "STAR",
+    "runway": "29L/29R",
+    "name": "EDVIV 2B",
+    "category": "RNAV",
+    "chartKey": "BR01J",
+    "geometryKey": "STAR|EDVIV2B|29L/29R",
+    "notes": "",
+    "fixes": [
+      "PABIN",
+      "IRULA",
+      "AZOIC",
+      "VUDOT",
+      "ILPAV",
+      "BR033",
+      "SIPIG",
+      "BR157",
+      "EDVIV"
+    ],
+    "entryFixes": [
+      "PABIN",
+      "AZOIC",
+      "VUDOT",
+      "ILPAV",
+      "COMMON"
+    ],
+    "route": null,
+    "iaf": "SIPIG"
+  },
+  {
+    "id": "star-eropo1b",
+    "type": "STAR",
+    "runway": "29L/29R",
+    "name": "EROPO 1B",
+    "category": "RNAV",
+    "chartKey": "BR01E",
+    "geometryKey": "STAR|EROPO1B|29L/29R",
+    "notes": "",
+    "fixes": [
+      "OPNAX",
+      "EROPO",
+      "ELISA",
+      "DOSVI",
+      "PADIL",
+      "TOLAT",
+      "KOGNO",
+      "BR157",
+      "EDVIV"
+    ],
+    "entryFixes": [
+      "OPNAX",
+      "ELISA",
+      "PADIL",
+      "TOLAT"
+    ],
+    "route": null,
+    "iaf": "EDVIV"
+  },
+  {
+    "id": "star-evpuk1b",
+    "type": "STAR",
+    "runway": "29L/29R",
+    "name": "EVPUK 1B",
+    "category": "RNAV",
+    "chartKey": "BR01M",
+    "geometryKey": "STAR|EVPUK1B|29L/29R",
+    "notes": "",
+    "fixes": [
+      "ISORA",
+      "EVPUK",
+      "UTNUX",
+      "VADOP",
+      "VUNUL",
+      "OPKED",
+      "BR118",
+      "BR158",
+      "EDVIV"
+    ],
+    "entryFixes": [
+      "ISORA",
+      "UTNUX",
+      "VADOP",
+      "VUNUL"
+    ],
+    "route": null,
+    "iaf": "EDVIV"
+  },
+  {
+    "id": "star-molti1b",
+    "type": "STAR",
+    "runway": "29L/29R",
+    "name": "MOLTI 1B",
+    "category": "RNAV",
+    "chartKey": "BR01H",
+    "geometryKey": "STAR|MOLTI1B|29L/29R",
+    "notes": "",
+    "fixes": [
+      "DALMU",
+      "MOLTI",
+      "OPGOL",
+      "ISIPI",
+      "BR159",
+      "NEDES",
+      "MOPDA"
+    ],
+    "entryFixes": [
+      "DALMU",
+      "OPGOL",
+      "ISIPI"
+    ],
+    "route": null,
+    "iaf": "MOPDA"
+  },
+  {
+    "id": "star-mopda2b",
+    "type": "STAR",
+    "runway": "29L/29R",
+    "name": "MOPDA 2B",
+    "category": "RNAV",
+    "chartKey": "BR01J",
+    "geometryKey": "STAR|MOPDA2B|29L/29R",
+    "notes": "",
+    "fixes": [
+      "PABIN",
+      "IRULA",
+      "AZOIC",
+      "VUDOT",
+      "ILPAV",
+      "BR033",
+      "SIPIG",
+      "BR047",
+      "MOPDA"
+    ],
+    "entryFixes": [
+      "PABIN",
+      "AZOIC",
+      "VUDOT",
+      "ILPAV",
+      "COMMON"
+    ],
+    "route": null,
+    "iaf": "SIPIG"
+  },
+  {
+    "id": "star-pajem2b",
+    "type": "STAR",
+    "runway": "29L/29R",
+    "name": "PAJEM 2B",
+    "category": "RNAV",
+    "chartKey": "BR00Z",
+    "geometryKey": "STAR|PAJEM2B|29L/29R",
+    "notes": "",
+    "fixes": [
+      "APO",
+      "PAJEM",
+      "UBSUS",
+      "GNV",
+      "EGONI",
+      "BR033",
+      "SIPIG",
+      "BR047",
+      "MOPDA"
+    ],
+    "entryFixes": [
+      "APO",
+      "UBSUS",
+      "EGONI"
+    ],
+    "route": null,
+    "iaf": "MOPDA"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "NT00P": {
+    "file": "/charts/SBNT/iac-nt00p-rnp-rwy-12.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          130.5661403,
+          0,
+          -3964502.584,
+          0,
+          -130.5661403,
+          -623453.6562
+        ],
+        "fixes": [
+          "NT006",
+          "NT386",
+          "NT387",
+          "NT389"
+        ],
+        "rmsMeters": 447
+      }
+    }
+  },
+  "NT02B": {
+    "file": "/charts/SBNT/sid-nt02b-rnav-edveg-1a-sikel-1a-rwy-12.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          286.7973336,
+          0,
+          -3976152.106,
+          0,
+          -286.7973336,
+          -631735.4026
+        ],
+        "fixes": [
+          "DAKER",
+          "EDVEG",
+          "SIKEL",
+          "VUMAR"
+        ],
+        "rmsMeters": 756
+      }
+    }
+  }
+}

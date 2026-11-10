@@ -1,0 +1,99 @@
+{
+  "FL01U": {
+    "file": "/charts/SBFL/iac-fl01u-ils-z-or-loc-z-rwy-14.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          116.0147201,
+          0,
+          -5442311.891,
+          0,
+          -116.0147201,
+          -3170571.339
+        ],
+        "fixes": [
+          "ESKEG",
+          "IBDOD",
+          "ILRUK",
+          "ISASI"
+        ],
+        "rmsMeters": 295
+      }
+    }
+  },
+  "FL00U": {
+    "file": "/charts/SBFL/iac-fl00u-rnp-z-rwy-14.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          197.3215683,
+          0,
+          -5447153.65,
+          0,
+          -197.3215683,
+          -3148923.852
+        ],
+        "fixes": [
+          "FL049",
+          "ILRUK",
+          "ISASI",
+          "MUKAL"
+        ],
+        "rmsMeters": 538
+      }
+    }
+  },
+  "FL02L": {
+    "file": "/charts/SBFL/iac-fl02l-vor-z-rwy-14.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          115.272126,
+          0,
+          -5441026.7,
+          0,
+          -115.272126,
+          -3172121.79
+        ],
+        "fixes": [
+          "ILRUK",
+          "ILTUM",
+          "KOSDA",
+          "KUDIL"
+        ],
+        "rmsMeters": 347
+      }
+    }
+  },
+  "FL02E": {
+    "file": "/charts/SBFL/sid-fl02e-rnav-bodop-1b-rwy-32.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          367.4187035,
+          0,
+          -5437764.484,
+          0,
+          -367.4187035,
+          -3030004.855
+        ],
+        "fixes": [
+          "BODOP",
+          "FL923",
+          "FL924",
+          "FL926",
+          "FL978"
+        ],
+        "rmsMeters": 923
+      }
+    }
+  }
+}

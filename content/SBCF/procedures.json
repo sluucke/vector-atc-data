@@ -1,0 +1,569 @@
+[
+  {
+    "id": "sid-dobta1a",
+    "type": "SID",
+    "runway": "16",
+    "name": "DOBTA 1A",
+    "category": "RNAV",
+    "chartKey": "CF01U",
+    "geometryKey": "SID|DOBTA1A|16",
+    "notes": "",
+    "fixes": [
+      "KUMEV",
+      "DEVAD",
+      "CF052",
+      "CF071",
+      "DOBTA",
+      "MOTMA",
+      "ANDEM",
+      "KOVED",
+      "DEUCA",
+      "NEKEG",
+      "MIMIP"
+    ],
+    "commonRoute": "KUMEV → DEVAD → CF052 → CF071 → DOBTA",
+    "transitions": [
+      {
+        "fix": "ANDEM",
+        "desc": "42.98 NM · via MOTMA"
+      },
+      {
+        "fix": "DEUCA",
+        "desc": "25.21 NM · via KOVED"
+      },
+      {
+        "fix": "MIMIP",
+        "desc": "7.3 NM · via NEKEG"
+      }
+    ]
+  },
+  {
+    "id": "sid-isnuv2a",
+    "type": "SID",
+    "runway": "16",
+    "name": "ISNUV 2A",
+    "category": "RNAV",
+    "chartKey": "CF01R",
+    "geometryKey": "SID|ISNUV2A|16",
+    "notes": "",
+    "fixes": [
+      "VUPER",
+      "ISNUV",
+      "UPUKO",
+      "KADOR",
+      "ANPEK",
+      "EVTEK",
+      "ILPIR"
+    ],
+    "commonRoute": "VUPER → ISNUV",
+    "transitions": [
+      {
+        "fix": "KADOR",
+        "desc": "40.57 NM · via UPUKO"
+      },
+      {
+        "fix": "EVTEK",
+        "desc": "41.47 NM · via ANPEK"
+      },
+      {
+        "fix": "ILPIR",
+        "desc": "14.48 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-kubex3a",
+    "type": "SID",
+    "runway": "16",
+    "name": "KUBEX 3A",
+    "category": "RNAV",
+    "chartKey": "CF01S",
+    "geometryKey": "SID|KUBEX3A|16",
+    "notes": "",
+    "fixes": [
+      "VADON",
+      "KUBEX",
+      "OPSAB",
+      "VUKPU",
+      "POPNI",
+      "IVPEL",
+      "DOMRO",
+      "PANAS",
+      "OGRET",
+      "GAZAR",
+      "ESLUM",
+      "MAVGU",
+      "GAVAB",
+      "EVPAD"
+    ],
+    "commonRoute": "VADON → KUBEX",
+    "transitions": [
+      {
+        "fix": "PANAS",
+        "desc": "30 NM · via OPSAB → VUKPU → POPNI → IVPEL → DOMRO"
+      },
+      {
+        "fix": "MAVGU",
+        "desc": "32.77 NM · via OGRET → GAZAR → ESLUM"
+      },
+      {
+        "fix": "GAZAR",
+        "desc": "30.12 NM · via OGRET"
+      },
+      {
+        "fix": "EVPAD",
+        "desc": "8.85 NM · via OPSAB → VUKPU → POPNI → GAVAB"
+      }
+    ]
+  },
+  {
+    "id": "sid-torux2a",
+    "type": "SID",
+    "runway": "16",
+    "name": "TORUX 2A",
+    "category": "RNAV",
+    "chartKey": "CF01T",
+    "geometryKey": "SID|TORUX2A|16",
+    "notes": "",
+    "fixes": [
+      "KUMEV",
+      "DEVAD",
+      "CNF",
+      "CF054",
+      "TORUX",
+      "VAPUX",
+      "PABES",
+      "EDSUX",
+      "RORIP",
+      "GIMPO"
+    ],
+    "commonRoute": "KUMEV → DEVAD → CNF → CF054 → TORUX",
+    "transitions": [
+      {
+        "fix": "PABES",
+        "desc": "54.4 NM · via VAPUX"
+      },
+      {
+        "fix": "RORIP",
+        "desc": "55.74 NM · via EDSUX"
+      },
+      {
+        "fix": "GIMPO",
+        "desc": "22.89 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-vasix1a",
+    "type": "SID",
+    "runway": "16",
+    "name": "VASIX 1A",
+    "category": "RNAV",
+    "chartKey": "CF03I",
+    "geometryKey": "SID|VASIX1A|16",
+    "notes": "",
+    "fixes": [
+      "KUMEV",
+      "DEVAD",
+      "CNF",
+      "TISLO",
+      "PALIR",
+      "VASIX",
+      "OGMER",
+      "ANDEM",
+      "KOVED",
+      "DEUCA",
+      "UBREK",
+      "MIMIP"
+    ],
+    "commonRoute": "KUMEV → DEVAD → CNF → TISLO → PALIR → VASIX",
+    "transitions": [
+      {
+        "fix": "ANDEM",
+        "desc": "43.73 NM · via OGMER"
+      },
+      {
+        "fix": "DEUCA",
+        "desc": "25.21 NM · via KOVED"
+      },
+      {
+        "fix": "MIMIP",
+        "desc": "6.46 NM · via UBREK"
+      }
+    ]
+  },
+  {
+    "id": "sid-arpum1b",
+    "type": "SID",
+    "runway": "34",
+    "name": "ARPUM 1B",
+    "category": "RNAV",
+    "chartKey": "CF01W",
+    "geometryKey": "SID|ARPUM1B|34",
+    "notes": "",
+    "fixes": [
+      "CNF",
+      "CF066",
+      "ARPUM",
+      "ILPIR",
+      "CF068",
+      "EVTEK",
+      "KADOR"
+    ],
+    "commonRoute": "CNF → CF066 → ARPUM",
+    "transitions": [
+      {
+        "fix": "ILPIR",
+        "desc": "15.1 NM"
+      },
+      {
+        "fix": "EVTEK",
+        "desc": "45.24 NM · via CF068"
+      },
+      {
+        "fix": "KADOR",
+        "desc": "44.24 NM · via ILPIR"
+      }
+    ]
+  },
+  {
+    "id": "sid-gedad1b",
+    "type": "SID",
+    "runway": "34",
+    "name": "GEDAD 1B",
+    "category": "RNAV",
+    "chartKey": "CF01Y",
+    "geometryKey": "SID|GEDAD1B|34",
+    "notes": "",
+    "fixes": [
+      "CNF",
+      "CF061",
+      "CF062",
+      "GEDAD",
+      "KOVED",
+      "DEUCA",
+      "NEKEG",
+      "MIMIP",
+      "MOTMA",
+      "ANDEM"
+    ],
+    "commonRoute": "CNF → CF061 → CF062 → GEDAD",
+    "transitions": [
+      {
+        "fix": "DEUCA",
+        "desc": "25.21 NM · via KOVED"
+      },
+      {
+        "fix": "MIMIP",
+        "desc": "7.3 NM · via NEKEG"
+      },
+      {
+        "fix": "ANDEM",
+        "desc": "42.98 NM · via MOTMA"
+      }
+    ]
+  },
+  {
+    "id": "sid-iraxo2b",
+    "type": "SID",
+    "runway": "34",
+    "name": "IRAXO 2B",
+    "category": "RNAV",
+    "chartKey": "CF01V",
+    "geometryKey": "SID|IRAXO2B|34",
+    "notes": "",
+    "fixes": [
+      "CNF",
+      "CF061",
+      "DEVAD",
+      "IRAXO",
+      "KUBEX",
+      "CF064",
+      "OPSAB",
+      "POPNI",
+      "IVPEL",
+      "DOMRO",
+      "PANAS",
+      "GAZAR",
+      "ESLUM",
+      "MAVGU",
+      "GAVAB",
+      "EVPAD"
+    ],
+    "commonRoute": "CNF → CF061 → DEVAD → IRAXO",
+    "transitions": [
+      {
+        "fix": "PANAS",
+        "desc": "30 NM · via KUBEX → CF064 → OPSAB → POPNI → IVPEL → DOMRO"
+      },
+      {
+        "fix": "MAVGU",
+        "desc": "32.77 NM · via GAZAR → ESLUM"
+      },
+      {
+        "fix": "GAZAR",
+        "desc": "40.02 NM"
+      },
+      {
+        "fix": "EVPAD",
+        "desc": "8.84 NM · via KUBEX → CF064 → OPSAB → POPNI → GAVAB"
+      }
+    ]
+  },
+  {
+    "id": "sid-torux1b",
+    "type": "SID",
+    "runway": "34",
+    "name": "TORUX 1B",
+    "category": "RNAV",
+    "chartKey": "CF01X",
+    "geometryKey": "SID|TORUX1B|34",
+    "notes": "",
+    "fixes": [
+      "CNF",
+      "TORUX",
+      "VAPUX",
+      "PABES",
+      "EDSUX",
+      "RORIP",
+      "GIMPO"
+    ],
+    "commonRoute": "CNF → TORUX",
+    "transitions": [
+      {
+        "fix": "PABES",
+        "desc": "54.4 NM · via VAPUX"
+      },
+      {
+        "fix": "RORIP",
+        "desc": "55.74 NM · via EDSUX"
+      },
+      {
+        "fix": "GIMPO",
+        "desc": "22.89 NM"
+      }
+    ]
+  },
+  {
+    "id": "star-along1a",
+    "type": "STAR",
+    "runway": "16",
+    "name": "ALONG 1A",
+    "category": "RNAV",
+    "chartKey": "CF01K",
+    "geometryKey": "STAR|ALONG1A|16",
+    "notes": "",
+    "fixes": [
+      "OPTEB",
+      "ALONG",
+      "ISNEM",
+      "USVOL",
+      "CF033",
+      "AKPUV"
+    ],
+    "entryFixes": [
+      "OPTEB",
+      "ISNEM",
+      "USVOL"
+    ],
+    "route": null,
+    "iaf": "ALONG"
+  },
+  {
+    "id": "star-ensig1a",
+    "type": "STAR",
+    "runway": "16",
+    "name": "ENSIG 1A",
+    "category": "RNAV",
+    "chartKey": "CF01J",
+    "geometryKey": "STAR|ENSIG1A|16",
+    "notes": "",
+    "fixes": [
+      "VULAD",
+      "ENSIG",
+      "REINA",
+      "GEVMI",
+      "EKINU",
+      "CF009",
+      "CF008",
+      "CF007",
+      "CF006",
+      "OSOMI"
+    ],
+    "entryFixes": [
+      "VULAD",
+      "REINA",
+      "GEVMI"
+    ],
+    "route": null,
+    "iaf": "OSOMI"
+  },
+  {
+    "id": "star-kugut1a",
+    "type": "STAR",
+    "runway": "16",
+    "name": "KUGUT 1A",
+    "category": "RNAV",
+    "chartKey": "CF01L",
+    "geometryKey": "STAR|KUGUT1A|16",
+    "notes": "",
+    "fixes": [
+      "NIPDA",
+      "CF041",
+      "CF038",
+      "KUGUT",
+      "PULKU",
+      "TOKUR",
+      "CF036",
+      "KIMUS",
+      "CF039",
+      "AKPUV"
+    ],
+    "entryFixes": [
+      "NIPDA",
+      "PULKU",
+      "TOKUR"
+    ],
+    "route": null,
+    "iaf": "KUGUT"
+  },
+  {
+    "id": "star-sinix1a",
+    "type": "STAR",
+    "runway": "16",
+    "name": "SINIX 1A",
+    "category": "RNAV",
+    "chartKey": "CF01M",
+    "geometryKey": "STAR|SINIX1A|16",
+    "notes": "",
+    "fixes": [
+      "AROVA",
+      "KIBAP",
+      "SINIX",
+      "EVSEL",
+      "CF072",
+      "CF071",
+      "CF013",
+      "TISLO"
+    ],
+    "entryFixes": [
+      "AROVA",
+      "KIBAP"
+    ],
+    "route": null,
+    "iaf": "TISLO"
+  },
+  {
+    "id": "star-along1b",
+    "type": "STAR",
+    "runway": "34",
+    "name": "ALONG 1B",
+    "category": "RNAV",
+    "chartKey": "CF01O",
+    "geometryKey": "STAR|ALONG1B|34",
+    "notes": "",
+    "fixes": [
+      "ISNEM",
+      "ALONG",
+      "USVOL",
+      "OPTEB",
+      "CF033",
+      "AKPUV",
+      "CF039",
+      "KUGUT"
+    ],
+    "entryFixes": [
+      "ISNEM",
+      "USVOL",
+      "OPTEB"
+    ],
+    "route": null,
+    "iaf": "KUGUT"
+  },
+  {
+    "id": "star-ensig1b",
+    "type": "STAR",
+    "runway": "34",
+    "name": "ENSIG 1B",
+    "category": "RNAV",
+    "chartKey": "CF01Q",
+    "geometryKey": "STAR|ENSIG1B|34",
+    "notes": "",
+    "fixes": [
+      "VULAD",
+      "ENSIG",
+      "REINA",
+      "GEVMI",
+      "EKINU",
+      "CF009",
+      "CF008",
+      "AKPUV",
+      "CF039",
+      "KUGUT"
+    ],
+    "entryFixes": [
+      "VULAD",
+      "REINA",
+      "GEVMI"
+    ],
+    "route": null,
+    "iaf": "KUGUT"
+  },
+  {
+    "id": "star-kimus1b",
+    "type": "STAR",
+    "runway": "34",
+    "name": "KIMUS 1B",
+    "category": "RNAV",
+    "chartKey": "CF01N",
+    "geometryKey": "STAR|KIMUS1B|34",
+    "notes": "",
+    "fixes": [
+      "NIPDA",
+      "CF037",
+      "KIMUS",
+      "PULKU",
+      "TOKUR",
+      "CF036",
+      "CF044",
+      "OPSAB",
+      "CF046",
+      "CF047",
+      "VADON"
+    ],
+    "entryFixes": [
+      "NIPDA",
+      "PULKU",
+      "TOKUR"
+    ],
+    "route": null,
+    "iaf": "KIMUS"
+  },
+  {
+    "id": "star-sinix1b",
+    "type": "STAR",
+    "runway": "34",
+    "name": "SINIX 1B",
+    "category": "RNAV",
+    "chartKey": "CF01P",
+    "geometryKey": "STAR|SINIX1B|34",
+    "notes": "",
+    "fixes": [
+      "AROVA",
+      "KIBAP",
+      "SINIX",
+      "CF051",
+      "EVSEL",
+      "CF072",
+      "CF048",
+      "CF039",
+      "KUGUT"
+    ],
+    "entryFixes": [
+      "AROVA",
+      "KIBAP"
+    ],
+    "route": null,
+    "iaf": "KUGUT"
+  }
+]

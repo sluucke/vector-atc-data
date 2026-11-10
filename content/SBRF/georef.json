@@ -1,0 +1,28 @@
+{
+  "RF00O": {
+    "file": "/charts/SBRF/star-rf00o-rnav-ensap-2c-rwy-36.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          329.7243554,
+          0,
+          -3928979.032,
+          0,
+          -329.7243554,
+          -760141.2873
+        ],
+        "fixes": [
+          "ENSAP",
+          "LOLUK",
+          "RF009",
+          "RF048",
+          "RF078",
+          "RF091"
+        ],
+        "rmsMeters": 693
+      }
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "RJ00M": {
+    "file": "/charts/SBRJ/iac-rj00m-rnp-e-rwy-20l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          194.6738775,
+          0,
+          -4853298.018,
+          0,
+          -194.6738775,
+          -2576485.991
+        ],
+        "fixes": [
+          "GELUT",
+          "RJ031",
+          "RJ107",
+          "RJ941"
+        ],
+        "rmsMeters": 580
+      }
+    }
+  },
+  "RJ03B": {
+    "file": "/charts/SBRJ/iac-rj03b-rnp-f-rwy-20l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          179.9908915,
+          0,
+          -4852155.614,
+          0,
+          -179.9908915,
+          -2582143.179
+        ],
+        "fixes": [
+          "GELUT",
+          "RJ031",
+          "RJ941",
+          "RJ942"
+        ],
+        "rmsMeters": 373
+      }
+    }
+  },
+  "RJ03A": {
+    "file": "/charts/SBRJ/iac-rj03a-rnp-g-rwy-20l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          157.7575672,
+          0,
+          -4822275.036,
+          0,
+          -157.7575672,
+          -2582176.263
+        ],
+        "fixes": [
+          "RJ010",
+          "RJ943",
+          "RJ947",
+          "RJ951"
+        ],
+        "rmsMeters": 200
+      }
+    }
+  },
+  "RJ02Y": {
+    "file": "/charts/SBRJ/iac-rj02y-rnp-l-rwy-02r.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          139.6668019,
+          0,
+          -4850515.119,
+          0,
+          -139.6668019,
+          -2586633.395
+        ],
+        "fixes": [
+          "GELUT",
+          "RJ031",
+          "RJ048",
+          "RJ049",
+          "RJ081"
+        ],
+        "rmsMeters": 427
+      }
+    }
+  },
+  "RJ01G": {
+    "file": "/charts/SBRJ/iac-rj01g-rnp-v-rwy-20l-ar.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          56.80691826,
+          0,
+          -4808083.965,
+          0,
+          -56.80691826,
+          -2606850.217
+        ],
+        "fixes": [
+          "RJ241",
+          "RJ251",
+          "RJ906",
+          "RJ907",
+          "RJ908",
+          "RJ911",
+          "RJ933",
+          "RW20L"
+        ],
+        "rmsMeters": 199
+      }
+    }
+  },
+  "RJ03H": {
+    "file": "/charts/SBRJ/iac-rj03h-vor-a-rwy-20l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          189.1216878,
+          0,
+          -4836915.775,
+          0,
+          -189.1216878,
+          -2567681.787
+        ],
+        "fixes": [
+          "EVRIR",
+          "IRIPO",
+          "JORGE",
+          "NAFIL"
+        ],
+        "rmsMeters": 315
+      }
+    }
+  },
+  "RJ00Q": {
+    "file": "/charts/SBRJ/sid-rj00q-pumso-4b-rwy-02r.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          273.9788676,
+          0,
+          -4826519.637,
+          0,
+          -273.9788676,
+          -2484026.166
+        ],
+        "fixes": [
+          "ISRIN",
+          "MALDU",
+          "PUMSO",
+          "UBMIG"
+        ],
+        "rmsMeters": 340
+      }
+    }
+  }
+}

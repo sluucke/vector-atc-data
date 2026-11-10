@@ -1,0 +1,26 @@
+{
+  "SV03K": {
+    "file": "/charts/SBSV/sid-sv03k-rnav-pabuk-1a-rwy-10.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          382.7491087,
+          0,
+          -4361900.284,
+          0,
+          -382.7491087,
+          -1240647.014
+        ],
+        "fixes": [
+          "MEVUP",
+          "PABUK",
+          "SV058",
+          "VAMOT"
+        ],
+        "rmsMeters": 855
+      }
+    }
+  }
+}

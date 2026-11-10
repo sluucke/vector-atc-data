@@ -1,0 +1,7 @@
+/node_modules
+/dist
+# PDFs are published as a release asset, not versioned.
+/charts
+.env*
+!.env.example
+.DS_Store

@@ -1,0 +1,349 @@
+{
+  "icao": "SBCF",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBCF",
+  "charts": [
+    {
+      "key": "sbcf-adc",
+      "type": "ADC",
+      "name": "SBCF ADC",
+      "code": "",
+      "amdt": "2607A1",
+      "date": "2026-07-09",
+      "file": "/charts/SBCF/adc-sbcf-adc-sbcf-adc.pdf"
+    },
+    {
+      "key": "arc-sbwh",
+      "type": "ARC",
+      "name": "ARC BELO HORIZONTE",
+      "code": "SBWH",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBCF/arc-sbwh-arc-belo-horizonte.pdf"
+    },
+    {
+      "key": "atcsmac-sbwh",
+      "type": "ATCSMAC",
+      "name": "TMA BELO HORIZONTE",
+      "code": "SBWH",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBCF/atcsmac-sbwh-tma-belo-horizonte.pdf"
+    },
+    {
+      "key": "CF00Y",
+      "type": "IAC",
+      "name": "ILS K RWY 16",
+      "code": "CF00Y",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBCF/iac-cf00y-ils-k-rwy-16.pdf"
+    },
+    {
+      "key": "CF02C",
+      "type": "IAC",
+      "name": "ILS W OR LOC W RWY 16",
+      "code": "CF02C",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBCF/iac-cf02c-ils-w-or-loc-w-rwy-16.pdf"
+    },
+    {
+      "key": "CF03C",
+      "type": "IAC",
+      "name": "ILS X RWY 34",
+      "code": "CF03C",
+      "amdt": "2307A1",
+      "date": "2023-07-13",
+      "file": "/charts/SBCF/iac-cf03c-ils-x-rwy-34.pdf"
+    },
+    {
+      "key": "CF03O",
+      "type": "IAC",
+      "name": "ILS Y RWY 16",
+      "code": "CF03O",
+      "amdt": "2607A1",
+      "date": "2026-07-09",
+      "file": "/charts/SBCF/iac-cf03o-ils-y-rwy-16.pdf"
+    },
+    {
+      "key": "CF03U",
+      "type": "IAC",
+      "name": "ILS Y RWY 34",
+      "code": "CF03U",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBCF/iac-cf03u-ils-y-rwy-34.pdf"
+    },
+    {
+      "key": "CF03B",
+      "type": "IAC",
+      "name": "ILS Z OR LOC Z RWY 34",
+      "code": "CF03B",
+      "amdt": "2103A1",
+      "date": "2021-03-25",
+      "file": "/charts/SBCF/iac-cf03b-ils-z-or-loc-z-rwy-34.pdf"
+    },
+    {
+      "key": "CF01F",
+      "type": "IAC",
+      "name": "RNP RWY 16",
+      "code": "CF01F",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBCF/iac-cf01f-rnp-rwy-16.pdf"
+    },
+    {
+      "key": "CF03N",
+      "type": "IAC",
+      "name": "RNP Y RWY 16",
+      "code": "CF03N",
+      "amdt": "2607A1",
+      "date": "2026-07-09",
+      "file": "/charts/SBCF/iac-cf03n-rnp-y-rwy-16.pdf"
+    },
+    {
+      "key": "CF03T",
+      "type": "IAC",
+      "name": "RNP Y RWY 34",
+      "code": "CF03T",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBCF/iac-cf03t-rnp-y-rwy-34.pdf"
+    },
+    {
+      "key": "CF03D",
+      "type": "IAC",
+      "name": "RNP Z RWY 34",
+      "code": "CF03D",
+      "amdt": "2601A1",
+      "date": "2026-01-22",
+      "file": "/charts/SBCF/iac-cf03d-rnp-z-rwy-34.pdf"
+    },
+    {
+      "key": "CF01D",
+      "type": "IAC",
+      "name": "VOR RWY 16",
+      "code": "CF01D",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBCF/iac-cf01d-vor-rwy-16.pdf"
+    },
+    {
+      "key": "CF01E",
+      "type": "IAC",
+      "name": "VOR Y RWY 34",
+      "code": "CF01E",
+      "amdt": "2108A1",
+      "date": "2021-08-12",
+      "file": "/charts/SBCF/iac-cf01e-vor-y-rwy-34.pdf"
+    },
+    {
+      "key": "pdc-1",
+      "type": "PDC",
+      "name": "PDC 1",
+      "code": "",
+      "amdt": "2313A1",
+      "date": "2023-12-28",
+      "file": "/charts/SBCF/pdc-pdc-1-pdc-1.pdf"
+    },
+    {
+      "key": "pdc-2",
+      "type": "PDC",
+      "name": "PDC 2",
+      "code": "",
+      "amdt": "2207A1",
+      "date": "2022-07-14",
+      "file": "/charts/SBCF/pdc-pdc-2-pdc-2.pdf"
+    },
+    {
+      "key": "rea-wh",
+      "type": "REA",
+      "name": "WH-Belo Horizonte",
+      "code": "SBWH",
+      "amdt": "2409A0",
+      "date": "2024-09-05",
+      "file": "/charts/SBCF/rea-wh-wh-belo-horizonte.pdf"
+    },
+    {
+      "key": "omni-rwy-16-34",
+      "type": "SID",
+      "name": "OMNI RWY 16/34",
+      "code": "",
+      "amdt": "2212A1",
+      "date": "2022-12-01",
+      "file": "/charts/SBCF/sid-omni-rwy-16-34-omni-rwy-16-34.pdf"
+    },
+    {
+      "key": "CF01W",
+      "type": "SID",
+      "name": "RNAV ARPUM 1B RWY 34",
+      "code": "CF01W",
+      "amdt": "2503A1",
+      "date": "2025-03-20",
+      "file": "/charts/SBCF/sid-cf01w-rnav-arpum-1b-rwy-34.pdf"
+    },
+    {
+      "key": "CF01U",
+      "type": "SID",
+      "name": "RNAV DOBTA 1A RWY 16",
+      "code": "CF01U",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBCF/sid-cf01u-rnav-dobta-1a-rwy-16.pdf"
+    },
+    {
+      "key": "CF01Y",
+      "type": "SID",
+      "name": "RNAV GEDAD 1B RWY 34",
+      "code": "CF01Y",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBCF/sid-cf01y-rnav-gedad-1b-rwy-34.pdf"
+    },
+    {
+      "key": "CF01V",
+      "type": "SID",
+      "name": "RNAV IRAXO 2B RWY 34",
+      "code": "CF01V",
+      "amdt": "2409A1",
+      "date": "2024-09-05",
+      "file": "/charts/SBCF/sid-cf01v-rnav-iraxo-2b-rwy-34.pdf"
+    },
+    {
+      "key": "CF01R",
+      "type": "SID",
+      "name": "RNAV ISNUV 2A RWY 16",
+      "code": "CF01R",
+      "amdt": "2408A1",
+      "date": "2024-08-08",
+      "file": "/charts/SBCF/sid-cf01r-rnav-isnuv-2a-rwy-16.pdf"
+    },
+    {
+      "key": "CF01S",
+      "type": "SID",
+      "name": "RNAV KUBEX 3A RWY 16",
+      "code": "CF01S",
+      "amdt": "2409A1",
+      "date": "2024-09-05",
+      "file": "/charts/SBCF/sid-cf01s-rnav-kubex-3a-rwy-16.pdf"
+    },
+    {
+      "key": "CF03I",
+      "type": "SID",
+      "name": "RNAV VASIX 1A RWY 16",
+      "code": "CF03I",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBCF/sid-cf03i-rnav-vasix-1a-rwy-16.pdf"
+    },
+    {
+      "key": "CF01X",
+      "type": "SID",
+      "name": "SID RNAV TORUX 1B RWY 34",
+      "code": "CF01X",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBCF/sid-cf01x-sid-rnav-torux-1b-rwy-34.pdf"
+    },
+    {
+      "key": "CF01T",
+      "type": "SID",
+      "name": "SID RNAV TORUX 2A RWY 16",
+      "code": "CF01T",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBCF/sid-cf01t-sid-rnav-torux-2a-rwy-16.pdf"
+    },
+    {
+      "key": "CF01K",
+      "type": "STAR",
+      "name": "RNAV ALONG 1A RWY 16",
+      "code": "CF01K",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBCF/star-cf01k-rnav-along-1a-rwy-16.pdf"
+    },
+    {
+      "key": "CF01O",
+      "type": "STAR",
+      "name": "RNAV ALONG 1B RWY 34",
+      "code": "CF01O",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBCF/star-cf01o-rnav-along-1b-rwy-34.pdf"
+    },
+    {
+      "key": "CF01J",
+      "type": "STAR",
+      "name": "RNAV ENSIG 1A RWY 16",
+      "code": "CF01J",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBCF/star-cf01j-rnav-ensig-1a-rwy-16.pdf"
+    },
+    {
+      "key": "CF01Q",
+      "type": "STAR",
+      "name": "RNAV ENSIG 1B RWY 34",
+      "code": "CF01Q",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBCF/star-cf01q-rnav-ensig-1b-rwy-34.pdf"
+    },
+    {
+      "key": "CF01N",
+      "type": "STAR",
+      "name": "RNAV KIMUS 1B RWY 34",
+      "code": "CF01N",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBCF/star-cf01n-rnav-kimus-1b-rwy-34.pdf"
+    },
+    {
+      "key": "CF01L",
+      "type": "STAR",
+      "name": "RNAV KUGUT 1A RWY 16",
+      "code": "CF01L",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBCF/star-cf01l-rnav-kugut-1a-rwy-16.pdf"
+    },
+    {
+      "key": "CF01M",
+      "type": "STAR",
+      "name": "RNAV SINIX 1A RWY 16",
+      "code": "CF01M",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBCF/star-cf01m-rnav-sinix-1a-rwy-16.pdf"
+    },
+    {
+      "key": "CF01P",
+      "type": "STAR",
+      "name": "RNAV SINIX 1B RWY 34",
+      "code": "CF01P",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBCF/star-cf01p-rnav-sinix-1b-rwy-34.pdf"
+    },
+    {
+      "key": "rwy-16-34",
+      "type": "VAC",
+      "name": "RWY 16/34",
+      "code": "",
+      "amdt": "2512A1",
+      "date": "2025-11-27",
+      "file": "/charts/SBCF/vac-rwy-16-34-rwy-16-34.pdf"
+    },
+    {
+      "key": "rwy-16-34-cat-h",
+      "type": "VAC",
+      "name": "RWY 16/34 CAT H",
+      "code": "",
+      "amdt": "2512A1",
+      "date": "2025-11-27",
+      "file": "/charts/SBCF/vac-rwy-16-34-cat-h-rwy-16-34-cat-h.pdf"
+    }
+  ]
+}

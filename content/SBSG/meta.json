@@ -1,0 +1,61 @@
+{
+  "icao": "SBSG",
+  "name": "Natal / São Gonçalo do Amarante — Governador Aluízio Alves, INTL",
+  "elevation": "273'",
+  "ta": "4000'",
+  "msa": "3000' (25NM ARP)",
+  "fir": "Recife (SBRE)",
+  "operational": {
+    "transitionAltitude": 4000,
+    "transitionAltitudeSource": "Carta DECEA AIRAC 2603A1 — confirmar com o MOPS da TMA Natal",
+    "ivaoWikiUrl": "https://wiki.br.ivao.aero/atcops/mops/sbre",
+    "magneticVariation": -21,
+    "magneticVariationSource": "Carta DECEA — VAR 21°W"
+  },
+  "airac": {
+    "cycle": "2603A1",
+    "effective": "2026-03-19",
+    "checkedAt": "2026-09-10",
+    "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBSG"
+  },
+  "frequencies": {
+    "dAtis": [
+      "127.600"
+    ],
+    "twr": [
+      "118.200",
+      "118.850"
+    ],
+    "app": [
+      "119.300",
+      "119.650",
+      "120.650",
+      "129.800"
+    ],
+    "acc": [
+      "126.000"
+    ],
+    "accExtended": [
+      "135.800",
+      "135.250",
+      "126.700",
+      "135.300",
+      "134.800",
+      "126.850"
+    ],
+    "network": {
+      "source": "Centro conforme as posições da divisão IVAO Brasil; APP conforme a carta DECEA",
+      "app": "SBXT_APP",
+      "acc": "SBRE_CTR"
+    }
+  },
+  "runways": [
+    "12",
+    "30"
+  ],
+  "runwaysNote": "Pista única 12/30.",
+  "observations": [
+    "TMA Natal — a posição de controle de aproximação é SBXT_APP.",
+    "FIR/ACC: Natal está sob a FIR Recife; as coordenações de entrada e saída de área são feitas com o ACC-RE."
+  ]
+}

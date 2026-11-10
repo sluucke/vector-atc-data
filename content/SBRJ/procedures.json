@@ -1,0 +1,626 @@
+[
+  {
+    "id": "sid-evkox2b",
+    "type": "SID",
+    "runway": "02R",
+    "name": "EVKOX 2B",
+    "category": "RNAV",
+    "chartKey": "RJ03F",
+    "geometryKey": "SID|EVKOX2B|02R",
+    "notes": "",
+    "fixes": [
+      "RJ912",
+      "MALDU",
+      "UTGAT",
+      "EVKOX",
+      "TIVRO",
+      "ARSOV",
+      "NAXOP",
+      "BITAK",
+      "DOVDA",
+      "EVLOG",
+      "RJ003",
+      "RJ004",
+      "ESORU"
+    ],
+    "commonRoute": "RJ912 → MALDU → UTGAT → EVKOX",
+    "transitions": [
+      {
+        "fix": "NAXOP",
+        "desc": "12.91 NM · via TIVRO → ARSOV"
+      },
+      {
+        "fix": "BITAK",
+        "desc": "22.46 NM · via TIVRO"
+      },
+      {
+        "fix": "ESORU",
+        "desc": "53.06 NM · via DOVDA → EVLOG → RJ003 → RJ004"
+      }
+    ]
+  },
+  {
+    "id": "sid-evkox4a",
+    "type": "SID",
+    "runway": "02R",
+    "name": "EVKOX 4A",
+    "category": "RNAV",
+    "chartKey": "RJ02N",
+    "geometryKey": "SID|EVKOX4A|02R",
+    "notes": "",
+    "fixes": [
+      "MALDU",
+      "UTGAT",
+      "EVKOX",
+      "TIVRO",
+      "ARSOV",
+      "NAXOP",
+      "BITAK",
+      "DOVDA",
+      "EVLOG",
+      "RJ003",
+      "RJ004",
+      "ESORU"
+    ],
+    "commonRoute": "MALDU → UTGAT → EVKOX",
+    "transitions": [
+      {
+        "fix": "NAXOP",
+        "desc": "12.91 NM · via TIVRO → ARSOV"
+      },
+      {
+        "fix": "BITAK",
+        "desc": "22.46 NM · via TIVRO"
+      },
+      {
+        "fix": "ESORU",
+        "desc": "53.06 NM · via DOVDA → EVLOG → RJ003 → RJ004"
+      }
+    ]
+  },
+  {
+    "id": "sid-evsob2b",
+    "type": "SID",
+    "runway": "02R",
+    "name": "EVSOB 2B",
+    "category": "CONV",
+    "chartKey": "RJ02W",
+    "geometryKey": "SID|EVSOB2B|02R",
+    "notes": "",
+    "fixes": [
+      "OPLOS",
+      "EVSOB",
+      "VAMIX",
+      "TIVRO",
+      "BITAK",
+      "RJ317*",
+      "RJ318*",
+      "RJ319*",
+      "PAI",
+      "ESORU"
+    ],
+    "commonRoute": "OPLOS → EVSOB",
+    "transitions": [
+      {
+        "fix": "BITAK",
+        "desc": "22.46 NM · via VAMIX → TIVRO"
+      },
+      {
+        "fix": "ESORU",
+        "desc": "57.8 NM · via VAMIX → RJ317* → RJ318* → RJ319* → PAI"
+      }
+    ]
+  },
+  {
+    "id": "sid-pumso4a",
+    "type": "SID",
+    "runway": "02R",
+    "name": "PUMSO 4A",
+    "category": "RNAV",
+    "chartKey": "RJ00P",
+    "geometryKey": "SID|PUMSO4A|02R",
+    "notes": "",
+    "fixes": [
+      "MALDU",
+      "UBMIG",
+      "PUMSO",
+      "ADA",
+      "BUSVO",
+      "PCX",
+      "ASKAV",
+      "ISRIN",
+      "IMBAP",
+      "TOSAT",
+      "MUDKA",
+      "TISVA",
+      "UKENU",
+      "TF",
+      "DAKDA"
+    ],
+    "commonRoute": "MALDU → UBMIG → PUMSO",
+    "transitions": [
+      {
+        "fix": "ADA",
+        "desc": "41 NM"
+      },
+      {
+        "fix": "ISRIN",
+        "desc": "9.97 NM · via BUSVO → PCX → ASKAV"
+      },
+      {
+        "fix": "IMBAP",
+        "desc": "37.41 NM · via BUSVO → PCX → ASKAV → ISRIN"
+      },
+      {
+        "fix": "MUDKA",
+        "desc": "15.84 NM · via BUSVO → PCX → ASKAV → ISRIN → TOSAT"
+      },
+      {
+        "fix": "TISVA",
+        "desc": "36.54 NM"
+      },
+      {
+        "fix": "UKENU",
+        "desc": "85.07 NM · via BUSVO → PCX → ASKAV → ISRIN"
+      },
+      {
+        "fix": "DAKDA",
+        "desc": "53.08 NM · via TF → PCX → ASKAV → ISRIN"
+      }
+    ]
+  },
+  {
+    "id": "sid-pumso4b",
+    "type": "SID",
+    "runway": "02R",
+    "name": "PUMSO 4B",
+    "category": "CONV",
+    "chartKey": "RJ00Q",
+    "geometryKey": "SID|PUMSO4B|02R",
+    "notes": "",
+    "fixes": [
+      "MALDU",
+      "UBMIG",
+      "PUMSO",
+      "ADA",
+      "BUSVO",
+      "PCX",
+      "ISRIN"
+    ],
+    "commonRoute": "MALDU → UBMIG → PUMSO",
+    "transitions": [
+      {
+        "fix": "ADA",
+        "desc": "41 NM"
+      },
+      {
+        "fix": "ISRIN",
+        "desc": "33.67 NM · ≤18000 ft · via BUSVO → PCX"
+      }
+    ]
+  },
+  {
+    "id": "sid-rnpevkox2f",
+    "type": "SID",
+    "runway": "02R/20L",
+    "name": "RNP EVKOX 2F",
+    "category": "CONV",
+    "chartKey": "RJ02J",
+    "geometryKey": "SID|RNPEVKOX2F|02R/20L",
+    "notes": "",
+    "fixes": [
+      "RJ006",
+      "RJ076",
+      "RJ078",
+      "EVSOB",
+      "RJ016",
+      "RJ022",
+      "MALDU",
+      "UTGAT",
+      "EVKOX",
+      "DOVDA",
+      "EVLOG",
+      "RJ003",
+      "RJ004",
+      "ESORU",
+      "TIVRO",
+      "ARSOV",
+      "NAXOP",
+      "BITAK"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "RWY20",
+        "desc": "3.73 NM · via RJ076 → RJ078"
+      },
+      {
+        "fix": "RWY02",
+        "desc": "4.74 NM · via RJ022 → MALDU → UTGAT"
+      },
+      {
+        "fix": "COMMON",
+        "desc": "5.26 NM"
+      },
+      {
+        "fix": "ESORU",
+        "desc": "53.06 NM · via DOVDA → EVLOG → RJ003 → RJ004"
+      },
+      {
+        "fix": "NAXOP",
+        "desc": "12.91 NM · via TIVRO → ARSOV"
+      },
+      {
+        "fix": "BITAK",
+        "desc": "22.46 NM · via TIVRO"
+      }
+    ]
+  },
+  {
+    "id": "sid-evkox2c",
+    "type": "SID",
+    "runway": "20L",
+    "name": "EVKOX 2C",
+    "category": "RNAV",
+    "chartKey": "RJ02U",
+    "geometryKey": "SID|EVKOX2C|20L",
+    "notes": "",
+    "fixes": [
+      "LOKOD",
+      "EVSOB",
+      "EVKOX",
+      "TIVRO",
+      "ARSOV",
+      "NAXOP",
+      "BITAK",
+      "DOVDA",
+      "EVLOG",
+      "RJ003",
+      "RJ004",
+      "ESORU"
+    ],
+    "commonRoute": "LOKOD → EVSOB → EVKOX",
+    "transitions": [
+      {
+        "fix": "NAXOP",
+        "desc": "12.91 NM · via TIVRO → ARSOV"
+      },
+      {
+        "fix": "BITAK",
+        "desc": "22.46 NM · via TIVRO"
+      },
+      {
+        "fix": "ESORU",
+        "desc": "53.06 NM · via DOVDA → EVLOG → RJ003 → RJ004"
+      }
+    ]
+  },
+  {
+    "id": "sid-evsob1d",
+    "type": "SID",
+    "runway": "20L",
+    "name": "EVSOB 1D",
+    "category": "CONV",
+    "chartKey": "RJ02O",
+    "geometryKey": "SID|EVSOB1D|20L",
+    "notes": "",
+    "fixes": [
+      "LOKOD",
+      "EVSOB",
+      "VAMIX",
+      "TIVRO",
+      "BITAK",
+      "RJ317*",
+      "RJ318*",
+      "RJ319*",
+      "PAI",
+      "ESORU"
+    ],
+    "commonRoute": "LOKOD → EVSOB",
+    "transitions": [
+      {
+        "fix": "BITAK",
+        "desc": "22.46 NM · via VAMIX → TIVRO"
+      },
+      {
+        "fix": "ESORU",
+        "desc": "57.8 NM · via VAMIX → RJ317* → RJ318* → RJ319* → PAI"
+      }
+    ]
+  },
+  {
+    "id": "sid-isrin1a",
+    "type": "SID",
+    "runway": "20L",
+    "name": "ISRIN 1A",
+    "category": "CONV",
+    "chartKey": "RJ01B",
+    "geometryKey": "SID|ISRIN1A|20L",
+    "notes": "",
+    "fixes": [
+      "LOKOD",
+      "LOKUL",
+      "OPNIL",
+      "NIPKO",
+      "PCX",
+      "ISRIN"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "ISRIN",
+        "desc": "33.67 NM · ≤18000 ft · via LOKUL → OPNIL → NIPKO → PCX"
+      }
+    ]
+  },
+  {
+    "id": "sid-pumso3c",
+    "type": "SID",
+    "runway": "20L",
+    "name": "PUMSO 3C",
+    "category": "RNAV",
+    "chartKey": "RJ01A",
+    "geometryKey": "SID|PUMSO3C|20L",
+    "notes": "",
+    "fixes": [
+      "LOKOD",
+      "LOKUL",
+      "UDIRA",
+      "PUMSO",
+      "BUSVO",
+      "PCX",
+      "ASKAV",
+      "ISRIN",
+      "TOSAT",
+      "MUDKA",
+      "IMBAP",
+      "UKENU",
+      "TISVA",
+      "ADA",
+      "DAKDA"
+    ],
+    "commonRoute": "LOKOD → LOKUL → UDIRA → PUMSO",
+    "transitions": [
+      {
+        "fix": "ISRIN",
+        "desc": "9.97 NM · via BUSVO → PCX → ASKAV"
+      },
+      {
+        "fix": "MUDKA",
+        "desc": "15.84 NM · via BUSVO → PCX → ASKAV → ISRIN → TOSAT"
+      },
+      {
+        "fix": "IMBAP",
+        "desc": "37.41 NM · via BUSVO → PCX → ASKAV → ISRIN"
+      },
+      {
+        "fix": "UKENU",
+        "desc": "85.07 NM · via BUSVO → PCX → ASKAV → ISRIN"
+      },
+      {
+        "fix": "TISVA",
+        "desc": "36.54 NM"
+      },
+      {
+        "fix": "ADA",
+        "desc": "41 NM"
+      },
+      {
+        "fix": "DAKDA",
+        "desc": "53.08 NM · via BUSVO → PCX → ASKAV → ISRIN"
+      }
+    ]
+  },
+  {
+    "id": "star-makti2a",
+    "type": "STAR",
+    "runway": "02L/02R",
+    "name": "MAKTI 2A",
+    "category": "RNAV",
+    "chartKey": "RJ02S",
+    "geometryKey": "STAR|MAKTI2A|02L/02R",
+    "notes": "",
+    "fixes": [
+      "KOLBI",
+      "VUDAV",
+      "RJ707",
+      "MAKTI",
+      "MOVGI"
+    ],
+    "entryFixes": [
+      "KOLBI"
+    ],
+    "route": null,
+    "iaf": "RJ707"
+  },
+  {
+    "id": "star-sinag1a",
+    "type": "STAR",
+    "runway": "02L/02R",
+    "name": "SINAG 1A",
+    "category": "RNAV",
+    "chartKey": "RJ02S",
+    "geometryKey": "STAR|SINAG1A|02L/02R",
+    "notes": "",
+    "fixes": [
+      "MCA",
+      "SINAG",
+      "UMDED",
+      "TOLOM",
+      "POPSU"
+    ],
+    "entryFixes": [
+      "MCA"
+    ],
+    "route": null,
+    "iaf": "POPSU"
+  },
+  {
+    "id": "star-asalu1b",
+    "type": "STAR",
+    "runway": "02R",
+    "name": "ASALU 1B",
+    "category": "RNAV",
+    "chartKey": "RJ02V",
+    "geometryKey": "STAR|ASALU1B|02R",
+    "notes": "",
+    "fixes": [
+      "KEVUN",
+      "RJ313",
+      "RJ307",
+      "RJ021",
+      "RJ308",
+      "ASALU",
+      "TOKIM",
+      "KOSRU",
+      "GETVU",
+      "GIMPI",
+      "RJ017",
+      "SCR",
+      "RJ312",
+      "RJ311",
+      "MOVGI"
+    ],
+    "entryFixes": [
+      "KEVUN",
+      "TOKIM"
+    ],
+    "route": null,
+    "iaf": "ASALU"
+  },
+  {
+    "id": "star-asalu1a",
+    "type": "STAR",
+    "runway": "02R/20L",
+    "name": "ASALU 1A",
+    "category": "RNAV",
+    "chartKey": "RJ02T",
+    "geometryKey": "STAR|ASALU1A|02R/20L",
+    "notes": "",
+    "fixes": [
+      "KEVUN",
+      "RJ313",
+      "RJ307",
+      "RJ021",
+      "RJ308",
+      "ASALU",
+      "TOKIM",
+      "KOSRU",
+      "GETVU",
+      "GIMPI",
+      "RJ017",
+      "SCR",
+      "GELUT"
+    ],
+    "entryFixes": [
+      "KEVUN",
+      "TOKIM"
+    ],
+    "route": null,
+    "iaf": "ASALU"
+  },
+  {
+    "id": "star-ropas1a",
+    "type": "STAR",
+    "runway": "02R/20L",
+    "name": "ROPAS 1A",
+    "category": "RNAV",
+    "chartKey": "RJ02Q",
+    "geometryKey": "STAR|ROPAS1A|02R/20L",
+    "notes": "",
+    "fixes": [
+      "KOLBI",
+      "ROPAS",
+      "ILTIT",
+      "KABUK",
+      "AKNUB",
+      "RJ021",
+      "RJ308",
+      "ASALU",
+      "GELUT"
+    ],
+    "entryFixes": [
+      "KOLBI",
+      "AKNUB"
+    ],
+    "route": null,
+    "iaf": "GELUT"
+  },
+  {
+    "id": "star-asalu1c",
+    "type": "STAR",
+    "runway": "20L/20R",
+    "name": "ASALU 1C",
+    "category": "RNAV",
+    "chartKey": "RJ02P",
+    "geometryKey": "STAR|ASALU1C|20L/20R",
+    "notes": "",
+    "fixes": [
+      "KEVUN",
+      "RJ313",
+      "RJ307",
+      "RJ021",
+      "RJ308",
+      "ASALU",
+      "TOKIM",
+      "KOSRU",
+      "GETVU",
+      "GIMPI",
+      "RJ017",
+      "SCR",
+      "RJ312",
+      "RJ314",
+      "RJ316",
+      "EVRIR"
+    ],
+    "entryFixes": [
+      "KEVUN",
+      "TOKIM"
+    ],
+    "route": null,
+    "iaf": "ASALU"
+  },
+  {
+    "id": "star-makti1b",
+    "type": "STAR",
+    "runway": "20L/20R",
+    "name": "MAKTI 1B",
+    "category": "RNAV",
+    "chartKey": "RJ02R",
+    "geometryKey": "STAR|MAKTI1B|20L/20R",
+    "notes": "",
+    "fixes": [
+      "KOLBI",
+      "VUDAV",
+      "RJ707",
+      "MAKTI",
+      "EVRIR"
+    ],
+    "entryFixes": [
+      "KOLBI"
+    ],
+    "route": null,
+    "iaf": "EVRIR"
+  },
+  {
+    "id": "star-sinag1b",
+    "type": "STAR",
+    "runway": "20L/20R",
+    "name": "SINAG 1B",
+    "category": "RNAV",
+    "chartKey": "RJ02R",
+    "geometryKey": "STAR|SINAG1B|20L/20R",
+    "notes": "",
+    "fixes": [
+      "MCA",
+      "SINAG",
+      "UMDED",
+      "EVRIR"
+    ],
+    "entryFixes": [
+      "MCA"
+    ],
+    "route": null,
+    "iaf": "EVRIR"
+  }
+]

@@ -1,0 +1,340 @@
+{
+  "icao": "SBRJ",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBRJ",
+  "charts": [
+    {
+      "key": "sbrj-adc",
+      "type": "ADC",
+      "name": "SBRJ ADC",
+      "code": "",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRJ/adc-sbrj-adc-sbrj-adc.pdf"
+    },
+    {
+      "key": "arc-sbwj",
+      "type": "ARC",
+      "name": "ARC RIO DE JANEIRO",
+      "code": "SBWJ",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRJ/arc-sbwj-arc-rio-de-janeiro.pdf"
+    },
+    {
+      "key": "atcsmac-sbwj",
+      "type": "ATCSMAC",
+      "name": "TMA RIO DE JANEIRO",
+      "code": "SBWJ",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBRJ/atcsmac-sbwj-tma-rio-de-janeiro.pdf"
+    },
+    {
+      "key": "RJ02X",
+      "type": "IAC",
+      "name": "RNP A RWY 02R",
+      "code": "RJ02X",
+      "amdt": "2113A1",
+      "date": "2021-12-30",
+      "file": "/charts/SBRJ/iac-rj02x-rnp-a-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ02Z",
+      "type": "IAC",
+      "name": "RNP B RWY 02R",
+      "code": "RJ02Z",
+      "amdt": "2412A1",
+      "date": "2024-11-28",
+      "file": "/charts/SBRJ/iac-rj02z-rnp-b-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ00M",
+      "type": "IAC",
+      "name": "RNP E RWY 20L",
+      "code": "RJ00M",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRJ/iac-rj00m-rnp-e-rwy-20l.pdf"
+    },
+    {
+      "key": "RJ03B",
+      "type": "IAC",
+      "name": "RNP F RWY 20L",
+      "code": "RJ03B",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRJ/iac-rj03b-rnp-f-rwy-20l.pdf"
+    },
+    {
+      "key": "RJ03A",
+      "type": "IAC",
+      "name": "RNP G RWY 20L",
+      "code": "RJ03A",
+      "amdt": "2113A1",
+      "date": "2021-12-30",
+      "file": "/charts/SBRJ/iac-rj03a-rnp-g-rwy-20l.pdf"
+    },
+    {
+      "key": "RJ02Y",
+      "type": "IAC",
+      "name": "RNP L RWY 02R",
+      "code": "RJ02Y",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRJ/iac-rj02y-rnp-l-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ03C",
+      "type": "IAC",
+      "name": "RNP M RWY 20L",
+      "code": "RJ03C",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRJ/iac-rj03c-rnp-m-rwy-20l.pdf"
+    },
+    {
+      "key": "RJ02C",
+      "type": "IAC",
+      "name": "RNP T RWY 02R (AR)",
+      "code": "RJ02C",
+      "amdt": "2113A1",
+      "date": "2021-12-30",
+      "file": "/charts/SBRJ/iac-rj02c-rnp-t-rwy-02r-ar.pdf"
+    },
+    {
+      "key": "RJ01H",
+      "type": "IAC",
+      "name": "RNP U RWY 20L (AR)",
+      "code": "RJ01H",
+      "amdt": "2503A1",
+      "date": "2025-03-20",
+      "file": "/charts/SBRJ/iac-rj01h-rnp-u-rwy-20l-ar.pdf"
+    },
+    {
+      "key": "RJ01G",
+      "type": "IAC",
+      "name": "RNP V RWY 20L (AR)",
+      "code": "RJ01G",
+      "amdt": "2601A1",
+      "date": "2026-01-22",
+      "file": "/charts/SBRJ/iac-rj01g-rnp-v-rwy-20l-ar.pdf"
+    },
+    {
+      "key": "RJ01E",
+      "type": "IAC",
+      "name": "RNP W RWY 02R (AR)",
+      "code": "RJ01E",
+      "amdt": "2207A1",
+      "date": "2022-07-14",
+      "file": "/charts/SBRJ/iac-rj01e-rnp-w-rwy-02r-ar.pdf"
+    },
+    {
+      "key": "RJ01F",
+      "type": "IAC",
+      "name": "RNP X RWY 02R (AR)",
+      "code": "RJ01F",
+      "amdt": "2412A1",
+      "date": "2024-11-28",
+      "file": "/charts/SBRJ/iac-rj01f-rnp-x-rwy-02r-ar.pdf"
+    },
+    {
+      "key": "RJ03D",
+      "type": "IAC",
+      "name": "RNP Y RWY 20L (AR)",
+      "code": "RJ03D",
+      "amdt": "2502A1",
+      "date": "2025-02-20",
+      "file": "/charts/SBRJ/iac-rj03d-rnp-y-rwy-20l-ar.pdf"
+    },
+    {
+      "key": "RJ03H",
+      "type": "IAC",
+      "name": "VOR A RWY 20L",
+      "code": "RJ03H",
+      "amdt": "2506A1",
+      "date": "2025-06-12",
+      "file": "/charts/SBRJ/iac-rj03h-vor-a-rwy-20l.pdf"
+    },
+    {
+      "key": "sbrj-pdc",
+      "type": "PDC",
+      "name": "SBRJ PDC",
+      "code": "",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBRJ/pdc-sbrj-pdc-sbrj-pdc.pdf"
+    },
+    {
+      "key": "rea-wj1",
+      "type": "REA",
+      "name": "WJ1-RIO DE JANEIRO",
+      "code": "SBWJ",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBRJ/rea-wj1-wj1-rio-de-janeiro.pdf"
+    },
+    {
+      "key": "RJ02O",
+      "type": "SID",
+      "name": "EVSOB 1D RWY 20L",
+      "code": "RJ02O",
+      "amdt": "2105A1",
+      "date": "2021-05-20",
+      "file": "/charts/SBRJ/sid-rj02o-evsob-1d-rwy-20l.pdf"
+    },
+    {
+      "key": "RJ01B",
+      "type": "SID",
+      "name": "ISRIN 1A RWY 20L",
+      "code": "RJ01B",
+      "amdt": "2502A1",
+      "date": "2025-02-20",
+      "file": "/charts/SBRJ/sid-rj01b-isrin-1a-rwy-20l.pdf"
+    },
+    {
+      "key": "omni-rwy-02r",
+      "type": "SID",
+      "name": "OMNI RWY 02R",
+      "code": "",
+      "amdt": "2406A1",
+      "date": "2024-06-13",
+      "file": "/charts/SBRJ/sid-omni-rwy-02r-omni-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ00Q",
+      "type": "SID",
+      "name": "PUMSO 4B RWY 02R",
+      "code": "RJ00Q",
+      "amdt": "2502A1",
+      "date": "2025-02-20",
+      "file": "/charts/SBRJ/sid-rj00q-pumso-4b-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ03F",
+      "type": "SID",
+      "name": "RNAV EVKOX 2B RWY 02R",
+      "code": "RJ03F",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRJ/sid-rj03f-rnav-evkox-2b-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ02U",
+      "type": "SID",
+      "name": "RNAV EVKOX 2C RWY 20L",
+      "code": "RJ02U",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRJ/sid-rj02u-rnav-evkox-2c-rwy-20l.pdf"
+    },
+    {
+      "key": "RJ02N",
+      "type": "SID",
+      "name": "RNAV EVKOX 4A RWY 02R",
+      "code": "RJ02N",
+      "amdt": "2508A1",
+      "date": "2025-08-07",
+      "file": "/charts/SBRJ/sid-rj02n-rnav-evkox-4a-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ01A",
+      "type": "SID",
+      "name": "RNAV PUMSO 3C RWY 20L",
+      "code": "RJ01A",
+      "amdt": "2502A1",
+      "date": "2025-02-20",
+      "file": "/charts/SBRJ/sid-rj01a-rnav-pumso-3c-rwy-20l.pdf"
+    },
+    {
+      "key": "RJ00P",
+      "type": "SID",
+      "name": "RNAV PUMSO 4A RWY 02R",
+      "code": "RJ00P",
+      "amdt": "2502A1",
+      "date": "2025-02-20",
+      "file": "/charts/SBRJ/sid-rj00p-rnav-pumso-4a-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ02J",
+      "type": "SID",
+      "name": "RNP EVKOX 2F RWY 02R/20L (AR)",
+      "code": "RJ02J",
+      "amdt": "2512A1",
+      "date": "2025-11-27",
+      "file": "/charts/SBRJ/sid-rj02j-rnp-evkox-2f-rwy-02r-20l-ar.pdf"
+    },
+    {
+      "key": "RJ02W",
+      "type": "SID",
+      "name": "SID EVSOB 2B RWY 02R",
+      "code": "RJ02W",
+      "amdt": "2110A1",
+      "date": "2021-10-07",
+      "file": "/charts/SBRJ/sid-rj02w-sid-evsob-2b-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ02V",
+      "type": "STAR",
+      "name": "RNAV ASALU 1B RWY 02R",
+      "code": "RJ02V",
+      "amdt": "2109A1",
+      "date": "2021-09-09",
+      "file": "/charts/SBRJ/star-rj02v-rnav-asalu-1b-rwy-02r.pdf"
+    },
+    {
+      "key": "RJ02P",
+      "type": "STAR",
+      "name": "RNAV ASALU 1C RWY 20L/20R",
+      "code": "RJ02P",
+      "amdt": "2105A1",
+      "date": "2021-05-20",
+      "file": "/charts/SBRJ/star-rj02p-rnav-asalu-1c-rwy-20l-20r.pdf"
+    },
+    {
+      "key": "RJ02T",
+      "type": "STAR",
+      "name": "RNAV GELUT 1A - KOXUN 1A RWY 02R/20L",
+      "code": "RJ02T",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRJ/star-rj02t-rnav-gelut-1a-koxun-1a-rwy-02r-20l.pdf"
+    },
+    {
+      "key": "RJ02R",
+      "type": "STAR",
+      "name": "RNAV MAKTI 1B SINAG 1B RWY 20L/20R",
+      "code": "RJ02R",
+      "amdt": "2105A1",
+      "date": "2021-05-20",
+      "file": "/charts/SBRJ/star-rj02r-rnav-makti-1b-sinag-1b-rwy-20l-20r.pdf"
+    },
+    {
+      "key": "RJ02S",
+      "type": "STAR",
+      "name": "RNAV MAKTI 2A - SINAG 1A RWY 02L/02R",
+      "code": "RJ02S",
+      "amdt": "2105A1",
+      "date": "2021-05-20",
+      "file": "/charts/SBRJ/star-rj02s-rnav-makti-2a-sinag-1a-rwy-02l-02r.pdf"
+    },
+    {
+      "key": "RJ02Q",
+      "type": "STAR",
+      "name": "RNAV ROPAS 1A RWY 02R/20L",
+      "code": "RJ02Q",
+      "amdt": "2112A1",
+      "date": "2021-12-02",
+      "file": "/charts/SBRJ/star-rj02q-rnav-ropas-1a-rwy-02r-20l.pdf"
+    },
+    {
+      "key": "rwy-02-20",
+      "type": "VAC",
+      "name": "RWY 02/20",
+      "code": "",
+      "amdt": "2513A1",
+      "date": "2025-12-25",
+      "file": "/charts/SBRJ/vac-rwy-02-20-rwy-02-20.pdf"
+    }
+  ]
+}

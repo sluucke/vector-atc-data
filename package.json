@@ -1,0 +1,35 @@
+{
+  "name": "vector-atc-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cartas do DECEA e dados derivados (procedimentos, geometria, aerovias, RPL) consumidos pelo Vector ATC, publicados por ciclo AIRAC.",
+  "license": "MIT",
+  "author": "The Duck Corporation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sluucke/vector-atc-data.git"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "sync:airport": "tsx scripts/sync-airport.ts",
+    "build:content": "tsx scripts/build-content.ts",
+    "sync:tma": "tsx scripts/sync-tma.ts",
+    "sync:frequencies": "tsx scripts/set-network-frequencies.ts",
+    "sync:airways": "tsx scripts/sync-airways.ts",
+    "sync:rpl": "tsx scripts/sync-rpl.ts",
+    "sync:all": "tsx scripts/sync-all.ts",
+    "georef:charts": "tsx scripts/georef-charts.ts",
+    "check:changed": "tsx scripts/check-changed.ts",
+    "release:package": "tsx scripts/package-release.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "pdfjs-dist": "6.3.289",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}

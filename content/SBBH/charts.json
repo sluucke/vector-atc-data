@@ -1,0 +1,250 @@
+{
+  "icao": "SBBH",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBBH",
+  "charts": [
+    {
+      "key": "sbbh-adc",
+      "type": "ADC",
+      "name": "SBBH ADC",
+      "code": "",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBH/adc-sbbh-adc-sbbh-adc.pdf"
+    },
+    {
+      "key": "arc-sbwh",
+      "type": "ARC",
+      "name": "ARC BELO HORIZONTE",
+      "code": "SBWH",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBH/arc-sbwh-arc-belo-horizonte.pdf"
+    },
+    {
+      "key": "atcsmac-sbwh",
+      "type": "ATCSMAC",
+      "name": "TMA BELO HORIZONTE",
+      "code": "SBWH",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBBH/atcsmac-sbwh-tma-belo-horizonte.pdf"
+    },
+    {
+      "key": "BH01H",
+      "type": "IAC",
+      "name": "LOC RWY 13",
+      "code": "BH01H",
+      "amdt": "2510A1",
+      "date": "2025-10-02",
+      "file": "/charts/SBBH/iac-bh01h-loc-rwy-13.pdf"
+    },
+    {
+      "key": "BH01Z",
+      "type": "IAC",
+      "name": "RNP A RWY 31",
+      "code": "BH01Z",
+      "amdt": "2408A1",
+      "date": "2024-08-08",
+      "file": "/charts/SBBH/iac-bh01z-rnp-a-rwy-31.pdf"
+    },
+    {
+      "key": "BH02K",
+      "type": "IAC",
+      "name": "RNP RWY 13",
+      "code": "BH02K",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBBH/iac-bh02k-rnp-rwy-13.pdf"
+    },
+    {
+      "key": "rea-wh",
+      "type": "REA",
+      "name": "WH-Belo Horizonte",
+      "code": "SBWH",
+      "amdt": "2409A0",
+      "date": "2024-09-05",
+      "file": "/charts/SBBH/rea-wh-wh-belo-horizonte.pdf"
+    },
+    {
+      "key": "omni-rwy-13-31",
+      "type": "SID",
+      "name": "OMNI RWY 13/31",
+      "code": "",
+      "amdt": "2308A1",
+      "date": "2023-08-10",
+      "file": "/charts/SBBH/sid-omni-rwy-13-31-omni-rwy-13-31.pdf"
+    },
+    {
+      "key": "BH01S",
+      "type": "SID",
+      "name": "RNAV EGUSO 2A RWY 31",
+      "code": "BH01S",
+      "amdt": "2408A1",
+      "date": "2024-08-08",
+      "file": "/charts/SBBH/sid-bh01s-rnav-eguso-2a-rwy-31.pdf"
+    },
+    {
+      "key": "BH01P",
+      "type": "SID",
+      "name": "RNAV GEDAR 2A RWY 13",
+      "code": "BH01P",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/sid-bh01p-rnav-gedar-2a-rwy-13.pdf"
+    },
+    {
+      "key": "BH01J",
+      "type": "SID",
+      "name": "RNAV GEPNA 3A RWY 13",
+      "code": "BH01J",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBBH/sid-bh01j-rnav-gepna-3a-rwy-13.pdf"
+    },
+    {
+      "key": "BH01L",
+      "type": "SID",
+      "name": "RNAV ILROT 3A RWY 13",
+      "code": "BH01L",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBBH/sid-bh01l-rnav-ilrot-3a-rwy-13.pdf"
+    },
+    {
+      "key": "BH01R",
+      "type": "SID",
+      "name": "RNAV IVSAM 3A RWY 31",
+      "code": "BH01R",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBBH/sid-bh01r-rnav-ivsam-3a-rwy-31.pdf"
+    },
+    {
+      "key": "BH02C",
+      "type": "SID",
+      "name": "RNAV KIMUS 1A RWY 13",
+      "code": "BH02C",
+      "amdt": "2408A1",
+      "date": "2024-08-08",
+      "file": "/charts/SBBH/sid-bh02c-rnav-kimus-1a-rwy-13.pdf"
+    },
+    {
+      "key": "BH01N",
+      "type": "SID",
+      "name": "RNAV POPNI 1A RWY 13",
+      "code": "BH01N",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/sid-bh01n-rnav-popni-1a-rwy-13.pdf"
+    },
+    {
+      "key": "BH01Q",
+      "type": "SID",
+      "name": "RNAV TIPLI 2A RWY 31",
+      "code": "BH01Q",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/sid-bh01q-rnav-tipli-2a-rwy-31.pdf"
+    },
+    {
+      "key": "BH01O",
+      "type": "SID",
+      "name": "RNAV UTLIK 1A RWY 13",
+      "code": "BH01O",
+      "amdt": "2408A1",
+      "date": "2024-08-08",
+      "file": "/charts/SBBH/sid-bh01o-rnav-utlik-1a-rwy-13.pdf"
+    },
+    {
+      "key": "BH01K",
+      "type": "STAR",
+      "name": "RNAV EQUIV 1A RWY 13",
+      "code": "BH01K",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/star-bh01k-rnav-equiv-1a-rwy-13.pdf"
+    },
+    {
+      "key": "BH01G",
+      "type": "STAR",
+      "name": "RNAV EQUIV 1B RWY 31",
+      "code": "BH01G",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/star-bh01g-rnav-equiv-1b-rwy-31.pdf"
+    },
+    {
+      "key": "BH01C",
+      "type": "STAR",
+      "name": "RNAV OBLEB 1B RWY 31",
+      "code": "BH01C",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/star-bh01c-rnav-obleb-1b-rwy-31.pdf"
+    },
+    {
+      "key": "BH01A",
+      "type": "STAR",
+      "name": "RNAV OBLEB 2A RWY 13",
+      "code": "BH01A",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/star-bh01a-rnav-obleb-2a-rwy-13.pdf"
+    },
+    {
+      "key": "BH01B",
+      "type": "STAR",
+      "name": "RNAV UMDIR 1B RWY 31",
+      "code": "BH01B",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/star-bh01b-rnav-umdir-1b-rwy-31.pdf"
+    },
+    {
+      "key": "BH01E",
+      "type": "STAR",
+      "name": "RNAV UTBID 1A RWY 13",
+      "code": "BH01E",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/star-bh01e-rnav-utbid-1a-rwy-13.pdf"
+    },
+    {
+      "key": "BH01F",
+      "type": "STAR",
+      "name": "RNAV UTBID 1B RWY 31",
+      "code": "BH01F",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/star-bh01f-rnav-utbid-1b-rwy-31.pdf"
+    },
+    {
+      "key": "BH00Z",
+      "type": "STAR",
+      "name": "RNAV UTNUL 1A RWY 13",
+      "code": "BH00Z",
+      "amdt": "2310A2",
+      "date": "2023-10-05",
+      "file": "/charts/SBBH/star-bh00z-rnav-utnul-1a-rwy-13.pdf"
+    },
+    {
+      "key": "rwy-13-31-cat-a-b-c",
+      "type": "VAC",
+      "name": "RWY 13/31 (CAT A, B, C)",
+      "code": "",
+      "amdt": "2512A1",
+      "date": "2025-11-27",
+      "file": "/charts/SBBH/vac-rwy-13-31-cat-a-b-c-rwy-13-31-cat-a-b-c.pdf"
+    },
+    {
+      "key": "rwy-13-31-cat-h",
+      "type": "VAC",
+      "name": "RWY 13/31 (CAT H)",
+      "code": "",
+      "amdt": "2604A1",
+      "date": "2026-04-16",
+      "file": "/charts/SBBH/vac-rwy-13-31-cat-h-rwy-13-31-cat-h.pdf"
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+[
+  {
+    "id": "sid-dalog3a",
+    "type": "SID",
+    "runway": "14",
+    "name": "DALOG 3A",
+    "category": "RNAV",
+    "chartKey": "GO00B",
+    "geometryKey": "SID|DALOG3A|14",
+    "notes": "",
+    "fixes": [
+      "GO013",
+      "DALOG",
+      "SELMU",
+      "ESBOD",
+      "UBSUS",
+      "OPVEL",
+      "EGONI"
+    ],
+    "commonRoute": "GO013 → DALOG",
+    "transitions": [
+      {
+        "fix": "SELMU",
+        "desc": "26.1 NM"
+      },
+      {
+        "fix": "ESBOD",
+        "desc": "27.21 NM"
+      },
+      {
+        "fix": "UBSUS",
+        "desc": "31.75 NM"
+      },
+      {
+        "fix": "OPVEL",
+        "desc": "171.98 NM"
+      },
+      {
+        "fix": "EGONI",
+        "desc": "81.18 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-dalsa1a",
+    "type": "SID",
+    "runway": "14",
+    "name": "DALSA 1A",
+    "category": "RNAV",
+    "chartKey": "GO00B",
+    "geometryKey": "SID|DALSA1A|14",
+    "notes": "",
+    "fixes": [
+      "GO013",
+      "GO036",
+      "DALSA"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "DALSA",
+        "desc": "13.96 NM · via GO036"
+      }
+    ]
+  },
+  {
+    "id": "sid-digep1a",
+    "type": "SID",
+    "runway": "14",
+    "name": "DIGEP 1A",
+    "category": "RNAV",
+    "chartKey": "GO00B",
+    "geometryKey": "SID|DIGEP1A|14",
+    "notes": "",
+    "fixes": [
+      "GO013",
+      "GO011",
+      "DIGEP"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "DIGEP",
+        "desc": "18.06 NM · via GO011"
+      }
+    ]
+  },
+  {
+    "id": "sid-detin2a",
+    "type": "SID",
+    "runway": "32",
+    "name": "DETIN 2A",
+    "category": "RNAV",
+    "chartKey": "GO00C",
+    "geometryKey": "SID|DETIN2A|32",
+    "notes": "",
+    "fixes": [
+      "GO037",
+      "DETIN",
+      "SELMU",
+      "ESBOD",
+      "DIGEP",
+      "UBSUS",
+      "EGONI"
+    ],
+    "commonRoute": "GO037 → DETIN",
+    "transitions": [
+      {
+        "fix": "SELMU",
+        "desc": "30.38 NM"
+      },
+      {
+        "fix": "ESBOD",
+        "desc": "32.56 NM"
+      },
+      {
+        "fix": "DIGEP",
+        "desc": "26.63 NM"
+      },
+      {
+        "fix": "UBSUS",
+        "desc": "28.38 NM"
+      },
+      {
+        "fix": "EGONI",
+        "desc": "81.51 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-loduv1a",
+    "type": "SID",
+    "runway": "32",
+    "name": "LODUV 1A",
+    "category": "RNAV",
+    "chartKey": "GO00C",
+    "geometryKey": "SID|LODUV1A|32",
+    "notes": "",
+    "fixes": [
+      "GO037",
+      "GO018",
+      "GO031",
+      "LODUV"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "LODUV",
+        "desc": "14.51 NM · via GO018 → GO031"
+      }
+    ]
+  },
+  {
+    "id": "sid-opvel1a",
+    "type": "SID",
+    "runway": "32",
+    "name": "OPVEL 1A",
+    "category": "RNAV",
+    "chartKey": "GO00C",
+    "geometryKey": "SID|OPVEL1A|32",
+    "notes": "",
+    "fixes": [
+      "GO037",
+      "EGATA",
+      "OPVEL"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "OPVEL",
+        "desc": "150.2 NM · via EGATA"
+      }
+    ]
+  },
+  {
+    "id": "star-ednar2a",
+    "type": "STAR",
+    "runway": "14",
+    "name": "EDNAR 2A",
+    "category": "RNAV",
+    "chartKey": "GO00R",
+    "geometryKey": "STAR|EDNAR2A|14",
+    "notes": "",
+    "fixes": [
+      "TOLAT",
+      "EDNAR",
+      "PABUM",
+      "ASAXU",
+      "GO039",
+      "GO041",
+      "GO002"
+    ],
+    "entryFixes": [
+      "TOLAT",
+      "PABUM"
+    ],
+    "route": null,
+    "iaf": "GO002"
+  },
+  {
+    "id": "star-opvud1a",
+    "type": "STAR",
+    "runway": "14",
+    "name": "OPVUD 1A",
+    "category": "RNAV",
+    "chartKey": "GO00T",
+    "geometryKey": "STAR|OPVUD1A|14",
+    "notes": "",
+    "fixes": [
+      "TESEK",
+      "OPVUD",
+      "ABUSE",
+      "UKBEB",
+      "GO046",
+      "GO021"
+    ],
+    "entryFixes": [
+      "TESEK",
+      "ABUSE",
+      "UKBEB"
+    ],
+    "route": null,
+    "iaf": "GO021"
+  },
+  {
+    "id": "star-sirem2a",
+    "type": "STAR",
+    "runway": "14",
+    "name": "SIREM 2A",
+    "category": "RNAV",
+    "chartKey": "GO00R",
+    "geometryKey": "STAR|SIREM2A|14",
+    "notes": "",
+    "fixes": [
+      "OPGOL",
+      "SIREM",
+      "VADOP",
+      "EDNAR",
+      "EVNAV",
+      "GO029",
+      "GO042",
+      "GO034"
+    ],
+    "entryFixes": [
+      "OPGOL",
+      "VADOP",
+      "EDNAR"
+    ],
+    "route": null,
+    "iaf": "GO034"
+  },
+  {
+    "id": "star-sirul1a",
+    "type": "STAR",
+    "runway": "14",
+    "name": "SIRUL 1A",
+    "category": "RNAV",
+    "chartKey": "GO00T",
+    "geometryKey": "STAR|SIRUL1A|14",
+    "notes": "",
+    "fixes": [
+      "CORVO",
+      "OBLAV",
+      "SIRUL",
+      "EDMIN",
+      "ULD",
+      "ARTEG",
+      "GO043",
+      "GO032",
+      "GO044",
+      "GO021"
+    ],
+    "entryFixes": [
+      "CORVO",
+      "EDMIN",
+      "ULD"
+    ],
+    "route": null,
+    "iaf": "GO021"
+  },
+  {
+    "id": "star-ednar2b",
+    "type": "STAR",
+    "runway": "32",
+    "name": "EDNAR 2B",
+    "category": "RNAV",
+    "chartKey": "GO00S",
+    "geometryKey": "STAR|EDNAR2B|32",
+    "notes": "",
+    "fixes": [
+      "PABUM",
+      "EDNAR",
+      "TOLAT",
+      "ASAXU",
+      "GO039",
+      "GO041",
+      "GO034",
+      "GO042",
+      "GO029"
+    ],
+    "entryFixes": [
+      "PABUM",
+      "TOLAT"
+    ],
+    "route": null,
+    "iaf": "GO029"
+  },
+  {
+    "id": "star-opvud1b",
+    "type": "STAR",
+    "runway": "32",
+    "name": "OPVUD 1B",
+    "category": "RNAV",
+    "chartKey": "GO00U",
+    "geometryKey": "STAR|OPVUD1B|32",
+    "notes": "",
+    "fixes": [
+      "ABUSE",
+      "OPVUD",
+      "TESEK",
+      "UKBEB",
+      "GO046",
+      "GO021",
+      "GO048",
+      "GO032"
+    ],
+    "entryFixes": [
+      "ABUSE",
+      "TESEK",
+      "UKBEB"
+    ],
+    "route": null,
+    "iaf": "GO032"
+  },
+  {
+    "id": "star-sirem2b",
+    "type": "STAR",
+    "runway": "32",
+    "name": "SIREM 2B",
+    "category": "RNAV",
+    "chartKey": "GO00S",
+    "geometryKey": "STAR|SIREM2B|32",
+    "notes": "",
+    "fixes": [
+      "OPGOL",
+      "SIREM",
+      "EDNAR",
+      "EVNAV",
+      "VADOP",
+      "GO029"
+    ],
+    "entryFixes": [
+      "OPGOL",
+      "EDNAR",
+      "VADOP"
+    ],
+    "route": null,
+    "iaf": "SIREM"
+  },
+  {
+    "id": "star-sirul1b",
+    "type": "STAR",
+    "runway": "32",
+    "name": "SIRUL 1B",
+    "category": "RNAV",
+    "chartKey": "GO00U",
+    "geometryKey": "STAR|SIRUL1B|32",
+    "notes": "",
+    "fixes": [
+      "CORVO",
+      "OBLAV",
+      "SIRUL",
+      "EDMIN",
+      "ULD",
+      "PAGUE",
+      "GO047",
+      "GO008"
+    ],
+    "entryFixes": [
+      "CORVO",
+      "EDMIN",
+      "ULD"
+    ],
+    "route": null,
+    "iaf": "GO008"
+  }
+]

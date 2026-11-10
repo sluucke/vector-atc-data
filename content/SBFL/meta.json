@@ -1,0 +1,61 @@
+{
+  "icao": "SBFL",
+  "name": "Florianópolis / Hercílio Luz, INTL",
+  "elevation": "17'",
+  "ta": "9000'",
+  "msa": "3400' (25NM ARP)",
+  "fir": "Curitiba (SBCW)",
+  "operational": {
+    "transitionAltitude": 9000,
+    "transitionAltitudeSource": "Carta DECEA 2607A1, coerente com a tabela de nível de transição do MOPS da TMA Florianópolis",
+    "ivaoWikiUrl": "https://wiki.br.ivao.aero/atcops/mops/sbcw/sbxf",
+    "magneticVariation": -20,
+    "magneticVariationSource": "Carta DECEA — VAR 20°W"
+  },
+  "airac": {
+    "cycle": "2607A1",
+    "effective": "2026-07-09",
+    "checkedAt": "2026-09-09",
+    "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBFL"
+  },
+  "frequencies": {
+    "dAtis": [
+      "127.450"
+    ],
+    "twr": [
+      "118.700",
+      "122.800"
+    ],
+    "app": [
+      "119.650",
+      "119.500"
+    ],
+    "acc": [
+      "124.000"
+    ],
+    "accExtended": [
+      "126.950",
+      "128.150",
+      "125.350",
+      "126.100",
+      "133.800",
+      "124.900",
+      "135.850"
+    ],
+    "network": {
+      "source": "Frequências das posições da divisão IVAO Brasil",
+      "app": "SBXF_APP",
+      "acc": "SBCW_CTR"
+    }
+  },
+  "runways": [
+    "14",
+    "32",
+    "03",
+    "21"
+  ],
+  "runwaysNote": "",
+  "observations": [
+    "Pistas 14/32 (principal) e 03/21."
+  ]
+}

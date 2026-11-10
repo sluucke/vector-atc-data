@@ -1,0 +1,62 @@
+{
+  "icao": "SBCF",
+  "name": "Belo Horizonte / Tancredo Neves, INTL (Confins)",
+  "elevation": "2721'",
+  "ta": "8000'",
+  "msa": "7000' (25NM ARP)",
+  "fir": "Brasília (SBBS)",
+  "operational": {
+    "transitionAltitude": 8000,
+    "transitionAltitudeSource": "Carta DECEA AIRAC 2408A1 — confirmar com o MOPS da TMA Belo Horizonte",
+    "magneticVariation": -23,
+    "magneticVariationSource": "Carta DECEA — VAR 23°W",
+    "ivaoWikiUrl": "https://wiki.br.ivao.aero/atcops/mops/sbbs"
+  },
+  "airac": {
+    "cycle": "2609A1",
+    "effective": "2026-09-03",
+    "checkedAt": "2026-09-11",
+    "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBCF"
+  },
+  "frequencies": {
+    "dAtis": [
+      "127.850"
+    ],
+    "twr": [
+      "118.200"
+    ],
+    "app": [
+      "119.100",
+      "119.300",
+      "119.650",
+      "120.200",
+      "128.550",
+      "129.100",
+      "129.400"
+    ],
+    "acc": [
+      "123.000"
+    ],
+    "accExtended": [
+      "135.150",
+      "135.900",
+      "135.550",
+      "134.000",
+      "133.750",
+      "135.000"
+    ],
+    "network": {
+      "source": "Centro conforme as posições da divisão IVAO Brasil; APP conforme a carta DECEA",
+      "app": null,
+      "acc": "SBBS_CTR"
+    }
+  },
+  "runways": [
+    "16",
+    "34"
+  ],
+  "runwaysNote": "Pista única 16/34.",
+  "observations": [
+    "Divide a TMA Belo Horizonte com SBBH; as duas são trabalhadas pela mesma posição de aproximação."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "icao": "SBGO",
+  "name": "Goiânia / Santa Genoveva, INTL",
+  "elevation": "2453'",
+  "ta": "10000'",
+  "msa": "5100' (25NM)",
+  "fir": "Brasília (SBBS)",
+  "operational": {
+    "transitionAltitude": 10000,
+    "transitionAltitudeSource": "Carta DECEA AIRAC 2609A1 — confirmar com o MOPS da TMA Anápolis",
+    "magneticVariation": -22,
+    "magneticVariationSource": "Carta DECEA — VAR 22°W",
+    "ivaoWikiUrl": "https://wiki.br.ivao.aero/atcops/mops/sbbs/sbxn"
+  },
+  "airac": {
+    "cycle": "2611A1",
+    "effective": "2026-10-29",
+    "checkedAt": "2026-11-06",
+    "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBGO"
+  },
+  "frequencies": {
+    "dAtis": [
+      "127.675"
+    ],
+    "twr": [
+      "118.700"
+    ],
+    "app": [],
+    "acc": [
+      "123.000"
+    ],
+    "accExtended": [
+      "135.150",
+      "135.900",
+      "135.550",
+      "134.000",
+      "133.750",
+      "135.000"
+    ],
+    "network": {
+      "source": "Centro conforme as posições da divisão IVAO Brasil; sem frequência de APP publicada na carta",
+      "app": "SBXN_APP",
+      "acc": "SBBS_CTR"
+    }
+  },
+  "runways": [
+    "14",
+    "32"
+  ],
+  "runwaysNote": "Pista única 14/32.",
+  "observations": [
+    "Goiânia é trabalhada pela TMA Anápolis (SBXN_APP); a carta DECEA não publica frequência de APP.",
+    "TA 10000 ft na carta, fora da Tabela 7 da ICA 100-37: nível de transição não é calculado. Se o MOPS da TMA Anápolis publicar TA diferente, atualizar."
+  ]
+}

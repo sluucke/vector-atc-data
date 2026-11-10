@@ -1,0 +1,600 @@
+[
+  {
+    "id": "sid-gedar2a",
+    "type": "SID",
+    "runway": "13",
+    "name": "GEDAR 2A",
+    "category": "RNAV",
+    "chartKey": "BH01P",
+    "geometryKey": "SID|GEDAR2A|13",
+    "notes": "",
+    "fixes": [
+      "KUBEX",
+      "KIMUS",
+      "UTLIK",
+      "BH009",
+      "BH011",
+      "GEDAR",
+      "BH016",
+      "PABES",
+      "GIMPO"
+    ],
+    "commonRoute": "KUBEX → KIMUS → UTLIK → BH009 → BH011 → GEDAR",
+    "transitions": [
+      {
+        "fix": "PABES",
+        "desc": "52.52 NM · via BH016"
+      },
+      {
+        "fix": "GIMPO",
+        "desc": "26.6 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-gepna3a",
+    "type": "SID",
+    "runway": "13",
+    "name": "GEPNA 3A",
+    "category": "RNAV",
+    "chartKey": "BH01J",
+    "geometryKey": "SID|GEPNA3A|13",
+    "notes": "",
+    "fixes": [
+      "IRAXO",
+      "GEPNA",
+      "BH003",
+      "BH051",
+      "BH006",
+      "MOTMA",
+      "ANDEM",
+      "BH021",
+      "GAZAR",
+      "ESLUM",
+      "MAVGU",
+      "KOVED",
+      "DEUCA",
+      "MIMIP"
+    ],
+    "commonRoute": "IRAXO → GEPNA",
+    "transitions": [
+      {
+        "fix": "ANDEM",
+        "desc": "42.98 NM · via BH003 → BH051 → BH006 → MOTMA"
+      },
+      {
+        "fix": "MAVGU",
+        "desc": "32.77 NM · via BH021 → GAZAR → ESLUM"
+      },
+      {
+        "fix": "GAZAR",
+        "desc": "15.68 NM · via BH021"
+      },
+      {
+        "fix": "DEUCA",
+        "desc": "25.21 NM · via BH003 → BH051 → BH006 → KOVED"
+      },
+      {
+        "fix": "MIMIP",
+        "desc": "22.75 NM · via BH003 → BH051 → BH006 → MOTMA"
+      }
+    ]
+  },
+  {
+    "id": "sid-ilrot3a",
+    "type": "SID",
+    "runway": "13",
+    "name": "ILROT 3A",
+    "category": "RNAV",
+    "chartKey": "BH01L",
+    "geometryKey": "SID|ILROT3A|13",
+    "notes": "",
+    "fixes": [
+      "IRAXO",
+      "KUBEX",
+      "ILROT",
+      "BH002",
+      "ISNOG",
+      "EVSEL",
+      "KOVED",
+      "DEUCA",
+      "MOTMA",
+      "ANDEM",
+      "MIMIP",
+      "BH008",
+      "GAZAR",
+      "ESLUM",
+      "MAVGU"
+    ],
+    "commonRoute": "IRAXO → KUBEX → ILROT",
+    "transitions": [
+      {
+        "fix": "ISNOG",
+        "desc": "24.51 NM · ≤12000 ft · via BH002"
+      },
+      {
+        "fix": "DEUCA",
+        "desc": "25.21 NM · via BH002 → EVSEL → KOVED"
+      },
+      {
+        "fix": "ANDEM",
+        "desc": "42.98 NM · via BH002 → EVSEL → MOTMA"
+      },
+      {
+        "fix": "MIMIP",
+        "desc": "22.75 NM · via BH002 → EVSEL → MOTMA"
+      },
+      {
+        "fix": "MAVGU",
+        "desc": "32.77 NM · via BH008 → GAZAR → ESLUM"
+      },
+      {
+        "fix": "GAZAR",
+        "desc": "15.91 NM · via BH008"
+      }
+    ]
+  },
+  {
+    "id": "sid-kimus1a",
+    "type": "SID",
+    "runway": "13",
+    "name": "KIMUS 1A",
+    "category": "RNAV",
+    "chartKey": "BH02C",
+    "geometryKey": "SID|KIMUS1A|13",
+    "notes": "",
+    "fixes": [
+      "KUBEX",
+      "KIMUS",
+      "UTLIK",
+      "ILPIR",
+      "BH079",
+      "BH009",
+      "BH011",
+      "GEDAR",
+      "GIMPO",
+      "BH017",
+      "KADOR",
+      "BH016",
+      "PABES"
+    ],
+    "commonRoute": "KUBEX → KIMUS",
+    "transitions": [
+      {
+        "fix": "ILPIR",
+        "desc": "22.3 NM · via UTLIK"
+      },
+      {
+        "fix": "GIMPO",
+        "desc": "26.6 NM · via UTLIK → BH079 → BH009 → BH011 → GEDAR"
+      },
+      {
+        "fix": "KADOR",
+        "desc": "40.75 NM · via UTLIK → BH017"
+      },
+      {
+        "fix": "PABES",
+        "desc": "52.52 NM · via UTLIK → BH079 → BH009 → BH011 → GEDAR → BH016"
+      }
+    ]
+  },
+  {
+    "id": "sid-popni1a",
+    "type": "SID",
+    "runway": "13",
+    "name": "POPNI 1A",
+    "category": "RNAV",
+    "chartKey": "BH01N",
+    "geometryKey": "SID|POPNI1A|13",
+    "notes": "",
+    "fixes": [
+      "KUBEX",
+      "OPSAB",
+      "VUKPU",
+      "POPNI",
+      "IVPEL",
+      "DOMRO",
+      "PANAS",
+      "GAVAB",
+      "EVPAD"
+    ],
+    "commonRoute": "KUBEX → OPSAB → VUKPU → POPNI",
+    "transitions": [
+      {
+        "fix": "PANAS",
+        "desc": "30 NM · via IVPEL → DOMRO"
+      },
+      {
+        "fix": "EVPAD",
+        "desc": "8.85 NM · via GAVAB"
+      }
+    ]
+  },
+  {
+    "id": "sid-utlik1a",
+    "type": "SID",
+    "runway": "13",
+    "name": "UTLIK 1A",
+    "category": "RNAV",
+    "chartKey": "BH01O",
+    "geometryKey": "SID|UTLIK1A|13",
+    "notes": "",
+    "fixes": [
+      "KUBEX",
+      "KIMUS",
+      "UTLIK",
+      "BH017",
+      "KADOR",
+      "ILPIR"
+    ],
+    "commonRoute": "KUBEX → KIMUS → UTLIK",
+    "transitions": [
+      {
+        "fix": "KADOR",
+        "desc": "40.75 NM · via BH017"
+      },
+      {
+        "fix": "ILPIR",
+        "desc": "22.3 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-eguso2a",
+    "type": "SID",
+    "runway": "31",
+    "name": "EGUSO 2A",
+    "category": "RNAV",
+    "chartKey": "BH01S",
+    "geometryKey": "SID|EGUSO2A|31",
+    "notes": "",
+    "fixes": [
+      "IVSAM",
+      "BH019",
+      "BH023",
+      "EGUSO",
+      "VUKPU",
+      "PANIK",
+      "ILPIR",
+      "BH026",
+      "IVPEL",
+      "DOMRO",
+      "PANAS",
+      "BH027",
+      "EVPAD",
+      "ANPEK",
+      "KADOR"
+    ],
+    "commonRoute": "IVSAM → BH019 → BH023 → EGUSO",
+    "transitions": [
+      {
+        "fix": "ILPIR",
+        "desc": "20 NM · via VUKPU → PANIK"
+      },
+      {
+        "fix": "PANAS",
+        "desc": "30 NM · via BH026 → IVPEL → DOMRO"
+      },
+      {
+        "fix": "EVPAD",
+        "desc": "9.49 NM · via BH026 → BH027"
+      },
+      {
+        "fix": "KADOR",
+        "desc": "41.88 NM · via VUKPU → PANIK → ANPEK"
+      }
+    ]
+  },
+  {
+    "id": "sid-ivsam3a",
+    "type": "SID",
+    "runway": "31",
+    "name": "IVSAM 3A",
+    "category": "RNAV",
+    "chartKey": "BH01R",
+    "geometryKey": "SID|IVSAM3A|31",
+    "notes": "",
+    "fixes": [
+      "IVSAM",
+      "BH019",
+      "BH024",
+      "GAZAR",
+      "ESLUM",
+      "MAVGU",
+      "BH086",
+      "BH087",
+      "MOTMA",
+      "ANDEM",
+      "KOVED",
+      "DEUCA",
+      "NEKEG",
+      "MIMIP"
+    ],
+    "commonRoute": "IVSAM",
+    "transitions": [
+      {
+        "fix": "MAVGU",
+        "desc": "32.77 NM · via BH019 → BH024 → GAZAR → ESLUM"
+      },
+      {
+        "fix": "GAZAR",
+        "desc": "25.39 NM · via BH019 → BH024"
+      },
+      {
+        "fix": "ANDEM",
+        "desc": "42.98 NM · via BH086 → BH087 → MOTMA"
+      },
+      {
+        "fix": "DEUCA",
+        "desc": "25.21 NM · via BH086 → BH087 → KOVED"
+      },
+      {
+        "fix": "MIMIP",
+        "desc": "7.3 NM · via BH086 → BH087 → NEKEG"
+      }
+    ]
+  },
+  {
+    "id": "sid-tipli2a",
+    "type": "SID",
+    "runway": "31",
+    "name": "TIPLI 2A",
+    "category": "RNAV",
+    "chartKey": "BH01Q",
+    "geometryKey": "SID|TIPLI2A|31",
+    "notes": "",
+    "fixes": [
+      "IVSAM",
+      "PUMAT",
+      "BH013",
+      "BH049",
+      "TIPLI",
+      "EDSUX",
+      "PABES",
+      "GIMPO"
+    ],
+    "commonRoute": "IVSAM → PUMAT → BH013 → BH049 → TIPLI",
+    "transitions": [
+      {
+        "fix": "PABES",
+        "desc": "60.27 NM · via EDSUX"
+      },
+      {
+        "fix": "GIMPO",
+        "desc": "14.73 NM"
+      }
+    ]
+  },
+  {
+    "id": "star-equiv1a",
+    "type": "STAR",
+    "runway": "13",
+    "name": "EQUIV 1A",
+    "category": "RNAV",
+    "chartKey": "BH01K",
+    "geometryKey": "STAR|EQUIV1A|13",
+    "notes": "",
+    "fixes": [
+      "OPTEB",
+      "EQUIV",
+      "ISNEM",
+      "USVOL",
+      "BH064",
+      "BH063",
+      "BH062",
+      "BH061",
+      "VASIX",
+      "BH057",
+      "BH056",
+      "PUMAT"
+    ],
+    "entryFixes": [
+      "OPTEB",
+      "ISNEM",
+      "USVOL"
+    ],
+    "route": null,
+    "iaf": "PUMAT"
+  },
+  {
+    "id": "star-obleb2a",
+    "type": "STAR",
+    "runway": "13",
+    "name": "OBLEB 2A",
+    "category": "RNAV",
+    "chartKey": "BH01A",
+    "geometryKey": "STAR|OBLEB2A|13",
+    "notes": "",
+    "fixes": [
+      "NIPDA",
+      "BH073",
+      "BH072",
+      "OBLEB",
+      "PULKU",
+      "DAKDA",
+      "BH077",
+      "BH076",
+      "BH074",
+      "BH071",
+      "ERVIM"
+    ],
+    "entryFixes": [
+      "NIPDA",
+      "PULKU",
+      "DAKDA"
+    ],
+    "route": null,
+    "iaf": "OBLEB"
+  },
+  {
+    "id": "star-utbid1a",
+    "type": "STAR",
+    "runway": "13",
+    "name": "UTBID 1A",
+    "category": "RNAV",
+    "chartKey": "BH01E",
+    "geometryKey": "STAR|UTBID1A|13",
+    "notes": "",
+    "fixes": [
+      "VULAD",
+      "UTBID",
+      "REINA",
+      "GEVMI",
+      "EKINU",
+      "BH058",
+      "VASIX",
+      "BH057",
+      "BH056",
+      "PUMAT"
+    ],
+    "entryFixes": [
+      "VULAD",
+      "REINA",
+      "GEVMI"
+    ],
+    "route": null,
+    "iaf": "PUMAT"
+  },
+  {
+    "id": "star-utnul1a",
+    "type": "STAR",
+    "runway": "13",
+    "name": "UTNUL 1A",
+    "category": "RNAV",
+    "chartKey": "BH00Z",
+    "geometryKey": "STAR|UTNUL1A|13",
+    "notes": "",
+    "fixes": [
+      "AROVA",
+      "KIBAP",
+      "UTNUL",
+      "BH053",
+      "BH052",
+      "BH051",
+      "ERVIM"
+    ],
+    "entryFixes": [
+      "AROVA",
+      "KIBAP"
+    ],
+    "route": null,
+    "iaf": "ERVIM"
+  },
+  {
+    "id": "star-equiv1b",
+    "type": "STAR",
+    "runway": "31",
+    "name": "EQUIV 1B",
+    "category": "RNAV",
+    "chartKey": "BH01G",
+    "geometryKey": "STAR|EQUIV1B|31",
+    "notes": "",
+    "fixes": [
+      "ISNEM",
+      "EQUIV",
+      "OPTEB",
+      "USVOL",
+      "BH064",
+      "BH063",
+      "BH062",
+      "BH061",
+      "BH049",
+      "VASIX",
+      "BH048",
+      "BH044",
+      "BH052",
+      "BH041",
+      "OGRET"
+    ],
+    "entryFixes": [
+      "ISNEM",
+      "OPTEB",
+      "USVOL"
+    ],
+    "route": null,
+    "iaf": "OGRET"
+  },
+  {
+    "id": "star-obleb1b",
+    "type": "STAR",
+    "runway": "31",
+    "name": "OBLEB 1B",
+    "category": "RNAV",
+    "chartKey": "BH01C",
+    "geometryKey": "STAR|OBLEB1B|31",
+    "notes": "",
+    "fixes": [
+      "DAKDA",
+      "BH077",
+      "BH076",
+      "BH074",
+      "OBLEB",
+      "NIPDA",
+      "BH073",
+      "BH072",
+      "PULKU",
+      "OGRET"
+    ],
+    "entryFixes": [
+      "DAKDA",
+      "NIPDA",
+      "PULKU"
+    ],
+    "route": null,
+    "iaf": "OBLEB"
+  },
+  {
+    "id": "star-umdir1b",
+    "type": "STAR",
+    "runway": "31",
+    "name": "UMDIR 1B",
+    "category": "RNAV",
+    "chartKey": "BH01B",
+    "geometryKey": "STAR|UMDIR1B|31",
+    "notes": "",
+    "fixes": [
+      "AROVA",
+      "KIBAP",
+      "UMDIR",
+      "BH041",
+      "OGRET"
+    ],
+    "entryFixes": [
+      "AROVA",
+      "KIBAP"
+    ],
+    "route": null,
+    "iaf": "UMDIR"
+  },
+  {
+    "id": "star-utbid1b",
+    "type": "STAR",
+    "runway": "31",
+    "name": "UTBID 1B",
+    "category": "RNAV",
+    "chartKey": "BH01F",
+    "geometryKey": "STAR|UTBID1B|31",
+    "notes": "",
+    "fixes": [
+      "GEVMI",
+      "EKINU",
+      "UTBID",
+      "VULAD",
+      "REINA",
+      "BH058",
+      "VASIX",
+      "BH048",
+      "BH044",
+      "BH052",
+      "BH041",
+      "OGRET"
+    ],
+    "entryFixes": [
+      "GEVMI",
+      "VULAD",
+      "REINA"
+    ],
+    "route": null,
+    "iaf": "OGRET"
+  }
+]

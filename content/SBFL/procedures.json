@@ -1,0 +1,349 @@
+[
+  {
+    "id": "sid-migak1a",
+    "type": "SID",
+    "runway": "14",
+    "name": "MIGAK 1A",
+    "category": "RNAV",
+    "chartKey": "FL02C",
+    "geometryKey": "SID|MIGAK1A|14",
+    "notes": "",
+    "fixes": [
+      "MIGAK",
+      "UGREV",
+      "FL913",
+      "FL914",
+      "FL916",
+      "NESMI"
+    ],
+    "commonRoute": "MIGAK",
+    "transitions": [
+      {
+        "fix": "UGREV",
+        "desc": "30.05 NM"
+      },
+      {
+        "fix": "NESMI",
+        "desc": "41.21 NM · via FL913 → FL914 → FL916"
+      }
+    ]
+  },
+  {
+    "id": "sid-punod4a",
+    "type": "SID",
+    "runway": "14",
+    "name": "PUNOD 4A",
+    "category": "RNAV",
+    "chartKey": "FL02D",
+    "geometryKey": "SID|PUNOD4A|14",
+    "notes": "",
+    "fixes": [
+      "PUNOD",
+      "FL976",
+      "EGDED",
+      "FL911",
+      "ENSUG",
+      "FL912",
+      "UBROS",
+      "ILVOR"
+    ],
+    "commonRoute": "PUNOD",
+    "transitions": [
+      {
+        "fix": "EGDED",
+        "desc": "25.58 NM · via FL976"
+      },
+      {
+        "fix": "ENSUG",
+        "desc": "68.93 NM · via FL911"
+      },
+      {
+        "fix": "UBROS",
+        "desc": "49.79 NM · via FL912"
+      },
+      {
+        "fix": "ILVOR",
+        "desc": "49.74 NM · via FL911"
+      }
+    ]
+  },
+  {
+    "id": "sid-bodop1b",
+    "type": "SID",
+    "runway": "32",
+    "name": "BODOP 1B",
+    "category": "RNAV",
+    "chartKey": "FL02E",
+    "geometryKey": "SID|BODOP1B|32",
+    "notes": "",
+    "fixes": [
+      "BODOP",
+      "FL924",
+      "FL926",
+      "UBROS",
+      "FL922",
+      "ILVOR",
+      "FL923",
+      "ENSUG",
+      "FL978",
+      "EGDED"
+    ],
+    "commonRoute": "BODOP",
+    "transitions": [
+      {
+        "fix": "UBROS",
+        "desc": "48.37 NM · via FL924 → FL926"
+      },
+      {
+        "fix": "ILVOR",
+        "desc": "37.99 NM · via FL922"
+      },
+      {
+        "fix": "ENSUG",
+        "desc": "56.6 NM · via FL923"
+      },
+      {
+        "fix": "EGDED",
+        "desc": "26.43 NM · via FL924 → FL978"
+      }
+    ]
+  },
+  {
+    "id": "sid-mukal2b",
+    "type": "SID",
+    "runway": "32",
+    "name": "MUKAL 2B",
+    "category": "RNAV",
+    "chartKey": "FL02F",
+    "geometryKey": "SID|MUKAL2B|32",
+    "notes": "",
+    "fixes": [
+      "MUKAL",
+      "FL981",
+      "UGREV",
+      "UMKOT",
+      "FL921",
+      "NESMI"
+    ],
+    "commonRoute": "MUKAL",
+    "transitions": [
+      {
+        "fix": "UGREV",
+        "desc": "28.44 NM · via FL981"
+      },
+      {
+        "fix": "NESMI",
+        "desc": "32.75 NM · via UMKOT → FL921"
+      }
+    ]
+  },
+  {
+    "id": "star-dadmo1a",
+    "type": "STAR",
+    "runway": "14",
+    "name": "DADMO 1A",
+    "category": "RNAV",
+    "chartKey": "FL01Z",
+    "geometryKey": "STAR|DADMO1A|14",
+    "notes": "",
+    "fixes": [
+      "DADMO",
+      "FL931",
+      "FL932",
+      "FL933",
+      "ILRUK"
+    ],
+    "entryFixes": [
+      "DADMO"
+    ],
+    "route": null,
+    "iaf": "ILRUK"
+  },
+  {
+    "id": "star-edrex1a",
+    "type": "STAR",
+    "runway": "14",
+    "name": "EDREX 1A",
+    "category": "RNAV",
+    "chartKey": "FL01Y",
+    "geometryKey": "STAR|EDREX1A|14",
+    "notes": "",
+    "fixes": [
+      "EDREX",
+      "UMPOV",
+      "PONLU",
+      "PUDNI",
+      "FL938",
+      "FL937",
+      "MUKAL"
+    ],
+    "entryFixes": [
+      "EDREX"
+    ],
+    "route": null,
+    "iaf": "MUKAL"
+  },
+  {
+    "id": "star-egded2a",
+    "type": "STAR",
+    "runway": "14",
+    "name": "EGDED 2A",
+    "category": "RNAV",
+    "chartKey": "FL01Y",
+    "geometryKey": "STAR|EGDED2A|14",
+    "notes": "",
+    "fixes": [
+      "EGDED",
+      "FL953",
+      "FL997",
+      "EPKON",
+      "MUGAB",
+      "DIMOG"
+    ],
+    "entryFixes": [
+      "EGDED"
+    ],
+    "route": null,
+    "iaf": "DIMOG"
+  },
+  {
+    "id": "star-pubis1a",
+    "type": "STAR",
+    "runway": "14",
+    "name": "PUBIS 1A",
+    "category": "RNAV",
+    "chartKey": "FL01Y",
+    "geometryKey": "STAR|PUBIS1A|14",
+    "notes": "",
+    "fixes": [
+      "PUBIS",
+      "FL928",
+      "FL927",
+      "FL939",
+      "DIMOG"
+    ],
+    "entryFixes": [
+      "PUBIS"
+    ],
+    "route": null,
+    "iaf": "DIMOG"
+  },
+  {
+    "id": "star-vapap1a",
+    "type": "STAR",
+    "runway": "14",
+    "name": "VAPAP 1A",
+    "category": "RNAV",
+    "chartKey": "FL01Z",
+    "geometryKey": "STAR|VAPAP1A|14",
+    "notes": "",
+    "fixes": [
+      "VAPAP",
+      "FL934",
+      "FL936",
+      "MUKAL"
+    ],
+    "entryFixes": [
+      "VAPAP"
+    ],
+    "route": null,
+    "iaf": "MUKAL"
+  },
+  {
+    "id": "star-edrex1b",
+    "type": "STAR",
+    "runway": "32",
+    "name": "EDREX 1B",
+    "category": "RNAV",
+    "chartKey": "FL02A",
+    "geometryKey": "STAR|EDREX1B|32",
+    "notes": "",
+    "fixes": [
+      "EDREX",
+      "UMPOV",
+      "PONLU",
+      "PUDNI",
+      "BUVRO",
+      "ILNUL",
+      "DIMOG",
+      "SEBTI",
+      "EPKON"
+    ],
+    "entryFixes": [
+      "EDREX"
+    ],
+    "route": null,
+    "iaf": "EPKON"
+  },
+  {
+    "id": "star-egded1b",
+    "type": "STAR",
+    "runway": "32",
+    "name": "EGDED 1B",
+    "category": "RNAV",
+    "chartKey": "FL02A",
+    "geometryKey": "STAR|EGDED1B|32",
+    "notes": "",
+    "fixes": [
+      "EGDED",
+      "FL953",
+      "FL943",
+      "EPKON"
+    ],
+    "entryFixes": [
+      "EGDED"
+    ],
+    "route": null,
+    "iaf": "EPKON"
+  },
+  {
+    "id": "star-pubis1b",
+    "type": "STAR",
+    "runway": "32",
+    "name": "PUBIS 1B",
+    "category": "RNAV",
+    "chartKey": "FL02A",
+    "geometryKey": "STAR|PUBIS1B|32",
+    "notes": "",
+    "fixes": [
+      "PUBIS",
+      "FL941",
+      "FL942",
+      "EPKON"
+    ],
+    "entryFixes": [
+      "PUBIS"
+    ],
+    "route": null,
+    "iaf": "EPKON"
+  },
+  {
+    "id": "star-utbes1b",
+    "type": "STAR",
+    "runway": "32",
+    "name": "UTBES 1B",
+    "category": "RNAV",
+    "chartKey": "FL02B",
+    "geometryKey": "STAR|UTBES1B|32",
+    "notes": "",
+    "fixes": [
+      "VAPAP",
+      "FL947",
+      "FL946",
+      "UTBES",
+      "DADMO",
+      "DONRO",
+      "FL996",
+      "ILRUK",
+      "FL994",
+      "FL813",
+      "ANDUT"
+    ],
+    "entryFixes": [
+      "VAPAP",
+      "DADMO"
+    ],
+    "route": null,
+    "iaf": "ANDUT"
+  }
+]

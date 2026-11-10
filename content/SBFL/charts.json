@@ -1,0 +1,223 @@
+{
+  "icao": "SBFL",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBFL",
+  "charts": [
+    {
+      "key": "sbfl-adc",
+      "type": "ADC",
+      "name": "SBFL ADC",
+      "code": "",
+      "amdt": "2607A1",
+      "date": "2026-07-09",
+      "file": "/charts/SBFL/adc-sbfl-adc-sbfl-adc.pdf"
+    },
+    {
+      "key": "arc-sbxf",
+      "type": "ARC",
+      "name": "ARC FLORIANÓPOLIS",
+      "code": "SBXF",
+      "amdt": "2610A1",
+      "date": "2026-10-01",
+      "file": "/charts/SBFL/arc-sbxf-arc-florianopolis.pdf"
+    },
+    {
+      "key": "atcsmac-sbxf",
+      "type": "ATCSMAC",
+      "name": "TMA FLORIANÓPOLIS",
+      "code": "SBXF",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBFL/atcsmac-sbxf-tma-florianopolis.pdf"
+    },
+    {
+      "key": "FL00P",
+      "type": "IAC",
+      "name": "ILS X RWY 14",
+      "code": "FL00P",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/iac-fl00p-ils-x-rwy-14.pdf"
+    },
+    {
+      "key": "FL01U",
+      "type": "IAC",
+      "name": "ILS Z OR LOC Z RWY 14",
+      "code": "FL01U",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/iac-fl01u-ils-z-or-loc-z-rwy-14.pdf"
+    },
+    {
+      "key": "FL00V",
+      "type": "IAC",
+      "name": "RNP Y RWY 32",
+      "code": "FL00V",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/iac-fl00v-rnp-y-rwy-32.pdf"
+    },
+    {
+      "key": "FL00U",
+      "type": "IAC",
+      "name": "RNP Z RWY 14",
+      "code": "FL00U",
+      "amdt": "2604A1",
+      "date": "2026-04-16",
+      "file": "/charts/SBFL/iac-fl00u-rnp-z-rwy-14.pdf"
+    },
+    {
+      "key": "FL00T",
+      "type": "IAC",
+      "name": "VOR Y RWY 32",
+      "code": "FL00T",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/iac-fl00t-vor-y-rwy-32.pdf"
+    },
+    {
+      "key": "FL02L",
+      "type": "IAC",
+      "name": "VOR Z RWY 14",
+      "code": "FL02L",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/iac-fl02l-vor-z-rwy-14.pdf"
+    },
+    {
+      "key": "sbfl-pdc-1",
+      "type": "PDC",
+      "name": "SBFL PDC 1",
+      "code": "",
+      "amdt": "2606A1",
+      "date": "2026-06-11",
+      "file": "/charts/SBFL/pdc-sbfl-pdc-1-sbfl-pdc-1.pdf"
+    },
+    {
+      "key": "sbfl-pdc-2",
+      "type": "PDC",
+      "name": "SBFL PDC 2",
+      "code": "",
+      "amdt": "2607A1",
+      "date": "2026-07-09",
+      "file": "/charts/SBFL/pdc-sbfl-pdc-2-sbfl-pdc-2.pdf"
+    },
+    {
+      "key": "sbfl-pdc-3",
+      "type": "PDC",
+      "name": "SBFL PDC 3",
+      "code": "",
+      "amdt": "2606A1",
+      "date": "2026-06-11",
+      "file": "/charts/SBFL/pdc-sbfl-pdc-3-sbfl-pdc-3.pdf"
+    },
+    {
+      "key": "sbfl-pdc-4",
+      "type": "PDC",
+      "name": "SBFL PDC 4",
+      "code": "",
+      "amdt": "2606A1",
+      "date": "2026-06-11",
+      "file": "/charts/SBFL/pdc-sbfl-pdc-4-sbfl-pdc-4.pdf"
+    },
+    {
+      "key": "rea-xf",
+      "type": "REA",
+      "name": "XF-FLORIANÓPOLIS",
+      "code": "SBXF",
+      "amdt": "2410A1",
+      "date": "2024-10-03",
+      "file": "/charts/SBFL/rea-xf-xf-florianopolis.pdf"
+    },
+    {
+      "key": "omni-rwy-14-32",
+      "type": "SID",
+      "name": "OMNI RWY 14/32",
+      "code": "",
+      "amdt": "2510A1",
+      "date": "2025-10-02",
+      "file": "/charts/SBFL/sid-omni-rwy-14-32-omni-rwy-14-32.pdf"
+    },
+    {
+      "key": "FL02E",
+      "type": "SID",
+      "name": "RNAV BODOP 1B RWY 32",
+      "code": "FL02E",
+      "amdt": "2512A1",
+      "date": "2025-11-27",
+      "file": "/charts/SBFL/sid-fl02e-rnav-bodop-1b-rwy-32.pdf"
+    },
+    {
+      "key": "FL02C",
+      "type": "SID",
+      "name": "RNAV MIGAK 1A RWY 14",
+      "code": "FL02C",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/sid-fl02c-rnav-migak-1a-rwy-14.pdf"
+    },
+    {
+      "key": "FL02F",
+      "type": "SID",
+      "name": "RNAV MUKAL 2B RWY 32",
+      "code": "FL02F",
+      "amdt": "2606A1",
+      "date": "2026-06-11",
+      "file": "/charts/SBFL/sid-fl02f-rnav-mukal-2b-rwy-32.pdf"
+    },
+    {
+      "key": "FL02D",
+      "type": "SID",
+      "name": "RNAV PUNOD 4A RWY 14",
+      "code": "FL02D",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/sid-fl02d-rnav-punod-4a-rwy-14.pdf"
+    },
+    {
+      "key": "FL01Z",
+      "type": "STAR",
+      "name": "RNAV DADMO 1A - VAPAP 1A RWY 14",
+      "code": "FL01Z",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/star-fl01z-rnav-dadmo-1a-vapap-1a-rwy-14.pdf"
+    },
+    {
+      "key": "FL01Y",
+      "type": "STAR",
+      "name": "RNAV EDREX 1A - EGDED 2A - PUBIS 1A RWY 14",
+      "code": "FL01Y",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/star-fl01y-rnav-edrex-1a-egded-2a-pubis-1a-rwy-14.pdf"
+    },
+    {
+      "key": "FL02A",
+      "type": "STAR",
+      "name": "RNAV EDREX 1B - EGDED 1B - PUBIS 1B RWY 32",
+      "code": "FL02A",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/star-fl02a-rnav-edrex-1b-egded-1b-pubis-1b-rwy-32.pdf"
+    },
+    {
+      "key": "FL02B",
+      "type": "STAR",
+      "name": "RNAV UTBES 1B RWY 32",
+      "code": "FL02B",
+      "amdt": "2511A1",
+      "date": "2025-10-30",
+      "file": "/charts/SBFL/star-fl02b-rnav-utbes-1b-rwy-32.pdf"
+    },
+    {
+      "key": "rwy-14-32-03-21",
+      "type": "VAC",
+      "name": "RWY 14/32-03/21",
+      "code": "",
+      "amdt": "2407A1",
+      "date": "2024-07-11",
+      "file": "/charts/SBFL/vac-rwy-14-32-03-21-rwy-14-32-03-21.pdf"
+    }
+  ]
+}

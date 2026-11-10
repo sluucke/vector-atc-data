@@ -1,0 +1,68 @@
+{
+  "icao": "SBSV",
+  "name": "Salvador / Deputado Luís Eduardo Magalhães, INTL",
+  "elevation": "66'",
+  "ta": "10000'",
+  "msa": "2000' (25NM ARP)",
+  "fir": "Recife (ACC-RE)",
+  "operational": {
+    "transitionAltitude": 7000,
+    "transitionAltitudeSource": "MOPS IVAO — TMA Salvador",
+    "chartTransitionAltitude": 10000,
+    "chartTransitionAltitudeNote": "As cartas DECEA do AIRAC 2608A1 publicam TA 10000 ft (harmonização das TMA em curso). Para controle na rede IVAO vale o MOPS: TA 7000 ft.",
+    "ivaoWikiUrl": "https://wiki.br.ivao.aero/atcops/mops/sbre/sbxs",
+    "magneticVariation": -23,
+    "magneticVariationSource": "Carta DECEA — VAR 23°W"
+  },
+  "airac": {
+    "cycle": "AMDT 2608A1",
+    "effective": "2026-08-06",
+    "checkedAt": "2026-09-08",
+    "source": "https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBSV"
+  },
+  "frequencies": {
+    "dAtis": [
+      "127.775"
+    ],
+    "twr": [
+      "118.60",
+      "118.95",
+      "121.10"
+    ],
+    "app": [
+      "119.350",
+      "120.800"
+    ],
+    "acc": [
+      "126.000"
+    ],
+    "accExtended": [
+      "135.800",
+      "135.250",
+      "126.700",
+      "135.300",
+      "134.800",
+      "126.850"
+    ],
+    "network": {
+      "source": "Frequências das posições da divisão IVAO Brasil",
+      "app": "SBXS_APP",
+      "acc": "SBRE_CTR"
+    }
+  },
+  "runways": [
+    "10",
+    "28"
+  ],
+  "runwaysNote": "RWY 17/35 é de uso exclusivo da Base Aérea de Salvador (FAB) — sem SID/STAR civis publicadas.",
+  "observations": [
+    "FIR/ACC: Salvador está sob a FIR/ACC Recife (não Brasília/Atlântico) — coordenações de entrada/saída de área são feitas com o ACC-RE.",
+    "Pista única operacional: apenas RWY 10/28 possui SID/STAR civis. A RWY 17/35 é de uso militar (Base Aérea de Salvador).",
+    "100% RNAV: todas as SID/STAR exigem RNAV 1 ou RNP 1 (GNSS), exceto a SID OMNI (convencional, subida em proa de pista) — usada como alternativa para aeronaves não-RNAV. Não há STAR convencional; aeronaves sem RNAV devem receber vetoração radar nas chegadas.",
+    "Fixos compartilhados entre SID: MEVUP é comum às SID ARVOR1A/MEVUP1A e PABUK1A (RWY 10); GILDO é fixo intermediário tanto em UMPEL1A quanto em KIBIX2B a caminho de GEKEV; OSENI/UKARU/IRUMI aparecem tanto em GEDEX3A (RWY10) quanto em MIMES1B (RWY28).",
+    "UTLED1B (RWY28) é a SID com maior leque de transições (5 saídas: FROTI, ASGIK, ILTAT, ARVOR, BOGUT) — atenção redobrada ao autorizar a transição correta.",
+    "IAFs de chegada: TOGPA (via AKPAS/UDESI2B), GEVMO/ASDUT (via ATEXO), KIBIX (via RELOP), UDESI (via UDESI2A). KIBIX é IAF de STAR e também nome de SID (RWY28) — não confundir nas instruções.",
+    "Perda de comunicação: procedimento publicado (carta UDESI2B) — squawk A7600, completar a chegada até TOGPA e seguir o procedimento em uso pelo ATC.",
+    "Frequências: cartas mais antigas (OMNI, GEDEX3A-UMPEL1A) ainda trazem a lista estendida do ACC Recife; as demais SID e todas as STAR mostram apenas 125.45/126.85 — confirmar no ATIS/coordenação qual frequência está ativa para o setor."
+  ]
+}

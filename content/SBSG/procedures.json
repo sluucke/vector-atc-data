@@ -1,0 +1,250 @@
+[
+  {
+    "id": "sid-daker2a",
+    "type": "SID",
+    "runway": "12",
+    "name": "DAKER 2A",
+    "category": "RNAV",
+    "chartKey": "SG01B",
+    "geometryKey": "SID|DAKER2A|12",
+    "notes": "",
+    "fixes": [
+      "SG017",
+      "SG018",
+      "SG006",
+      "DAKER",
+      "VUMAR",
+      "SIKEL",
+      "OPTOT",
+      "EDVEG"
+    ],
+    "commonRoute": "SG017 → SG018 → SG006 → DAKER",
+    "transitions": [
+      {
+        "fix": "SIKEL",
+        "desc": "39.99 NM · via VUMAR"
+      },
+      {
+        "fix": "EDVEG",
+        "desc": "44.27 NM · via OPTOT"
+      }
+    ]
+  },
+  {
+    "id": "sid-edveg1c",
+    "type": "SID",
+    "runway": "12",
+    "name": "EDVEG 1C",
+    "category": "RNAV",
+    "chartKey": "SG01C",
+    "geometryKey": "SID|EDVEG1C|12",
+    "notes": "",
+    "fixes": [
+      "NTL",
+      "OPTOT",
+      "EDVEG"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "EDVEG",
+        "desc": "44.27 NM · via OPTOT"
+      }
+    ]
+  },
+  {
+    "id": "sid-ilmig1a",
+    "type": "SID",
+    "runway": "12",
+    "name": "ILMIG 1A",
+    "category": "RNAV",
+    "chartKey": "SG00Y",
+    "geometryKey": "SID|ILMIG1A|12",
+    "notes": "",
+    "fixes": [
+      "ISARU",
+      "PUBAG",
+      "ILMIG"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "ILMIG",
+        "desc": "46.4 NM · via PUBAG"
+      }
+    ]
+  },
+  {
+    "id": "sid-opvar1a",
+    "type": "SID",
+    "runway": "12",
+    "name": "OPVAR 1A",
+    "category": "RNAV",
+    "chartKey": "SG00Y",
+    "geometryKey": "SID|OPVAR1A|12",
+    "notes": "",
+    "fixes": [
+      "SG011",
+      "SG013",
+      "OPVAR"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "OPVAR",
+        "desc": "27.92 NM · via SG013"
+      }
+    ]
+  },
+  {
+    "id": "sid-sikel1c",
+    "type": "SID",
+    "runway": "12",
+    "name": "SIKEL 1C",
+    "category": "RNAV",
+    "chartKey": "SG01C",
+    "geometryKey": "SID|SIKEL1C|12",
+    "notes": "",
+    "fixes": [
+      "NTL",
+      "SG016",
+      "VUMAR",
+      "SIKEL"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "SIKEL",
+        "desc": "39.99 NM · via SG016 → VUMAR"
+      }
+    ]
+  },
+  {
+    "id": "sid-sinud1a",
+    "type": "SID",
+    "runway": "12",
+    "name": "SINUD 1A",
+    "category": "RNAV",
+    "chartKey": "SG00Y",
+    "geometryKey": "SID|SINUD1A|12",
+    "notes": "",
+    "fixes": [
+      "SG011",
+      "OBGOD",
+      "SINUD"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "SINUD",
+        "desc": "10.61 NM · via OBGOD"
+      }
+    ]
+  },
+  {
+    "id": "star-kubto1a",
+    "type": "STAR",
+    "runway": "12",
+    "name": "KUBTO 1A",
+    "category": "RNAV",
+    "chartKey": "SG00S",
+    "geometryKey": "STAR|KUBTO1A|12",
+    "notes": "",
+    "fixes": [
+      "ISOBA",
+      "SG003",
+      "SG014",
+      "KUBTO"
+    ],
+    "entryFixes": [
+      "ISOBA"
+    ],
+    "route": null,
+    "iaf": "KUBTO"
+  },
+  {
+    "id": "star-safuc1b",
+    "type": "STAR",
+    "runway": "12",
+    "name": "SAFUC 1B",
+    "category": "RNAV",
+    "chartKey": "SG00Q",
+    "geometryKey": "STAR|SAFUC1B|12",
+    "notes": "",
+    "fixes": [
+      "SAFUC",
+      "GEDOR",
+      "NEBUG",
+      "SG123",
+      "IVSIK"
+    ],
+    "entryFixes": [
+      "SAFUC"
+    ],
+    "route": null,
+    "iaf": "IVSIK"
+  },
+  {
+    "id": "star-safuc1c",
+    "type": "STAR",
+    "runway": "12",
+    "name": "SAFUC 1C",
+    "category": "RNAV",
+    "chartKey": "SG00Q",
+    "geometryKey": "STAR|SAFUC1C|12",
+    "notes": "",
+    "fixes": [
+      "SAFUC",
+      "GEDOR",
+      "NEBUG",
+      "SG123"
+    ],
+    "entryFixes": [
+      "SAFUC"
+    ],
+    "route": null,
+    "iaf": "SG123"
+  },
+  {
+    "id": "star-tosad1a",
+    "type": "STAR",
+    "runway": "12",
+    "name": "TOSAD 1A",
+    "category": "RNAV",
+    "chartKey": "SG00S",
+    "geometryKey": "STAR|TOSAD1A|12",
+    "notes": "",
+    "fixes": [
+      "TOSAD",
+      "LIXAM",
+      "DIDUK",
+      "IVSIK"
+    ],
+    "entryFixes": [
+      "TOSAD"
+    ],
+    "route": null,
+    "iaf": "IVSIK"
+  },
+  {
+    "id": "star-tosad1b",
+    "type": "STAR",
+    "runway": "12",
+    "name": "TOSAD 1B",
+    "category": "RNAV",
+    "chartKey": "SG00Q",
+    "geometryKey": "STAR|TOSAD1B|12",
+    "notes": "",
+    "fixes": [
+      "TOSAD",
+      "TOGUN",
+      "SG004",
+      "IVSIK"
+    ],
+    "entryFixes": [
+      "TOSAD"
+    ],
+    "route": null,
+    "iaf": "IVSIK"
+  }
+]

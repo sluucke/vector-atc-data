@@ -1,0 +1,736 @@
+{
+  "icao": "SBBR",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBBR",
+  "charts": [
+    {
+      "key": "sbbr-adc",
+      "type": "ADC",
+      "name": "SBBR ADC",
+      "code": "",
+      "amdt": "2605A1",
+      "date": "2026-05-14",
+      "file": "/charts/SBBR/adc-sbbr-adc-sbbr-adc.pdf"
+    },
+    {
+      "key": "arr-11l",
+      "type": "AGMC",
+      "name": "ARR 11L",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/agmc-arr-11l-arr-11l.pdf"
+    },
+    {
+      "key": "arr-11r",
+      "type": "AGMC",
+      "name": "ARR 11R",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/agmc-arr-11r-arr-11r.pdf"
+    },
+    {
+      "key": "arr-29l",
+      "type": "AGMC",
+      "name": "ARR 29L",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/agmc-arr-29l-arr-29l.pdf"
+    },
+    {
+      "key": "arr-29r",
+      "type": "AGMC",
+      "name": "ARR 29R",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/agmc-arr-29r-arr-29r.pdf"
+    },
+    {
+      "key": "dep-11l",
+      "type": "AGMC",
+      "name": "DEP 11L",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/agmc-dep-11l-dep-11l.pdf"
+    },
+    {
+      "key": "dep-11r",
+      "type": "AGMC",
+      "name": "DEP 11R",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/agmc-dep-11r-dep-11r.pdf"
+    },
+    {
+      "key": "dep-29l",
+      "type": "AGMC",
+      "name": "DEP 29L",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/agmc-dep-29l-dep-29l.pdf"
+    },
+    {
+      "key": "dep-29r",
+      "type": "AGMC",
+      "name": "DEP 29R",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/agmc-dep-29r-dep-29r.pdf"
+    },
+    {
+      "key": "arc-sbwr",
+      "type": "ARC",
+      "name": "ARC BRASÍLIA",
+      "code": "SBWR",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/arc-sbwr-arc-brasilia.pdf"
+    },
+    {
+      "key": "atcsmac-sbwr",
+      "type": "ATCSMAC",
+      "name": "TMA BRASÍLIA",
+      "code": "SBWR",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/atcsmac-sbwr-tma-brasilia.pdf"
+    },
+    {
+      "key": "BR04F",
+      "type": "IAC",
+      "name": "ILS T OR LOC T RWY 11R",
+      "code": "BR04F",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br04f-ils-t-or-loc-t-rwy-11r.pdf"
+    },
+    {
+      "key": "BR04R",
+      "type": "IAC",
+      "name": "ILS T RWY 29R",
+      "code": "BR04R",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br04r-ils-t-rwy-29r.pdf"
+    },
+    {
+      "key": "BR04G",
+      "type": "IAC",
+      "name": "ILS U OR LOC U RWY 11L",
+      "code": "BR04G",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br04g-ils-u-or-loc-u-rwy-11l.pdf"
+    },
+    {
+      "key": "BR04B",
+      "type": "IAC",
+      "name": "ILS U RWY 29L",
+      "code": "BR04B",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br04b-ils-u-rwy-29l.pdf"
+    },
+    {
+      "key": "BR04C",
+      "type": "IAC",
+      "name": "ILS V RWY 11R",
+      "code": "BR04C",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br04c-ils-v-rwy-11r.pdf"
+    },
+    {
+      "key": "BR01P",
+      "type": "IAC",
+      "name": "ILS W OR LOC W RWY 11L",
+      "code": "BR01P",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br01p-ils-w-or-loc-w-rwy-11l.pdf"
+    },
+    {
+      "key": "BR04E",
+      "type": "IAC",
+      "name": "ILS W OR LOC W RWY 29L",
+      "code": "BR04E",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br04e-ils-w-or-loc-w-rwy-29l.pdf"
+    },
+    {
+      "key": "BR01O",
+      "type": "IAC",
+      "name": "ILS X OR LOC X RWY 11R",
+      "code": "BR01O",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br01o-ils-x-or-loc-x-rwy-11r.pdf"
+    },
+    {
+      "key": "BR02N",
+      "type": "IAC",
+      "name": "ILS X OR LOC X RWY 29L",
+      "code": "BR02N",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br02n-ils-x-or-loc-x-rwy-29l.pdf"
+    },
+    {
+      "key": "BR04S",
+      "type": "IAC",
+      "name": "ILS Y OR LOC Y RWY 29R",
+      "code": "BR04S",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br04s-ils-y-or-loc-y-rwy-29r.pdf"
+    },
+    {
+      "key": "BR02B",
+      "type": "IAC",
+      "name": "ILS Y RWY 11L",
+      "code": "BR02B",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br02b-ils-y-rwy-11l.pdf"
+    },
+    {
+      "key": "BR02C",
+      "type": "IAC",
+      "name": "ILS Z RWY 11R",
+      "code": "BR02C",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br02c-ils-z-rwy-11r.pdf"
+    },
+    {
+      "key": "BR02E",
+      "type": "IAC",
+      "name": "ILS Z RWY 29L",
+      "code": "BR02E",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br02e-ils-z-rwy-29l.pdf"
+    },
+    {
+      "key": "BR00B",
+      "type": "IAC",
+      "name": "RNP V RWY 11R",
+      "code": "BR00B",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br00b-rnp-v-rwy-11r.pdf"
+    },
+    {
+      "key": "BR04D",
+      "type": "IAC",
+      "name": "RNP V RWY 29L",
+      "code": "BR04D",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br04d-rnp-v-rwy-29l.pdf"
+    },
+    {
+      "key": "BR00A",
+      "type": "IAC",
+      "name": "RNP W RWY 11L",
+      "code": "BR00A",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br00a-rnp-w-rwy-11l.pdf"
+    },
+    {
+      "key": "BR03Z",
+      "type": "IAC",
+      "name": "RNP W RWY 29L (AR)",
+      "code": "BR03Z",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br03z-rnp-w-rwy-29l-ar.pdf"
+    },
+    {
+      "key": "BR03X",
+      "type": "IAC",
+      "name": "RNP X RWY 11L (AR)",
+      "code": "BR03X",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br03x-rnp-x-rwy-11l-ar.pdf"
+    },
+    {
+      "key": "BR03R",
+      "type": "IAC",
+      "name": "RNP X RWY 29L",
+      "code": "BR03R",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br03r-rnp-x-rwy-29l.pdf"
+    },
+    {
+      "key": "BR03Y",
+      "type": "IAC",
+      "name": "RNP Y RWY 11R (AR)",
+      "code": "BR03Y",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br03y-rnp-y-rwy-11r-ar.pdf"
+    },
+    {
+      "key": "BR00D",
+      "type": "IAC",
+      "name": "RNP Y RWY 29R",
+      "code": "BR00D",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br00d-rnp-y-rwy-29r.pdf"
+    },
+    {
+      "key": "BR02A",
+      "type": "IAC",
+      "name": "RNP Z RWY 11L",
+      "code": "BR02A",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br02a-rnp-z-rwy-11l.pdf"
+    },
+    {
+      "key": "BR04A",
+      "type": "IAC",
+      "name": "RNP Z RWY 29R (AR)",
+      "code": "BR04A",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br04a-rnp-z-rwy-29r-ar.pdf"
+    },
+    {
+      "key": "BR01V",
+      "type": "IAC",
+      "name": "VOR Y RWY 11L",
+      "code": "BR01V",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br01v-vor-y-rwy-11l.pdf"
+    },
+    {
+      "key": "BR01Y",
+      "type": "IAC",
+      "name": "VOR Y RWY 29R",
+      "code": "BR01Y",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br01y-vor-y-rwy-29r.pdf"
+    },
+    {
+      "key": "BR01W",
+      "type": "IAC",
+      "name": "VOR Z RWY 11R",
+      "code": "BR01W",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/iac-br01w-vor-z-rwy-11r.pdf"
+    },
+    {
+      "key": "sbbr-pdc-1",
+      "type": "PDC",
+      "name": "SBBR PDC 1",
+      "code": "",
+      "amdt": "2606A1",
+      "date": "2026-06-11",
+      "file": "/charts/SBBR/pdc-sbbr-pdc-1-sbbr-pdc-1.pdf"
+    },
+    {
+      "key": "sbbr-pdc-2",
+      "type": "PDC",
+      "name": "SBBR PDC 2",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/pdc-sbbr-pdc-2-sbbr-pdc-2.pdf"
+    },
+    {
+      "key": "sbbr-pdc-3",
+      "type": "PDC",
+      "name": "SBBR PDC 3",
+      "code": "",
+      "amdt": "2609A1",
+      "date": "2026-09-03",
+      "file": "/charts/SBBR/pdc-sbbr-pdc-3-sbbr-pdc-3.pdf"
+    },
+    {
+      "key": "rea-wr",
+      "type": "REA",
+      "name": "WR-Brasília",
+      "code": "SBWR",
+      "amdt": "2401A1",
+      "date": "2024-01-25",
+      "file": "/charts/SBBR/rea-wr-wr-brasilia.pdf"
+    },
+    {
+      "key": "BR00I",
+      "type": "SID",
+      "name": "ANPAX 2A - LIXEM 1A RWY 29L",
+      "code": "BR00I",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00i-anpax-2a-lixem-1a-rwy-29l.pdf"
+    },
+    {
+      "key": "BR00G",
+      "type": "SID",
+      "name": "FSA 3A - OTAFO 1A RWY 11L",
+      "code": "BR00G",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00g-fsa-3a-otafo-1a-rwy-11l.pdf"
+    },
+    {
+      "key": "BR00H",
+      "type": "SID",
+      "name": "IRITU 1A RWY 11L",
+      "code": "BR00H",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00h-iritu-1a-rwy-11l.pdf"
+    },
+    {
+      "key": "BR03T",
+      "type": "SID",
+      "name": "KOGLI 1B - UKENA 2A RWY 29R",
+      "code": "BR03T",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br03t-kogli-1b-ukena-2a-rwy-29r.pdf"
+    },
+    {
+      "key": "BR02P",
+      "type": "SID",
+      "name": "KOTVU 1A RWY 11R",
+      "code": "BR02P",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02p-kotvu-1a-rwy-11r.pdf"
+    },
+    {
+      "key": "BR02M",
+      "type": "SID",
+      "name": "LUZ 1A RWY 29L",
+      "code": "BR02M",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02m-luz-1a-rwy-29l.pdf"
+    },
+    {
+      "key": "BR02Q",
+      "type": "SID",
+      "name": "LUZ 2D RWY 11R",
+      "code": "BR02Q",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02q-luz-2d-rwy-11r.pdf"
+    },
+    {
+      "key": "BR00K",
+      "type": "SID",
+      "name": "MIBIS 1A RWY 11R",
+      "code": "BR00K",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00k-mibis-1a-rwy-11r.pdf"
+    },
+    {
+      "key": "BR03A",
+      "type": "SID",
+      "name": "NIRDI 1A RWY 11L",
+      "code": "BR03A",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br03a-nirdi-1a-rwy-11l.pdf"
+    },
+    {
+      "key": "omni-rwy-11l-11r-29l-29r",
+      "type": "SID",
+      "name": "OMNI RWY 11L/11R / 29L/29R",
+      "code": "",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-omni-rwy-11l-11r-29l-29r-omni-rwy-11l-11r-29l-29r.pdf"
+    },
+    {
+      "key": "BR04I",
+      "type": "SID",
+      "name": "RNAV ARSOP 1B RWY 29R",
+      "code": "BR04I",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br04i-rnav-arsop-1b-rwy-29r.pdf"
+    },
+    {
+      "key": "BR02Z",
+      "type": "SID",
+      "name": "RNAV BOBEM 2A - SAVPU 1A RWY 29R",
+      "code": "BR02Z",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02z-rnav-bobem-2a-savpu-1a-rwy-29r.pdf"
+    },
+    {
+      "key": "BR00O",
+      "type": "SID",
+      "name": "RNAV ESBUX 6A RWY 11L",
+      "code": "BR00O",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00o-rnav-esbux-6a-rwy-11l.pdf"
+    },
+    {
+      "key": "BR00W",
+      "type": "SID",
+      "name": "RNAV GAXON 2A RWY 29L",
+      "code": "BR00W",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00w-rnav-gaxon-2a-rwy-29l.pdf"
+    },
+    {
+      "key": "BR00X",
+      "type": "SID",
+      "name": "RNAV KOTVU 1B RWY 11L",
+      "code": "BR00X",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00x-rnav-kotvu-1b-rwy-11l.pdf"
+    },
+    {
+      "key": "BR02T",
+      "type": "SID",
+      "name": "RNAV LIVEV 2B RWY 11R",
+      "code": "BR02T",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02t-rnav-livev-2b-rwy-11r.pdf"
+    },
+    {
+      "key": "BR02X",
+      "type": "SID",
+      "name": "RNAV MOVDO 1B RWY 29R",
+      "code": "BR02X",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02x-rnav-movdo-1b-rwy-29r.pdf"
+    },
+    {
+      "key": "BR00T",
+      "type": "SID",
+      "name": "RNAV OPVIX 1A RWY 29L",
+      "code": "BR00T",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00t-rnav-opvix-1a-rwy-29l.pdf"
+    },
+    {
+      "key": "BR00M",
+      "type": "SID",
+      "name": "RNAV PAPID 2A RWY 11L",
+      "code": "BR00M",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00m-rnav-papid-2a-rwy-11l.pdf"
+    },
+    {
+      "key": "BR00V",
+      "type": "SID",
+      "name": "RNAV SEMDU 2A RWY 11L",
+      "code": "BR00V",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00v-rnav-semdu-2a-rwy-11l.pdf"
+    },
+    {
+      "key": "BR00P",
+      "type": "SID",
+      "name": "RNAV TINSI 5A - UGTAK 1A RWY 29L",
+      "code": "BR00P",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00p-rnav-tinsi-5a-ugtak-1a-rwy-29l.pdf"
+    },
+    {
+      "key": "BR02U",
+      "type": "SID",
+      "name": "RNAV TIPTU 1A - UMSUB 1A RWY 11R",
+      "code": "BR02U",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02u-rnav-tiptu-1a-umsub-1a-rwy-11r.pdf"
+    },
+    {
+      "key": "BR00U",
+      "type": "SID",
+      "name": "RNAV UMDEB 1A RWY 29L",
+      "code": "BR00U",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br00u-rnav-umdeb-1a-rwy-29l.pdf"
+    },
+    {
+      "key": "BR02S",
+      "type": "SID",
+      "name": "RNAV UTGOG 1B RWY 11R",
+      "code": "BR02S",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02s-rnav-utgog-1b-rwy-11r.pdf"
+    },
+    {
+      "key": "BR02V",
+      "type": "SID",
+      "name": "RNAV UTMUM 1A RWY 29R",
+      "code": "BR02V",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02v-rnav-utmum-1a-rwy-29r.pdf"
+    },
+    {
+      "key": "BR04L",
+      "type": "SID",
+      "name": "RNAV UTPAS 2C RWY 29R",
+      "code": "BR04L",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br04l-rnav-utpas-2c-rwy-29r.pdf"
+    },
+    {
+      "key": "BR02Y",
+      "type": "SID",
+      "name": "RNAV UTPAS 6B RWY 29R",
+      "code": "BR02Y",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02y-rnav-utpas-6b-rwy-29r.pdf"
+    },
+    {
+      "key": "BR03S",
+      "type": "SID",
+      "name": "RNAV VUTMI 1B RWY 11R",
+      "code": "BR03S",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br03s-rnav-vutmi-1b-rwy-11r.pdf"
+    },
+    {
+      "key": "BR02R",
+      "type": "SID",
+      "name": "UTGEN 1A RWY 29R",
+      "code": "BR02R",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/sid-br02r-utgen-1a-rwy-29r.pdf"
+    },
+    {
+      "key": "BR01J",
+      "type": "STAR",
+      "name": "RNAV EDVIV 2B - MOPDA 2B RWY 29L 29R",
+      "code": "BR01J",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br01j-rnav-edviv-2b-mopda-2b-rwy-29l-29r.pdf"
+    },
+    {
+      "key": "BR01D",
+      "type": "STAR",
+      "name": "RNAV EROPO 1A RWY 11L 11R",
+      "code": "BR01D",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br01d-rnav-eropo-1a-rwy-11l-11r.pdf"
+    },
+    {
+      "key": "BR01E",
+      "type": "STAR",
+      "name": "RNAV EROPO 1B RWY 29L/29R",
+      "code": "BR01E",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br01e-rnav-eropo-1b-rwy-29l-29r.pdf"
+    },
+    {
+      "key": "BR01L",
+      "type": "STAR",
+      "name": "RNAV EVPUK 1A RWY 11L/11R",
+      "code": "BR01L",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br01l-rnav-evpuk-1a-rwy-11l-11r.pdf"
+    },
+    {
+      "key": "BR01M",
+      "type": "STAR",
+      "name": "RNAV EVPUK 1B RWY 29L 29R",
+      "code": "BR01M",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br01m-rnav-evpuk-1b-rwy-29l-29r.pdf"
+    },
+    {
+      "key": "BR01I",
+      "type": "STAR",
+      "name": "RNAV IRULA 1A RWY 11L 11R",
+      "code": "BR01I",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br01i-rnav-irula-1a-rwy-11l-11r.pdf"
+    },
+    {
+      "key": "BR01F",
+      "type": "STAR",
+      "name": "RNAV KOGNO 2A - SIPIG 2A RWY 11L 11R",
+      "code": "BR01F",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br01f-rnav-kogno-2a-sipig-2a-rwy-11l-11r.pdf"
+    },
+    {
+      "key": "BR01H",
+      "type": "STAR",
+      "name": "RNAV MOLTI 1B RWY 29L 29R",
+      "code": "BR01H",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br01h-rnav-molti-1b-rwy-29l-29r.pdf"
+    },
+    {
+      "key": "BR00Z",
+      "type": "STAR",
+      "name": "RNAV PAJEM 2B RWY 29L 29R",
+      "code": "BR00Z",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br00z-rnav-pajem-2b-rwy-29l-29r.pdf"
+    },
+    {
+      "key": "BR00Y",
+      "type": "STAR",
+      "name": "RNAV PAJEM 4A RWY 11L 11R",
+      "code": "BR00Y",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBBR/star-br00y-rnav-pajem-4a-rwy-11l-11r.pdf"
+    },
+    {
+      "key": "rwy-11l-29r-11r-29l",
+      "type": "VAC",
+      "name": "RWY 11L/29R 11R/29L",
+      "code": "",
+      "amdt": "2508A1",
+      "date": "2025-08-07",
+      "file": "/charts/SBBR/vac-rwy-11l-29r-11r-29l-rwy-11l-29r-11r-29l.pdf"
+    }
+  ]
+}

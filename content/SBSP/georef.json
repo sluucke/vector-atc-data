@@ -1,0 +1,53 @@
+{
+  "SP02E": {
+    "file": "/charts/SBSP/sid-sp02e-rnav-ugtix-2a-rwy-17r-17l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          382.8786919,
+          0,
+          -5336246.155,
+          0,
+          -382.8786919,
+          -2525335.214
+        ],
+        "fixes": [
+          "SP084",
+          "SP086",
+          "SP087",
+          "SP088",
+          "SP106",
+          "UGTIX",
+          "UTKOM"
+        ],
+        "rmsMeters": 922
+      }
+    }
+  },
+  "SP02L": {
+    "file": "/charts/SBSP/sid-sp02l-rnav-utkom-1a-rwy-17r-17l.pdf",
+    "pages": {
+      "1": {
+        "width": 413.86,
+        "height": 623.62,
+        "affine": [
+          370.6535253,
+          0,
+          -5304602.041,
+          0,
+          -370.6535253,
+          -2617225.347
+        ],
+        "fixes": [
+          "NIBGA",
+          "SOVSI",
+          "SP104",
+          "UBSOD"
+        ],
+        "rmsMeters": 309
+      }
+    }
+  }
+}

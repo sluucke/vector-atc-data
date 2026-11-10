@@ -1,0 +1,77 @@
+name: Sync
+
+# AIRAC cycles take effect on Thursdays. A weekly run catches a new cycle and
+# any amendment DECEA publishes between cycles; nothing is released when only
+# the sync dates changed.
+on:
+  schedule:
+    - cron: "0 9 * * 4"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Publish a release even if nothing changed
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Sync every aerodrome and the national data
+        run: npm run sync:all
+        env:
+          AISWEB_API_KEY: ${{ secrets.AISWEB_API_KEY }}
+          AISWEB_API_PASS: ${{ secrets.AISWEB_API_PASS }}
+
+      - name: Compare with the last commit
+        id: diff
+        run: npm run check:changed
+
+      - name: Commit the new data
+        if: steps.diff.outputs.changed == 'true' || inputs.force
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          git commit -m "Sync data $(date -u +%F)" || echo "Nothing to commit"
+          git push
+
+      - name: Package and publish the release
+        if: steps.diff.outputs.changed == 'true' || inputs.force
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="data-$(date -u +%F)-r${{ github.run_number }}"
+          npm run release:package -- "$tag"
+          gh release create "$tag" dist/manifest.json dist/content.tar.gz dist/charts.tar \
+            --title "$tag" \
+            --notes "Dados sincronizados do AISWEB/DECEA em $(date -u +%F). Veja manifest.json para os ciclos AIRAC de cada aeródromo." \
+            --latest
+
+      - name: Rebuild Vector ATC
+        if: steps.diff.outputs.changed == 'true' || inputs.force
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$HOOK" ]; then
+            curl -fsS -X POST "$HOOK" > /dev/null && echo "Deploy do Vector ATC disparado."
+          else
+            echo "VERCEL_DEPLOY_HOOK não configurado; o Vector ATC pega os dados no próximo deploy."
+          fi

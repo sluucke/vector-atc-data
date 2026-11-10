@@ -1,0 +1,474 @@
+[
+  {
+    "id": "sid-edveg1a",
+    "type": "SID",
+    "runway": "12",
+    "name": "EDVEG 1A",
+    "category": "RNAV",
+    "chartKey": "NT02B",
+    "geometryKey": "SID|EDVEG1A|12",
+    "notes": "",
+    "fixes": [
+      "OPTOT",
+      "EDVEG"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "EDVEG",
+        "desc": "44.27 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-ilmig1b",
+    "type": "SID",
+    "runway": "12",
+    "name": "ILMIG 1B",
+    "category": "RNAV",
+    "chartKey": "NT02C",
+    "geometryKey": "SID|ILMIG1B|12",
+    "notes": "",
+    "fixes": [
+      "ISARU",
+      "PUBAG",
+      "ILMIG"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "ILMIG",
+        "desc": "46.4 NM · via PUBAG"
+      }
+    ]
+  },
+  {
+    "id": "sid-ntl3a",
+    "type": "SID",
+    "runway": "12",
+    "name": "NTL 3A",
+    "category": "CONV",
+    "chartKey": "NT00D",
+    "geometryKey": "SID|NTL3A|12",
+    "notes": "",
+    "fixes": [
+      "NTL",
+      "NTL02*",
+      "SIRED",
+      "NTL04*",
+      "OGPER"
+    ],
+    "commonRoute": "NTL",
+    "transitions": [
+      {
+        "fix": "SIRED",
+        "desc": "33 NM · via NTL02*"
+      },
+      {
+        "fix": "OGPER",
+        "desc": "33 NM · via NTL04*"
+      }
+    ]
+  },
+  {
+    "id": "sid-opvar1b",
+    "type": "SID",
+    "runway": "12",
+    "name": "OPVAR 1B",
+    "category": "RNAV",
+    "chartKey": "NT02C",
+    "geometryKey": "SID|OPVAR1B|12",
+    "notes": "",
+    "fixes": [
+      "NTL",
+      "NT011",
+      "NT012",
+      "OPVAR"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "OPVAR",
+        "desc": "35.17 NM · via NT011 → NT012"
+      }
+    ]
+  },
+  {
+    "id": "sid-sikel1a",
+    "type": "SID",
+    "runway": "12",
+    "name": "SIKEL 1A",
+    "category": "RNAV",
+    "chartKey": "NT02B",
+    "geometryKey": "SID|SIKEL1A|12",
+    "notes": "",
+    "fixes": [
+      "DAKER",
+      "VUMAR",
+      "SIKEL"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "SIKEL",
+        "desc": "39.99 NM · via VUMAR"
+      }
+    ]
+  },
+  {
+    "id": "sid-sinud1b",
+    "type": "SID",
+    "runway": "12",
+    "name": "SINUD 1B",
+    "category": "RNAV",
+    "chartKey": "NT02C",
+    "geometryKey": "SID|SINUD1B|12",
+    "notes": "",
+    "fixes": [
+      "NTL",
+      "OBGOD",
+      "SINUD"
+    ],
+    "commonRoute": "NTL → OBGOD → SINUD",
+    "transitions": []
+  },
+  {
+    "id": "sid-nebik2c",
+    "type": "SID",
+    "runway": "12/16L",
+    "name": "NEBIK 2C",
+    "category": "CONV",
+    "chartKey": "NT01Y",
+    "geometryKey": "SID|NEBIK2C|12/16L",
+    "notes": "",
+    "fixes": [
+      "NTL11*",
+      "NEBIK"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "RWY12",
+        "desc": "≥8000 ft"
+      },
+      {
+        "fix": "RW16R",
+        "desc": "≥8000 ft"
+      },
+      {
+        "fix": "RW16L",
+        "desc": "≥8000 ft"
+      },
+      {
+        "fix": "NEBIK",
+        "desc": "20.01 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-ratep2e",
+    "type": "SID",
+    "runway": "12/16L",
+    "name": "RATEP 2E",
+    "category": "CONV",
+    "chartKey": "NT01Y",
+    "geometryKey": "SID|RATEP2E|12/16L",
+    "notes": "",
+    "fixes": [
+      "NTL12*",
+      "RATEP"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "RWY12",
+        "desc": "≥8000 ft"
+      },
+      {
+        "fix": "RW16L",
+        "desc": "≥8000 ft"
+      },
+      {
+        "fix": "RW16R",
+        "desc": "≥8000 ft"
+      },
+      {
+        "fix": "RATEP",
+        "desc": "20.01 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-ilmig1a",
+    "type": "SID",
+    "runway": "16L/16R",
+    "name": "ILMIG 1A",
+    "category": "RNAV",
+    "chartKey": "NT00E",
+    "geometryKey": "SID|ILMIG1A|16L/16R",
+    "notes": "",
+    "fixes": [
+      "ISARU",
+      "PUBAG",
+      "ILMIG"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "RW16L",
+        "desc": "conforme coding table"
+      },
+      {
+        "fix": "RW16R",
+        "desc": "conforme coding table"
+      },
+      {
+        "fix": "ILMIG",
+        "desc": "46.4 NM · via PUBAG"
+      }
+    ]
+  },
+  {
+    "id": "sid-ntl3b",
+    "type": "SID",
+    "runway": "16L/16R",
+    "name": "NTL 3B",
+    "category": "CONV",
+    "chartKey": "NT00D",
+    "geometryKey": "SID|NTL3B|16L/16R",
+    "notes": "",
+    "fixes": [
+      "NTL",
+      "NTL02*",
+      "SIRED",
+      "NTL04*",
+      "OGPER"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "RW16L",
+        "desc": "conforme coding table"
+      },
+      {
+        "fix": "RW16R",
+        "desc": "conforme coding table"
+      },
+      {
+        "fix": "SIRED",
+        "desc": "33 NM · via NTL02*"
+      },
+      {
+        "fix": "OGPER",
+        "desc": "33 NM · via NTL04*"
+      }
+    ]
+  },
+  {
+    "id": "sid-opvar1a",
+    "type": "SID",
+    "runway": "16L/16R",
+    "name": "OPVAR 1A",
+    "category": "RNAV",
+    "chartKey": "NT00E",
+    "geometryKey": "SID|OPVAR1A|16L/16R",
+    "notes": "",
+    "fixes": [
+      "NTL",
+      "NT011",
+      "NT012",
+      "OPVAR"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "RW16L",
+        "desc": "≥5000 ft"
+      },
+      {
+        "fix": "RW16R",
+        "desc": "≥5000 ft"
+      },
+      {
+        "fix": "OPVAR",
+        "desc": "35.17 NM · via NT011 → NT012"
+      }
+    ]
+  },
+  {
+    "id": "sid-sinud1a",
+    "type": "SID",
+    "runway": "16L/16R",
+    "name": "SINUD 1A",
+    "category": "RNAV",
+    "chartKey": "NT00E",
+    "geometryKey": "SID|SINUD1A|16L/16R",
+    "notes": "",
+    "fixes": [
+      "NTL",
+      "OBGOD",
+      "SINUD"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "RW16L",
+        "desc": "≥5000 ft"
+      },
+      {
+        "fix": "RW16R",
+        "desc": "≥5000 ft"
+      },
+      {
+        "fix": "SINUD",
+        "desc": "10.61 NM · via OBGOD"
+      }
+    ]
+  },
+  {
+    "id": "sid-edveg1brwy16r/16l",
+    "type": "SID",
+    "runway": "16R/16L",
+    "name": "EDVEG 1B RWY 16R / 16L",
+    "category": "RNAV",
+    "chartKey": "NT00G",
+    "geometryKey": "SID|EDVEG1B|16R/16L",
+    "notes": "",
+    "fixes": [
+      "OPTOT",
+      "EDVEG"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "RW16R",
+        "desc": "conforme coding table"
+      },
+      {
+        "fix": "RW16L",
+        "desc": "conforme coding table"
+      },
+      {
+        "fix": "EDVEG",
+        "desc": "44.27 NM"
+      }
+    ]
+  },
+  {
+    "id": "sid-sikel3brwy16r/16l",
+    "type": "SID",
+    "runway": "16R/16L",
+    "name": "SIKEL 3B RWY 16R / 16L",
+    "category": "RNAV",
+    "chartKey": "NT00G",
+    "geometryKey": "SID|SIKEL3B|16R/16L",
+    "notes": "",
+    "fixes": [
+      "DAKER",
+      "VUMAR",
+      "SIKEL"
+    ],
+    "commonRoute": null,
+    "transitions": [
+      {
+        "fix": "RW16R",
+        "desc": "conforme coding table"
+      },
+      {
+        "fix": "RW16L",
+        "desc": "conforme coding table"
+      },
+      {
+        "fix": "SIKEL",
+        "desc": "39.99 NM · via VUMAR"
+      }
+    ]
+  },
+  {
+    "id": "star-isoba1a",
+    "type": "STAR",
+    "runway": "16L/16R",
+    "name": "ISOBA 1A",
+    "category": "RNAV",
+    "chartKey": "NT01Z",
+    "geometryKey": "STAR|ISOBA1A|16L/16R",
+    "notes": "",
+    "fixes": [
+      "ISOBA",
+      "NT013",
+      "KUBTO",
+      "NT363"
+    ],
+    "entryFixes": [
+      "ISOBA"
+    ],
+    "route": null,
+    "iaf": "NT363"
+  },
+  {
+    "id": "star-safuc1a",
+    "type": "STAR",
+    "runway": "16L/16R",
+    "name": "SAFUC 1A",
+    "category": "RNAV",
+    "chartKey": "NT01Z",
+    "geometryKey": "STAR|SAFUC1A|16L/16R",
+    "notes": "",
+    "fixes": [
+      "SAFUC",
+      "GEDOR",
+      "NT016",
+      "NEBUG",
+      "NT363"
+    ],
+    "entryFixes": [
+      "SAFUC"
+    ],
+    "route": null,
+    "iaf": "NT363"
+  },
+  {
+    "id": "star-togun1a",
+    "type": "STAR",
+    "runway": "16L/16R",
+    "name": "TOGUN 1A",
+    "category": "RNAV",
+    "chartKey": "NT01Z",
+    "geometryKey": "STAR|TOGUN1A|16L/16R",
+    "notes": "",
+    "fixes": [
+      "TOGUN",
+      "NT017",
+      "NT014",
+      "NT363"
+    ],
+    "entryFixes": [
+      "TOGUN"
+    ],
+    "route": null,
+    "iaf": "NT363"
+  },
+  {
+    "id": "star-utkel1a",
+    "type": "STAR",
+    "runway": "16L/16R",
+    "name": "UTKEL 1A",
+    "category": "RNAV",
+    "chartKey": "NT01Z",
+    "geometryKey": "STAR|UTKEL1A|16L/16R",
+    "notes": "",
+    "fixes": [
+      "TOGUN",
+      "LIXAM",
+      "DIDUK",
+      "NT388",
+      "UTKEL",
+      "NT363"
+    ],
+    "entryFixes": [
+      "UTKEL"
+    ],
+    "route": null,
+    "iaf": "NT363"
+  }
+]

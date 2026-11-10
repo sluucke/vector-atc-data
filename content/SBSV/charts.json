@@ -1,0 +1,277 @@
+{
+  "icao": "SBSV",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBSV",
+  "charts": [
+    {
+      "key": "sbsv-adc",
+      "type": "ADC",
+      "name": "SBSV ADC",
+      "code": "",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/adc-sbsv-adc-sbsv-adc.pdf"
+    },
+    {
+      "key": "arc-sbxs",
+      "type": "ARC",
+      "name": "ARC SALVADOR",
+      "code": "SBXS",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBSV/arc-sbxs-arc-salvador.pdf"
+    },
+    {
+      "key": "atcsmac-sbxs",
+      "type": "ATCSMAC",
+      "name": "TMA SALVADOR",
+      "code": "SBXS",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/atcsmac-sbxs-tma-salvador.pdf"
+    },
+    {
+      "key": "SV03I",
+      "type": "IAC",
+      "name": "ILS X RWY 28",
+      "code": "SV03I",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/iac-sv03i-ils-x-rwy-28.pdf"
+    },
+    {
+      "key": "SV00T",
+      "type": "IAC",
+      "name": "ILS Y OR LOC Y RWY 10",
+      "code": "SV00T",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/iac-sv00t-ils-y-or-loc-y-rwy-10.pdf"
+    },
+    {
+      "key": "SV00V",
+      "type": "IAC",
+      "name": "ILS Y OR LOC Y RWY 28",
+      "code": "SV00V",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/iac-sv00v-ils-y-or-loc-y-rwy-28.pdf"
+    },
+    {
+      "key": "SV00S",
+      "type": "IAC",
+      "name": "ILS Z RWY 10",
+      "code": "SV00S",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/iac-sv00s-ils-z-rwy-10.pdf"
+    },
+    {
+      "key": "SV00Z",
+      "type": "IAC",
+      "name": "RNP RWY 10",
+      "code": "SV00Z",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/iac-sv00z-rnp-rwy-10.pdf"
+    },
+    {
+      "key": "SV01A",
+      "type": "IAC",
+      "name": "RNP RWY 28",
+      "code": "SV01A",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/iac-sv01a-rnp-rwy-28.pdf"
+    },
+    {
+      "key": "SV03P",
+      "type": "IAC",
+      "name": "RNP Z RWY 17",
+      "code": "SV03P",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/iac-sv03p-rnp-z-rwy-17.pdf"
+    },
+    {
+      "key": "SV00X",
+      "type": "IAC",
+      "name": "VOR Z RWY 10",
+      "code": "SV00X",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/iac-sv00x-vor-z-rwy-10.pdf"
+    },
+    {
+      "key": "SV00Y",
+      "type": "IAC",
+      "name": "VOR Z RWY 28",
+      "code": "SV00Y",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/iac-sv00y-vor-z-rwy-28.pdf"
+    },
+    {
+      "key": "sbsv-pdc-1",
+      "type": "PDC",
+      "name": "SBSV PDC 1",
+      "code": "",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBSV/pdc-sbsv-pdc-1-sbsv-pdc-1.pdf"
+    },
+    {
+      "key": "sbsv-pdc-2",
+      "type": "PDC",
+      "name": "SBSV PDC 2",
+      "code": "",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBSV/pdc-sbsv-pdc-2-sbsv-pdc-2.pdf"
+    },
+    {
+      "key": "sbsv-pdc-3",
+      "type": "PDC",
+      "name": "SBSV PDC 3",
+      "code": "",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBSV/pdc-sbsv-pdc-3-sbsv-pdc-3.pdf"
+    },
+    {
+      "key": "sbsv-pdc-4",
+      "type": "PDC",
+      "name": "SBSV PDC 4",
+      "code": "",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBSV/pdc-sbsv-pdc-4-sbsv-pdc-4.pdf"
+    },
+    {
+      "key": "rea-xs",
+      "type": "REA",
+      "name": "XS-Salvador",
+      "code": "SBXS",
+      "amdt": "2412A1",
+      "date": "2024-11-28",
+      "file": "/charts/SBSV/rea-xs-xs-salvador.pdf"
+    },
+    {
+      "key": "omni-rwy-10-28",
+      "type": "SID",
+      "name": "OMNI RWY 10/28",
+      "code": "",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/sid-omni-rwy-10-28-omni-rwy-10-28.pdf"
+    },
+    {
+      "key": "SV03L",
+      "type": "SID",
+      "name": "RNAV ARVOR 1A - MEVUP 1A RWY 10",
+      "code": "SV03L",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/sid-sv03l-rnav-arvor-1a-mevup-1a-rwy-10.pdf"
+    },
+    {
+      "key": "SV02F",
+      "type": "SID",
+      "name": "RNAV GEDEX 3A - UMPEL 1A RWY 10",
+      "code": "SV02F",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/sid-sv02f-rnav-gedex-3a-umpel-1a-rwy-10.pdf"
+    },
+    {
+      "key": "SV03M",
+      "type": "SID",
+      "name": "RNAV KIBIX 2B - MIMES 1B RWY 28",
+      "code": "SV03M",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/sid-sv03m-rnav-kibix-2b-mimes-1b-rwy-28.pdf"
+    },
+    {
+      "key": "SV03K",
+      "type": "SID",
+      "name": "RNAV PABUK 1A RWY 10",
+      "code": "SV03K",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/sid-sv03k-rnav-pabuk-1a-rwy-10.pdf"
+    },
+    {
+      "key": "SV02L",
+      "type": "SID",
+      "name": "RNAV UTLED 1B RWY 28",
+      "code": "SV02L",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/sid-sv02l-rnav-utled-1b-rwy-28.pdf"
+    },
+    {
+      "key": "SV02D",
+      "type": "STAR",
+      "name": "RNAV AKPAS 1A RWY 10",
+      "code": "SV02D",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/star-sv02d-rnav-akpas-1a-rwy-10.pdf"
+    },
+    {
+      "key": "SV02H",
+      "type": "STAR",
+      "name": "RNAV AKPAS 1B RWY 28",
+      "code": "SV02H",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/star-sv02h-rnav-akpas-1b-rwy-28.pdf"
+    },
+    {
+      "key": "SV02A",
+      "type": "STAR",
+      "name": "RNAV ATEXO 1A RWY 10",
+      "code": "SV02A",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/star-sv02a-rnav-atexo-1a-rwy-10.pdf"
+    },
+    {
+      "key": "SV02J",
+      "type": "STAR",
+      "name": "RNAV ATEXO 1B RWY 28",
+      "code": "SV02J",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/star-sv02j-rnav-atexo-1b-rwy-28.pdf"
+    },
+    {
+      "key": "SV02B",
+      "type": "STAR",
+      "name": "RNAV RELOP 1A - UDESI 2A RWY 10",
+      "code": "SV02B",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/star-sv02b-rnav-relop-1a-udesi-2a-rwy-10.pdf"
+    },
+    {
+      "key": "SV02K",
+      "type": "STAR",
+      "name": "RNAV UDESI 2B RWY 28",
+      "code": "SV02K",
+      "amdt": "2608A1",
+      "date": "2026-08-06",
+      "file": "/charts/SBSV/star-sv02k-rnav-udesi-2b-rwy-28.pdf"
+    },
+    {
+      "key": "rwy-10-28-17-35",
+      "type": "VAC",
+      "name": "RWY 10/28 17/35",
+      "code": "",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBSV/vac-rwy-10-28-17-35-rwy-10-28-17-35.pdf"
+    }
+  ]
+}

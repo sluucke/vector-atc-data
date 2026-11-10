@@ -1,0 +1,304 @@
+{
+  "icao": "SBRF",
+  "syncedAt": "2026-11-10",
+  "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBRF",
+  "charts": [
+    {
+      "key": "sbrf-adc",
+      "type": "ADC",
+      "name": "SBRF ADC",
+      "code": "",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBRF/adc-sbrf-adc-sbrf-adc.pdf"
+    },
+    {
+      "key": "arr-18",
+      "type": "AGMC",
+      "name": "ARR 18",
+      "code": "",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBRF/agmc-arr-18-arr-18.pdf"
+    },
+    {
+      "key": "arr-36",
+      "type": "AGMC",
+      "name": "ARR 36",
+      "code": "",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBRF/agmc-arr-36-arr-36.pdf"
+    },
+    {
+      "key": "dep-18",
+      "type": "AGMC",
+      "name": "DEP 18",
+      "code": "",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBRF/agmc-dep-18-dep-18.pdf"
+    },
+    {
+      "key": "dep-36",
+      "type": "AGMC",
+      "name": "DEP 36",
+      "code": "",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBRF/agmc-dep-36-dep-36.pdf"
+    },
+    {
+      "key": "arc-sbwf",
+      "type": "ARC",
+      "name": "ARC RECIFE",
+      "code": "SBWF",
+      "amdt": "2611A1",
+      "date": "2026-10-29",
+      "file": "/charts/SBRF/arc-sbwf-arc-recife.pdf"
+    },
+    {
+      "key": "atcsmac-sbwf",
+      "type": "ATCSMAC",
+      "name": "TMA RECIFE",
+      "code": "SBWF",
+      "amdt": "2402A1",
+      "date": "2024-02-22",
+      "file": "/charts/SBRF/atcsmac-sbwf-tma-recife.pdf"
+    },
+    {
+      "key": "RF01L",
+      "type": "IAC",
+      "name": "ILS W RWY 18",
+      "code": "RF01L",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/iac-rf01l-ils-w-rwy-18.pdf"
+    },
+    {
+      "key": "RF01M",
+      "type": "IAC",
+      "name": "ILS Z OR LOC Z RWY 18",
+      "code": "RF01M",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/iac-rf01m-ils-z-or-loc-z-rwy-18.pdf"
+    },
+    {
+      "key": "RF00Y",
+      "type": "IAC",
+      "name": "RNP RWY 18",
+      "code": "RF00Y",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/iac-rf00y-rnp-rwy-18.pdf"
+    },
+    {
+      "key": "RF00X",
+      "type": "IAC",
+      "name": "RNP RWY 36",
+      "code": "RF00X",
+      "amdt": "2305A1",
+      "date": "2023-05-18",
+      "file": "/charts/SBRF/iac-rf00x-rnp-rwy-36.pdf"
+    },
+    {
+      "key": "RF01K",
+      "type": "IAC",
+      "name": "RNP Y RWY 18 (AR)",
+      "code": "RF01K",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/iac-rf01k-rnp-y-rwy-18-ar.pdf"
+    },
+    {
+      "key": "RF00U",
+      "type": "IAC",
+      "name": "VOR RWY 18",
+      "code": "RF00U",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/iac-rf00u-vor-rwy-18.pdf"
+    },
+    {
+      "key": "RF00W",
+      "type": "IAC",
+      "name": "VOR RWY 36",
+      "code": "RF00W",
+      "amdt": "2503A1",
+      "date": "2025-03-20",
+      "file": "/charts/SBRF/iac-rf00w-vor-rwy-36.pdf"
+    },
+    {
+      "key": "pdc-2-sbrf",
+      "type": "PDC",
+      "name": "PDC 2 SBRF",
+      "code": "",
+      "amdt": "2404A1",
+      "date": "2024-04-18",
+      "file": "/charts/SBRF/pdc-pdc-2-sbrf-pdc-2-sbrf.pdf"
+    },
+    {
+      "key": "sbrf-pdc-1",
+      "type": "PDC",
+      "name": "SBRF PDC 1",
+      "code": "",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBRF/pdc-sbrf-pdc-1-sbrf-pdc-1.pdf"
+    },
+    {
+      "key": "sbrf-pdc-3",
+      "type": "PDC",
+      "name": "SBRF PDC 3",
+      "code": "",
+      "amdt": "2603A1",
+      "date": "2026-03-19",
+      "file": "/charts/SBRF/pdc-sbrf-pdc-3-sbrf-pdc-3.pdf"
+    },
+    {
+      "key": "rea-wf",
+      "type": "REA",
+      "name": "WF-RECIFE",
+      "code": "SBWF",
+      "amdt": "2611A0",
+      "date": "2026-10-29",
+      "file": "/charts/SBRF/rea-wf-wf-recife.pdf"
+    },
+    {
+      "key": "omni-rwy-18-36",
+      "type": "SID",
+      "name": "OMNI RWY 18/36",
+      "code": "",
+      "amdt": "2509A1",
+      "date": "2025-09-04",
+      "file": "/charts/SBRF/sid-omni-rwy-18-36-omni-rwy-18-36.pdf"
+    },
+    {
+      "key": "RF01W",
+      "type": "SID",
+      "name": "RNAV BUTOB 1A RWY 18",
+      "code": "RF01W",
+      "amdt": "2505A1",
+      "date": "2025-05-15",
+      "file": "/charts/SBRF/sid-rf01w-rnav-butob-1a-rwy-18.pdf"
+    },
+    {
+      "key": "RF00K",
+      "type": "SID",
+      "name": "RNAV EGIRU 2A RWY 36",
+      "code": "RF00K",
+      "amdt": "2401A1",
+      "date": "2024-01-25",
+      "file": "/charts/SBRF/sid-rf00k-rnav-egiru-2a-rwy-36.pdf"
+    },
+    {
+      "key": "RF00I",
+      "type": "SID",
+      "name": "RNAV GELUD 2A -PUMPU 1A RWY 36",
+      "code": "RF00I",
+      "amdt": "2401A1",
+      "date": "2024-01-25",
+      "file": "/charts/SBRF/sid-rf00i-rnav-gelud-2a-pumpu-1a-rwy-36.pdf"
+    },
+    {
+      "key": "RF00H",
+      "type": "SID",
+      "name": "RNAV MUNUG 1A RWY 18",
+      "code": "RF00H",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/sid-rf00h-rnav-munug-1a-rwy-18.pdf"
+    },
+    {
+      "key": "RF01N",
+      "type": "SID",
+      "name": "RNAV SAFUC 1A RWY 18",
+      "code": "RF01N",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/sid-rf01n-rnav-safuc-1a-rwy-18.pdf"
+    },
+    {
+      "key": "RF00J",
+      "type": "SID",
+      "name": "RNAV VARAB 1A RWY 18",
+      "code": "RF00J",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/sid-rf00j-rnav-varab-1a-rwy-18.pdf"
+    },
+    {
+      "key": "RF00M",
+      "type": "STAR",
+      "name": "RNAV ANBEX 1B - NEKIV 1B RWY 36",
+      "code": "RF00M",
+      "amdt": "2401A1",
+      "date": "2024-01-25",
+      "file": "/charts/SBRF/star-rf00m-rnav-anbex-1b-nekiv-1b-rwy-36.pdf"
+    },
+    {
+      "key": "RF00L",
+      "type": "STAR",
+      "name": "RNAV ANBEX 2A RWY 18",
+      "code": "RF00L",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/star-rf00l-rnav-anbex-2a-rwy-18.pdf"
+    },
+    {
+      "key": "RF00O",
+      "type": "STAR",
+      "name": "RNAV ENSAP 2C RWY 36",
+      "code": "RF00O",
+      "amdt": "2407A1",
+      "date": "2024-07-11",
+      "file": "/charts/SBRF/star-rf00o-rnav-ensap-2c-rwy-36.pdf"
+    },
+    {
+      "key": "RF01O",
+      "type": "STAR",
+      "name": "RNAV ENTIV 1A RWY 18",
+      "code": "RF01O",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/star-rf01o-rnav-entiv-1a-rwy-18.pdf"
+    },
+    {
+      "key": "RF01P",
+      "type": "STAR",
+      "name": "RNAV ESPET 1A RWY 18",
+      "code": "RF01P",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/star-rf01p-rnav-espet-1a-rwy-18.pdf"
+    },
+    {
+      "key": "RF00P",
+      "type": "STAR",
+      "name": "RNAV IBDEM 1A RWY 18",
+      "code": "RF00P",
+      "amdt": "2401A1",
+      "date": "2024-01-25",
+      "file": "/charts/SBRF/star-rf00p-rnav-ibdem-1a-rwy-18.pdf"
+    },
+    {
+      "key": "RF01J",
+      "type": "STAR",
+      "name": "RNAV NEKIV 1A RWY 18",
+      "code": "RF01J",
+      "amdt": "2507A1",
+      "date": "2025-07-10",
+      "file": "/charts/SBRF/star-rf01j-rnav-nekiv-1a-rwy-18.pdf"
+    },
+    {
+      "key": "rwy-18-36",
+      "type": "VAC",
+      "name": "RWY 18/36",
+      "code": "",
+      "amdt": "2504A1",
+      "date": "2025-04-17",
+      "file": "/charts/SBRF/vac-rwy-18-36-rwy-18-36.pdf"
+    }
+  ]
+}
