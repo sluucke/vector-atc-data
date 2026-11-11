@@ -1,6 +1,6 @@
 {
   "icao": "SBRF",
-  "syncedAt": "2026-11-10",
+  "syncedAt": "2026-11-11",
   "fixes": {
     "AKREP": {
       "lat": -8.061797222222223,
@@ -370,6 +370,124 @@
     "36": 341.79
   },
   "procedures": {
+    "SID|MUNUG1A|18": {
+      "title": "SID RNAV MUNUG 1A RWY 18",
+      "chartKey": "RF00H",
+      "transitions": {
+        "RWY": [
+          {
+            "seq": 10,
+            "fix": "RF122",
+            "pathTerminator": "CF",
+            "altitude": null,
+            "distance": 3.4,
+            "course": 162.09
+          },
+          {
+            "seq": 20,
+            "fix": "MUNUG",
+            "pathTerminator": "DF",
+            "altitude": "-5000",
+            "distance": null,
+            "course": null
+          }
+        ],
+        "DOMDO": [
+          {
+            "seq": 10,
+            "fix": "MUNUG",
+            "pathTerminator": "IF",
+            "altitude": "-5000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "GELUD",
+            "pathTerminator": "TF",
+            "altitude": "-16000",
+            "distance": 14.97,
+            "course": 53.15
+          },
+          {
+            "seq": 30,
+            "fix": "DOMDO",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 39.39,
+            "course": 42.8
+          }
+        ],
+        "FNR": [
+          {
+            "seq": 10,
+            "fix": "MUNUG",
+            "pathTerminator": "IF",
+            "altitude": "-5000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "GELUD",
+            "pathTerminator": "TF",
+            "altitude": "-16000",
+            "distance": 14.97,
+            "course": 53.15
+          },
+          {
+            "seq": 30,
+            "fix": "FNR",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 273.5,
+            "course": 27.07
+          }
+        ],
+        "IROSI": [
+          {
+            "seq": 10,
+            "fix": "MUNUG",
+            "pathTerminator": "IF",
+            "altitude": "-5000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "RF123",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 7.91,
+            "course": 343.32
+          },
+          {
+            "seq": 30,
+            "fix": "RF124",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 12.49,
+            "course": 339.55
+          },
+          {
+            "seq": 40,
+            "fix": "RF071",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 29.52,
+            "course": 296.2
+          },
+          {
+            "seq": 50,
+            "fix": "IROSI",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 17.4,
+            "course": 296.33
+          }
+        ]
+      }
+    },
     "IAC|RNPY|18": {
       "title": "IAC RNP Y RWY 18",
       "chartKey": "RF01K",
@@ -1330,124 +1448,6 @@
         ]
       }
     },
-    "SID|MUNUG1A|18": {
-      "title": "SID RNAV MUNUG 1A RWY 18",
-      "chartKey": "RF00H",
-      "transitions": {
-        "RWY": [
-          {
-            "seq": 10,
-            "fix": "RF122",
-            "pathTerminator": "CF",
-            "altitude": null,
-            "distance": 3.4,
-            "course": 162.09
-          },
-          {
-            "seq": 20,
-            "fix": "MUNUG",
-            "pathTerminator": "DF",
-            "altitude": "-5000",
-            "distance": null,
-            "course": null
-          }
-        ],
-        "DOMDO": [
-          {
-            "seq": 10,
-            "fix": "MUNUG",
-            "pathTerminator": "IF",
-            "altitude": "-5000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "GELUD",
-            "pathTerminator": "TF",
-            "altitude": "-16000",
-            "distance": 14.97,
-            "course": 53.15
-          },
-          {
-            "seq": 30,
-            "fix": "DOMDO",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 39.39,
-            "course": 42.8
-          }
-        ],
-        "FNR": [
-          {
-            "seq": 10,
-            "fix": "MUNUG",
-            "pathTerminator": "IF",
-            "altitude": "-5000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "GELUD",
-            "pathTerminator": "TF",
-            "altitude": "-16000",
-            "distance": 14.97,
-            "course": 53.15
-          },
-          {
-            "seq": 30,
-            "fix": "FNR",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 273.5,
-            "course": 27.07
-          }
-        ],
-        "IROSI": [
-          {
-            "seq": 10,
-            "fix": "MUNUG",
-            "pathTerminator": "IF",
-            "altitude": "-5000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "RF123",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 7.91,
-            "course": 343.32
-          },
-          {
-            "seq": 30,
-            "fix": "RF124",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 12.49,
-            "course": 339.55
-          },
-          {
-            "seq": 40,
-            "fix": "RF071",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 29.52,
-            "course": 296.2
-          },
-          {
-            "seq": 50,
-            "fix": "IROSI",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 17.4,
-            "course": 296.33
-          }
-        ]
-      }
-    },
     "SID|BUTOB1A|18": {
       "title": "SID RNAV BUTOB 1A RWY 18",
       "chartKey": "RF01W",
@@ -1790,6 +1790,134 @@
             "altitude": "+3500",
             "distance": null,
             "course": 162.6
+          }
+        ]
+      }
+    },
+    "SID|GELUD2A|36": {
+      "title": "SID RNAV GELUD 2A RWY 36",
+      "chartKey": "RF00I",
+      "transitions": {
+        "RWY": [
+          {
+            "seq": 10,
+            "fix": null,
+            "pathTerminator": "CA",
+            "altitude": "+2000",
+            "distance": null,
+            "course": 341.79
+          },
+          {
+            "seq": 20,
+            "fix": "RF123",
+            "pathTerminator": "DF",
+            "altitude": "-6000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 30,
+            "fix": "GELUD",
+            "pathTerminator": "TF",
+            "altitude": "-14000",
+            "distance": 14.31,
+            "course": 84.42
+          }
+        ],
+        "DOMDO": [
+          {
+            "seq": 10,
+            "fix": "GELUD",
+            "pathTerminator": "IF",
+            "altitude": "-14000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "DOMDO",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 39.39,
+            "course": 42.8
+          }
+        ],
+        "FNR": [
+          {
+            "seq": 10,
+            "fix": "GELUD",
+            "pathTerminator": "IF",
+            "altitude": "-14000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "FNR",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 273.5,
+            "course": 27.07
+          }
+        ]
+      }
+    },
+    "SID|PUMPU1A|36": {
+      "title": "SID RNAV PUMPU 1A RWY 36",
+      "chartKey": "RF00I",
+      "transitions": {
+        "RWY": [
+          {
+            "seq": 10,
+            "fix": "PUMPU",
+            "pathTerminator": "CF",
+            "altitude": "+2000",
+            "distance": 10.1,
+            "course": 341.79
+          },
+          {
+            "seq": 20,
+            "fix": "ANDOX",
+            "pathTerminator": "TF",
+            "altitude": "-8000",
+            "distance": 6,
+            "course": 341.77
+          }
+        ],
+        "IROSI": [
+          {
+            "seq": 10,
+            "fix": "ANDOX",
+            "pathTerminator": "ÍF",
+            "altitude": "-8000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "IROSI",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 40.24,
+            "course": 310.77
+          }
+        ],
+        "SAFUC": [
+          {
+            "seq": 10,
+            "fix": "ANDOX",
+            "pathTerminator": "ÍF",
+            "altitude": "-8000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "SAFUC",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 57.38,
+            "course": 354.38
           }
         ]
       }
@@ -2212,134 +2340,6 @@
             "altitude": null,
             "distance": 137.94,
             "course": 246.69
-          }
-        ]
-      }
-    },
-    "SID|GELUD2A|36": {
-      "title": "SID RNAV GELUD 2A RWY 36",
-      "chartKey": "RF00I",
-      "transitions": {
-        "RWY": [
-          {
-            "seq": 10,
-            "fix": null,
-            "pathTerminator": "CA",
-            "altitude": "+2000",
-            "distance": null,
-            "course": 341.79
-          },
-          {
-            "seq": 20,
-            "fix": "RF123",
-            "pathTerminator": "DF",
-            "altitude": "-6000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 30,
-            "fix": "GELUD",
-            "pathTerminator": "TF",
-            "altitude": "-14000",
-            "distance": 14.31,
-            "course": 84.42
-          }
-        ],
-        "DOMDO": [
-          {
-            "seq": 10,
-            "fix": "GELUD",
-            "pathTerminator": "IF",
-            "altitude": "-14000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "DOMDO",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 39.39,
-            "course": 42.8
-          }
-        ],
-        "FNR": [
-          {
-            "seq": 10,
-            "fix": "GELUD",
-            "pathTerminator": "IF",
-            "altitude": "-14000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "FNR",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 273.5,
-            "course": 27.07
-          }
-        ]
-      }
-    },
-    "SID|PUMPU1A|36": {
-      "title": "SID RNAV PUMPU 1A RWY 36",
-      "chartKey": "RF00I",
-      "transitions": {
-        "RWY": [
-          {
-            "seq": 10,
-            "fix": "PUMPU",
-            "pathTerminator": "CF",
-            "altitude": "+2000",
-            "distance": 10.1,
-            "course": 341.79
-          },
-          {
-            "seq": 20,
-            "fix": "ANDOX",
-            "pathTerminator": "TF",
-            "altitude": "-8000",
-            "distance": 6,
-            "course": 341.77
-          }
-        ],
-        "IROSI": [
-          {
-            "seq": 10,
-            "fix": "ANDOX",
-            "pathTerminator": "ÍF",
-            "altitude": "-8000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "IROSI",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 40.24,
-            "course": 310.77
-          }
-        ],
-        "SAFUC": [
-          {
-            "seq": 10,
-            "fix": "ANDOX",
-            "pathTerminator": "ÍF",
-            "altitude": "-8000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "SAFUC",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 57.38,
-            "course": 354.38
           }
         ]
       }

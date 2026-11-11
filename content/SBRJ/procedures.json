@@ -93,9 +93,9 @@
       "VAMIX",
       "TIVRO",
       "BITAK",
-      "RJ317*",
-      "RJ318*",
-      "RJ319*",
+      "RJ317",
+      "RJ318",
+      "RJ319",
       "PAI",
       "ESORU"
     ],
@@ -310,9 +310,9 @@
       "VAMIX",
       "TIVRO",
       "BITAK",
-      "RJ317*",
-      "RJ318*",
-      "RJ319*",
+      "RJ317",
+      "RJ318",
+      "RJ319",
       "PAI",
       "ESORU"
     ],
@@ -489,13 +489,13 @@
     "iaf": "ASALU"
   },
   {
-    "id": "star-asalu1a",
+    "id": "star-gelut1a",
     "type": "STAR",
     "runway": "02R/20L",
-    "name": "ASALU 1A",
+    "name": "GELUT 1A",
     "category": "RNAV",
     "chartKey": "RJ02T",
-    "geometryKey": "STAR|ASALU1A|02R/20L",
+    "geometryKey": "STAR|GELUT1A|02R/20L",
     "notes": "",
     "fixes": [
       "KEVUN",
@@ -511,6 +511,38 @@
       "RJ017",
       "SCR",
       "GELUT"
+    ],
+    "entryFixes": [
+      "KEVUN",
+      "TOKIM"
+    ],
+    "route": null,
+    "iaf": "ASALU"
+  },
+  {
+    "id": "star-koxun1a",
+    "type": "STAR",
+    "runway": "02R/20L",
+    "name": "KOXUN 1A",
+    "category": "RNAV",
+    "chartKey": "RJ02T",
+    "geometryKey": "STAR|KOXUN1A|02R/20L",
+    "notes": "",
+    "fixes": [
+      "KEVUN",
+      "RJ313",
+      "RJ307",
+      "RJ021",
+      "RJ308",
+      "ASALU",
+      "TOKIM",
+      "KOSRU",
+      "GETVU",
+      "GIMPI",
+      "RJ017",
+      "SCR",
+      "GELUT",
+      "KOXUN"
     ],
     "entryFixes": [
       "KEVUN",

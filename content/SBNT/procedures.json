@@ -53,9 +53,9 @@
     "notes": "",
     "fixes": [
       "NTL",
-      "NTL02*",
+      "NTL02",
       "SIRED",
-      "NTL04*",
+      "NTL04",
       "OGPER"
     ],
     "commonRoute": "NTL",
@@ -142,7 +142,7 @@
     "geometryKey": "SID|NEBIK2C|12/16L",
     "notes": "",
     "fixes": [
-      "NTL11*",
+      "NTL11",
       "NEBIK"
     ],
     "commonRoute": null,
@@ -175,7 +175,7 @@
     "geometryKey": "SID|RATEP2E|12/16L",
     "notes": "",
     "fixes": [
-      "NTL12*",
+      "NTL12",
       "RATEP"
     ],
     "commonRoute": null,
@@ -239,9 +239,9 @@
     "notes": "",
     "fixes": [
       "NTL",
-      "NTL02*",
+      "NTL02",
       "SIRED",
-      "NTL04*",
+      "NTL04",
       "OGPER"
     ],
     "commonRoute": null,

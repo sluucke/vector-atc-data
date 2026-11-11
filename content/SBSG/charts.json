@@ -1,6 +1,6 @@
 {
   "icao": "SBSG",
-  "syncedAt": "2026-11-10",
+  "syncedAt": "2026-11-11",
   "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBSG",
   "charts": [
     {

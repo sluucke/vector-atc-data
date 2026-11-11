@@ -15,10 +15,10 @@
       "DARCI",
       "PABUM",
       "KOGDI",
-      "EPDEP",
       "UGUGA",
       "ILKUS",
-      "PULUV"
+      "PULUV",
+      "EPDEP"
     ],
     "commonRoute": "KOTVU → ESBUX",
     "transitions": [
@@ -537,8 +537,8 @@
     "notes": "",
     "fixes": [
       "SAVGO",
-      "VJK07*",
-      "VJK06*",
+      "VJK07",
+      "VJK06",
       "UKENA",
       "ANPAX",
       "UTMAN",
@@ -616,7 +616,7 @@
     "notes": "",
     "fixes": [
       "SAVGO",
-      "VJK07*",
+      "VJK07",
       "LIXEM",
       "KOGLI"
     ],
@@ -784,7 +784,7 @@
     "runway": "29R",
     "name": "ARSOP 1B",
     "category": "RNAV",
-    "chartKey": "BR04l",
+    "chartKey": "BR04I",
     "geometryKey": "SID|ARSOP1B|29R",
     "notes": "",
     "fixes": [
@@ -863,7 +863,7 @@
     "notes": "",
     "fixes": [
       "URERA",
-      "VJK09*",
+      "VJK09",
       "LIXEM",
       "KOGLI"
     ],
@@ -953,8 +953,8 @@
     "notes": "",
     "fixes": [
       "URERA",
-      "VJK09*",
-      "VJK08*",
+      "VJK09",
+      "VJK08",
       "UKENA",
       "ANPAX",
       "UTMAN",
