@@ -1,7 +1,23 @@
 /**
  * Reads DECEA coding-table PDFs as rows of cells.
  */
+import { createRequire } from "node:module";
+import path from "node:path";
 import { getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
+
+/**
+ * Options every script opens a PDF with. Text widths decide how fragments are
+ * glued into cells, so they must not depend on the machine: system fonts make
+ * Windows and the Linux CI read the same table differently. pdf.js's own
+ * standard fonts give the same metrics everywhere.
+ */
+export const PDF_OPTIONS = {
+  useSystemFonts: false,
+  standardFontDataUrl:
+    path
+      .join(path.dirname(createRequire(import.meta.url).resolve("pdfjs-dist/package.json")), "standard_fonts")
+      .replaceAll("\\", "/") + "/",
+};
 
 interface Fragment {
   x: number;
@@ -40,7 +56,7 @@ export function toCells(items: Fragment[]): string[] {
 export async function pdfRows(buffer: Buffer): Promise<string[][]> {
   const doc = await getDocument({
     data: new Uint8Array(buffer),
-    useSystemFonts: true,
+    ...PDF_OPTIONS,
   }).promise;
 
   const pages: string[][][] = [];

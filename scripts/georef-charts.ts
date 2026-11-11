@@ -20,6 +20,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { OPS, getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
+import { PDF_OPTIONS } from "./lib/pdf";
 import type {
   AirportGeometry,
   AirwayDatabase,
@@ -270,7 +271,7 @@ for (const icao of airports) {
     const file = path.join(".", chart.file);
     if (!fs.existsSync(file)) continue;
     tried++;
-    const doc = await getDocument({ data: new Uint8Array(fs.readFileSync(file)), useSystemFonts: true }).promise;
+    const doc = await getDocument({ data: new Uint8Array(fs.readFileSync(file)), ...PDF_OPTIONS }).promise;
     const pages: ChartGeoref["pages"] = {};
 
     for (let p = 1; p <= doc.numPages; p++) {

@@ -15,6 +15,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
 import { download, fetchText, today } from "./lib/aisweb";
+import { PDF_OPTIONS } from "./lib/pdf";
 import type {
   AirwayDatabase,
   AirwaySegment,
@@ -244,7 +245,7 @@ async function loadAip(): Promise<Buffer> {
 }
 
 const buffer = await loadAip();
-const doc = await getDocument({ data: new Uint8Array(buffer), useSystemFonts: true }).promise;
+const doc = await getDocument({ data: new Uint8Array(buffer), ...PDF_OPTIONS }).promise;
 
 const routePages: { lines: Item[][]; route: string }[] = [];
 const points: Record<string, GeoPoint> = {};

@@ -228,7 +228,11 @@ for (const item of items) {
 
   const parsed = parseCodingTable(await pdfRows(await download(tabUrl)));
   Object.assign(allFixes, parsed.fixes);
-  Object.assign(allRunwayPoints, parsed.runwayPoints);
+  // Merge per runway: an IAC table gives a threshold and a SID table the
+  // departure end of the same runway, and neither may erase the other.
+  for (const [rwy, points] of Object.entries(parsed.runwayPoints)) {
+    allRunwayPoints[rwy] = { ...allRunwayPoints[rwy], ...points };
+  }
   Object.assign(allRunwayCourses, parsed.runwayCourses);
 
   for (const proc of parsed.procedures) {
