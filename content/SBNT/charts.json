@@ -1,6 +1,6 @@
 {
   "icao": "SBNT",
-  "syncedAt": "2026-11-11",
+  "syncedAt": "2026-11-12",
   "source": "https://aisweb.decea.mil.br/api/?area=cartas&icaoCode=SBNT",
   "charts": [
     {

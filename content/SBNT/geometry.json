@@ -1,6 +1,6 @@
 {
   "icao": "SBNT",
-  "syncedAt": "2026-11-11",
+  "syncedAt": "2026-11-12",
   "fixes": {
     "DAKER": {
       "lat": -6.1117027777777775,
@@ -1295,222 +1295,6 @@
         ]
       }
     },
-    "IAC|RNP|34R": {
-      "title": "IAC RNP RWY 34R",
-      "chartKey": "NT00U",
-      "transitions": {
-        "APCH": [
-          {
-            "seq": 10,
-            "fix": "NT368",
-            "pathTerminator": "IF",
-            "altitude": "+3000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 10,
-            "fix": "NT369",
-            "pathTerminator": "IF",
-            "altitude": "+3000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 10,
-            "fix": "NT371",
-            "pathTerminator": "IF",
-            "altitude": "+3000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "ESDIL",
-            "pathTerminator": "TF",
-            "altitude": "+2000",
-            "distance": 6,
-            "course": 30.9
-          },
-          {
-            "seq": 20,
-            "fix": "ESDIL",
-            "pathTerminator": "TF",
-            "altitude": "+2000",
-            "distance": 6,
-            "course": 320.9
-          },
-          {
-            "seq": 20,
-            "fix": "ESDIL",
-            "pathTerminator": "TF",
-            "altitude": "+2000",
-            "distance": 6,
-            "course": 250.94
-          }
-        ],
-        "FINAL": [
-          {
-            "seq": 10,
-            "fix": "ESDIL",
-            "pathTerminator": "IF",
-            "altitude": "+2000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "NT372",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 5,
-            "course": 320.9
-          },
-          {
-            "seq": 30,
-            "fix": "RW34R",
-            "pathTerminator": "TF",
-            "altitude": "@188",
-            "distance": 5,
-            "course": 320.91
-          }
-        ],
-        "MA": [
-          {
-            "seq": 10,
-            "fix": null,
-            "pathTerminator": "VA",
-            "altitude": "+2000",
-            "distance": null,
-            "course": 320.92
-          },
-          {
-            "seq": 20,
-            "fix": "NT368",
-            "pathTerminator": "DF",
-            "altitude": "+3000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 30,
-            "fix": "NT368",
-            "pathTerminator": "HM",
-            "altitude": "+3000",
-            "distance": null,
-            "course": 30.9
-          }
-        ]
-      }
-    },
-    "IAC|RNP|30": {
-      "title": "IAC RNP RWY 30",
-      "chartKey": "NT00S",
-      "transitions": {
-        "APCH": [
-          {
-            "seq": 10,
-            "fix": "NT394",
-            "pathTerminator": "IF",
-            "altitude": "+3000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 10,
-            "fix": "NT396",
-            "pathTerminator": "IF",
-            "altitude": "+3000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 10,
-            "fix": "NT393",
-            "pathTerminator": "IF",
-            "altitude": "+3000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "NT392",
-            "pathTerminator": "TF",
-            "altitude": "+2500",
-            "distance": 6,
-            "course": 278.97
-          },
-          {
-            "seq": 20,
-            "fix": "NT392",
-            "pathTerminator": "TF",
-            "altitude": "+2500",
-            "distance": 6,
-            "course": 208.99
-          },
-          {
-            "seq": 20,
-            "fix": "NT392",
-            "pathTerminator": "TF",
-            "altitude": "+2500",
-            "distance": 6,
-            "course": 348.99
-          }
-        ],
-        "FINAL": [
-          {
-            "seq": 10,
-            "fix": "NT392",
-            "pathTerminator": "IF",
-            "altitude": "+2500",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 20,
-            "fix": "NT397",
-            "pathTerminator": "TF",
-            "altitude": null,
-            "distance": 5,
-            "course": 278.98
-          },
-          {
-            "seq": 30,
-            "fix": "RWY30",
-            "pathTerminator": "TF",
-            "altitude": "@195",
-            "distance": 5,
-            "course": 278.98
-          }
-        ],
-        "MA": [
-          {
-            "seq": 10,
-            "fix": null,
-            "pathTerminator": "CA",
-            "altitude": "+2000",
-            "distance": null,
-            "course": 278.99
-          },
-          {
-            "seq": 20,
-            "fix": "NT393",
-            "pathTerminator": "DF",
-            "altitude": "+3000",
-            "distance": null,
-            "course": null
-          },
-          {
-            "seq": 30,
-            "fix": "NT393",
-            "pathTerminator": "HM",
-            "altitude": "+3000",
-            "distance": null,
-            "course": 348.99
-          }
-        ]
-      }
-    },
     "IAC|RNP|16L": {
       "title": "IAC RNP RWY 16L",
       "chartKey": "NT00Q",
@@ -2643,6 +2427,222 @@
             "altitude": "+3000",
             "distance": null,
             "course": null
+          }
+        ]
+      }
+    },
+    "IAC|RNP|34R": {
+      "title": "IAC RNP RWY 34R",
+      "chartKey": "NT00U",
+      "transitions": {
+        "APCH": [
+          {
+            "seq": 10,
+            "fix": "NT368",
+            "pathTerminator": "IF",
+            "altitude": "+3000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 10,
+            "fix": "NT369",
+            "pathTerminator": "IF",
+            "altitude": "+3000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 10,
+            "fix": "NT371",
+            "pathTerminator": "IF",
+            "altitude": "+3000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "ESDIL",
+            "pathTerminator": "TF",
+            "altitude": "+2000",
+            "distance": 6,
+            "course": 30.9
+          },
+          {
+            "seq": 20,
+            "fix": "ESDIL",
+            "pathTerminator": "TF",
+            "altitude": "+2000",
+            "distance": 6,
+            "course": 320.9
+          },
+          {
+            "seq": 20,
+            "fix": "ESDIL",
+            "pathTerminator": "TF",
+            "altitude": "+2000",
+            "distance": 6,
+            "course": 250.94
+          }
+        ],
+        "FINAL": [
+          {
+            "seq": 10,
+            "fix": "ESDIL",
+            "pathTerminator": "IF",
+            "altitude": "+2000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "NT372",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 5,
+            "course": 320.9
+          },
+          {
+            "seq": 30,
+            "fix": "RW34R",
+            "pathTerminator": "TF",
+            "altitude": "@188",
+            "distance": 5,
+            "course": 320.91
+          }
+        ],
+        "MA": [
+          {
+            "seq": 10,
+            "fix": null,
+            "pathTerminator": "VA",
+            "altitude": "+2000",
+            "distance": null,
+            "course": 320.92
+          },
+          {
+            "seq": 20,
+            "fix": "NT368",
+            "pathTerminator": "DF",
+            "altitude": "+3000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 30,
+            "fix": "NT368",
+            "pathTerminator": "HM",
+            "altitude": "+3000",
+            "distance": null,
+            "course": 30.9
+          }
+        ]
+      }
+    },
+    "IAC|RNP|30": {
+      "title": "IAC RNP RWY 30",
+      "chartKey": "NT00S",
+      "transitions": {
+        "APCH": [
+          {
+            "seq": 10,
+            "fix": "NT394",
+            "pathTerminator": "IF",
+            "altitude": "+3000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 10,
+            "fix": "NT396",
+            "pathTerminator": "IF",
+            "altitude": "+3000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 10,
+            "fix": "NT393",
+            "pathTerminator": "IF",
+            "altitude": "+3000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "NT392",
+            "pathTerminator": "TF",
+            "altitude": "+2500",
+            "distance": 6,
+            "course": 278.97
+          },
+          {
+            "seq": 20,
+            "fix": "NT392",
+            "pathTerminator": "TF",
+            "altitude": "+2500",
+            "distance": 6,
+            "course": 208.99
+          },
+          {
+            "seq": 20,
+            "fix": "NT392",
+            "pathTerminator": "TF",
+            "altitude": "+2500",
+            "distance": 6,
+            "course": 348.99
+          }
+        ],
+        "FINAL": [
+          {
+            "seq": 10,
+            "fix": "NT392",
+            "pathTerminator": "IF",
+            "altitude": "+2500",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 20,
+            "fix": "NT397",
+            "pathTerminator": "TF",
+            "altitude": null,
+            "distance": 5,
+            "course": 278.98
+          },
+          {
+            "seq": 30,
+            "fix": "RWY30",
+            "pathTerminator": "TF",
+            "altitude": "@195",
+            "distance": 5,
+            "course": 278.98
+          }
+        ],
+        "MA": [
+          {
+            "seq": 10,
+            "fix": null,
+            "pathTerminator": "CA",
+            "altitude": "+2000",
+            "distance": null,
+            "course": 278.99
+          },
+          {
+            "seq": 20,
+            "fix": "NT393",
+            "pathTerminator": "DF",
+            "altitude": "+3000",
+            "distance": null,
+            "course": null
+          },
+          {
+            "seq": 30,
+            "fix": "NT393",
+            "pathTerminator": "HM",
+            "altitude": "+3000",
+            "distance": null,
+            "course": 348.99
           }
         ]
       }
